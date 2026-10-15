@@ -1,0 +1,22 @@
+# pipeline: ข้อมูลดิบและไฟล์ใหญ่ (แคชไว้ในเครื่อง ไม่ commit)
+pipeline/data/raw/
+pipeline/data/processed/**/*.parquet
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# web
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# ความลับและไฟล์ระบบ
+.env
+.env*.local
+.DS_Store
+Thumbs.db
