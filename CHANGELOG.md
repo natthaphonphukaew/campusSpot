@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## T0.3 โครงเว็บ + deploy วันแรก (16 ต.ค. 2026)
+- สร้าง Next.js 16 ใน `web/` (TypeScript, Tailwind 4, static export) + `lib/types.ts` ตาม data contract ครบทุกฟิลด์
+- ข้อมูลจำลองที่ `web/public/data/mock/` จาก `scripts/make-mock.mjs` (H3 res 10 รอบ มจธ. 331 ช่อง, ร้าน 50 จุด, ผลประเมินว่างไว้เพราะต้องมาจาก model.py)
+- หน้าแรก: แผนที่ MapLibre + OpenFreeMap ช่อง H3 ไล่สีตาม `scores.cafe.opportunity`, แตะ/ชี้ช่องเห็นคะแนน, ป้าย "ข้อมูลจำลอง" มุมขวาบน
+- ดีไซน์อิง Felt + Airbnb Maps (คนเลือก): แผงลอยบนจอใหญ่ แผ่นล่างบนมือถือ, IBM Plex Sans Thai, พื้นขาวอุ่น เน้นเขียวหม่น, สีช่องเขียวไล่ระดับสีเดียว (โหมดมืดกลับด้าน), ซ่อนโครงอาคาร OSM บนแผนที่พื้นหลัง
+
+### ข้อเสนอ
+- hexes.json จำลอง 331 ช่องหนัก ~880 KB เพราะ label_th ซ้ำทุกช่องทุกหมวด ของจริงน่าจะใหญ่กว่า ควรดูตอน T3.1 (เช่น ย้าย label_th ไปไว้ใน meta)
+- PLAYBOOK T1.2 ให้ commerce_200m แยกต่อหมวด แต่ contract มี commerce_200m ช่องเดียวใน features ต้องตัดสินใจก่อนทำ T2.2
+
 ## T0.2 แปลงโน้ตบุ๊กเป็น pipeline (16 ต.ค. 2026)
 - `pipeline/collect.py` อ่าน `config/universities.yaml` ดึง OSM + Overture (แคชที่ `data/raw/<uni_id>/`) จัดประเภท ติดธง แล้วบันทึก `data/processed/<uni_id>/points.parquet` + `campus.geojson` + `collect_meta.json`
 - รวมการแก้ 3 จุด: PRINT_INDUSTRIAL เพิ่ม พริ้นติ้ง/พริ้นท์ติ้ง, ชื่อในมหาวิทยาลัยเพิ่ม พระจอมเกล้า/ธรรมรักษา (ย้ายไปเป็น `on_campus_name` ต่อแห่งใน yaml), หอพักไม่มีชื่อติดธง `unnamed_building`

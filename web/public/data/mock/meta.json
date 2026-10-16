@@ -1,0 +1,46 @@
+{
+  "uni_id": "mock",
+  "name_th": "มจธ. บางมด",
+  "center": [
+    13.6513,
+    100.4941
+  ],
+  "radius_m": 1500,
+  "h3_res": 10,
+  "generated_at": "2026-10-16T03:34:15Z",
+  "categories": {
+    "cafe": {
+      "label_th": "ร้านกาแฟ",
+      "confidence": "high",
+      "note_th": "ข้อมูลจำลอง"
+    },
+    "food": {
+      "label_th": "ร้านอาหาร",
+      "confidence": "high",
+      "note_th": "ข้อมูลจำลอง"
+    },
+    "laundry": {
+      "label_th": "ร้านซักผ้า",
+      "confidence": "low",
+      "note_th": "ข้อมูลน่าจะขาด ยังไม่ได้ตรวจภาคสนาม"
+    },
+    "print_stationery": {
+      "label_th": "ร้านปริ้นต์และเครื่องเขียน",
+      "confidence": "low",
+      "note_th": "ข้อมูลน่าจะขาด ยังไม่ได้ตรวจภาคสนาม"
+    }
+  },
+  "evaluation": {
+    "method": "leave_one_university_out",
+    "per_category": {}
+  },
+  "sat_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

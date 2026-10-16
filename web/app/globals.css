@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/*
+ * ชุดสี CampusSpot — ต้นแบบ: Felt (แผงลอยบนแผนที่) + Airbnb Maps (แผ่นเลื่อนบนมือถือ)
+ * พื้นขาวอุ่น ตัวอักษรสีถ่าน เน้นด้วยเขียวหม่น สีเตือนโทนอำพัน
+ * สีช่องบนแผนที่อยู่ที่ lib/scale.ts (MapLibre อ่าน CSS variable ไม่ได้)
+ */
+:root {
+  --bg: #faf8f5;
+  --surface: #ffffff;
+  --ink: #1f1e1b;
+  --ink-2: #5c5a55;
+  --ink-3: #75726a;
+  --line: #e6e2da;
+  --accent: #3f6b4f;
+  --warn-bg: #fbefd9;
+  --warn-ink: #7a4b0b;
+  --warn-line: #e9c98f;
+  --shadow: 0 1px 2px rgb(31 30 27 / 0.06), 0 4px 16px rgb(31 30 27 / 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161614;
+    --surface: #1f1f1c;
+    --ink: #edeae3;
+    --ink-2: #b5b1a8;
+    --ink-3: #8f8b82;
+    --line: #33322d;
+    --accent: #8dbf9c;
+    --warn-bg: #3a2c14;
+    --warn-ink: #f2c77a;
+    --warn-line: #5c4520;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px rgb(0 0 0 / 0.35);
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-warn-bg: var(--warn-bg);
+  --color-warn-ink: var(--warn-ink);
+  --color-warn-line: var(--warn-line);
+  --shadow-panel: var(--shadow);
+  --font-sans: var(--font-plex-thai), system-ui, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ปุ่มและลิงก์ของ MapLibre ให้เข้ากับธีม */
+.maplibregl-map .maplibregl-ctrl-attrib {
+  font-family: var(--font-sans);
+  font-size: 11px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .maplibregl-map .maplibregl-ctrl-group {
+    background: var(--surface);
+  }
+  .maplibregl-ctrl-group button + button {
+    border-top-color: var(--line);
+  }
+  .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+    filter: invert(0.9);
+  }
+  .maplibregl-map .maplibregl-ctrl.maplibregl-ctrl-attrib,
+  .maplibregl-map .maplibregl-ctrl-attrib.maplibregl-compact {
+    background-color: var(--surface);
+    color: var(--ink-2);
+  }
+  .maplibregl-map .maplibregl-ctrl-attrib a {
+    color: var(--ink-2);
+  }
+  .maplibregl-map .maplibregl-ctrl-attrib-button {
+    filter: invert(0.9);
+  }
+}
