@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## T2.1 โมเดลและการประเมินผล (16 ต.ค. 2026)
+- `pipeline/model.py`: LightGBM poisson แยกต่อหมวด (พารามิเตอร์คงที่ ไม่ tune), baseline ค่าเฉลี่ยมหาวิทยาลัยอื่น + Poisson regression ใช้แค่ dorms_200m, ตัดช่อง on_campus, commerce ใช้แบบไม่นับหมวดที่ทำนาย, ประเมิน leave-one-university-out 7 รอบ → `data/processed/evaluation.json`
+- ผล (MAE โมเดล / ค่าเฉลี่ย / Poisson หอพัก): cafe 1.33 / 2.47 / 2.79 (Spearman 0.73), food 4.95 / 9.78 / 11.49 (0.80), laundry 0.27 / 0.37 / 0.54, print 0.21 / 0.31 / 0.40 — cafe และ food ชนะทั้งสอง baseline ครบ 7/7 รอบ
+- ไม่มี backtest ตามเวลา (ตัดสินใจใน T0.4) เพิ่ม lightgbm, scikit-learn, scipy ใน requirements.txt
+
+### ข้อเสนอ
+- โมเดลพึ่ง commerce_200m ราว 78% ของ gain (cafe และ food) ถ้าตัด commerce ออก cafe ได้ MAE 1.89 / Spearman 0.50, food 7.10 / 0.60 (ยังชนะ baseline) ต้องตัดสินใจก่อน T2.2 ว่า "expected" ควรรวม commerce ไหม เพราะเปลี่ยนความหมายของคะแนนโอกาส
+
 ## T1.3 ชั้นดาวเทียม (16 ต.ค. 2026)
 - `pipeline/satellite.py` (Earth Engine project `campusspot`): ค่า built เฉลี่ยรายปี 2019–2025 จาก Dynamic World ต่อช่อง H3 ทั้ง 7 แห่ง → `data/processed/<uni_id>/hex_satellite.parquet` (built_<ปี>, built_now, built_change_2019_2025) ไม่มีช่องว่าง แคชที่ `data/raw/<uni_id>/ee_built_by_year.json`
 - ภาพ Sentinel-2 สีจริง median ม.ค.–เม.ย. ปี 2019–2025 ของ มจธ. (12–23 ภาพต่อปี, ตัดเมฆด้วย SCL) → `web/public/sat/kmutt_bangmod/<ปี>.png` (1024 px, ~420 KB) + `bounds.json`

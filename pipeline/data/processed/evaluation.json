@@ -1,0 +1,403 @@
+{
+  "method": "leave_one_university_out",
+  "generated_at": "2026-10-16T07:29:12Z",
+  "features": [
+    "dorms_200m",
+    "condo_200m",
+    "dist_gate_m",
+    "commerce_200m",
+    "built_now",
+    "built_change_2019_2025"
+  ],
+  "lgb_params": {
+    "objective": "poisson",
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_child_samples": 20,
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "verbose": -1
+  },
+  "baselines": {
+    "baseline_mean": "ค่าเฉลี่ยของมหาวิทยาลัยอื่น",
+    "baseline_poisson": "Poisson regression ใช้แค่ dorms_200m"
+  },
+  "per_category": {
+    "cafe": {
+      "summary": {
+        "n_universities": 7,
+        "n_hexes": 2343,
+        "mae_model": 1.3337,
+        "spearman_model": 0.7257,
+        "mae_baseline_mean": 2.4698,
+        "spearman_baseline_mean": null,
+        "mae_baseline_poisson": 2.7919,
+        "spearman_baseline_poisson": 0.4725,
+        "model_beats_mean_mae": 7,
+        "model_beats_poisson_mae": 7
+      },
+      "folds": [
+        {
+          "test_uni": "kmutt_bangmod",
+          "n_hexes": 382,
+          "y_mean": 1.89,
+          "mae_model": 1.1218,
+          "spearman_model": 0.7062,
+          "mae_baseline_mean": 2.3694,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 2.1277,
+          "spearman_baseline_poisson": 0.466
+        },
+        {
+          "test_uni": "kmitl_ladkrabang",
+          "n_hexes": 338,
+          "y_mean": 1.834,
+          "mae_model": 1.1218,
+          "spearman_model": 0.7476,
+          "mae_baseline_mean": 2.674,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 6.3487,
+          "spearman_baseline_poisson": 0.5592
+        },
+        {
+          "test_uni": "kmutnb_bangsue",
+          "n_hexes": 384,
+          "y_mean": 1.812,
+          "mae_model": 1.2916,
+          "spearman_model": 0.6866,
+          "mae_baseline_mean": 2.1078,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 1.8708,
+          "spearman_baseline_poisson": 0.4992
+        },
+        {
+          "test_uni": "ku_bangkhen",
+          "n_hexes": 325,
+          "y_mean": 3.163,
+          "mae_model": 1.9115,
+          "spearman_model": 0.7125,
+          "mae_baseline_mean": 2.7485,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 2.6216,
+          "spearman_baseline_poisson": 0.4785
+        },
+        {
+          "test_uni": "ru_huamak",
+          "n_hexes": 369,
+          "y_mean": 3.642,
+          "mae_model": 2.005,
+          "spearman_model": 0.7562,
+          "mae_baseline_mean": 2.6834,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 2.3113,
+          "spearman_baseline_poisson": 0.4725
+        },
+        {
+          "test_uni": "tu_rangsit",
+          "n_hexes": 246,
+          "y_mean": 1.48,
+          "mae_model": 0.981,
+          "spearman_model": 0.7182,
+          "mae_baseline_mean": 2.2963,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 2.1432,
+          "spearman_baseline_poisson": 0.3271
+        },
+        {
+          "test_uni": "mu_salaya",
+          "n_hexes": 299,
+          "y_mean": 1.722,
+          "mae_model": 0.9033,
+          "spearman_model": 0.7526,
+          "mae_baseline_mean": 2.4094,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 2.1202,
+          "spearman_baseline_poisson": 0.5052
+        }
+      ]
+    },
+    "food": {
+      "summary": {
+        "n_universities": 7,
+        "n_hexes": 2343,
+        "mae_model": 4.9508,
+        "spearman_model": 0.7978,
+        "mae_baseline_mean": 9.7832,
+        "spearman_baseline_mean": null,
+        "mae_baseline_poisson": 11.4942,
+        "spearman_baseline_poisson": 0.5719,
+        "model_beats_mean_mae": 7,
+        "model_beats_poisson_mae": 7
+      },
+      "folds": [
+        {
+          "test_uni": "kmutt_bangmod",
+          "n_hexes": 382,
+          "y_mean": 8.482,
+          "mae_model": 3.4149,
+          "spearman_model": 0.8138,
+          "mae_baseline_mean": 9.1924,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 8.1856,
+          "spearman_baseline_poisson": 0.5106
+        },
+        {
+          "test_uni": "kmitl_ladkrabang",
+          "n_hexes": 338,
+          "y_mean": 9.506,
+          "mae_model": 4.5109,
+          "spearman_model": 0.8749,
+          "mae_baseline_mean": 12.3712,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 31.3949,
+          "spearman_baseline_poisson": 0.689
+        },
+        {
+          "test_uni": "kmutnb_bangsue",
+          "n_hexes": 384,
+          "y_mean": 6.786,
+          "mae_model": 3.7517,
+          "spearman_model": 0.8073,
+          "mae_baseline_mean": 7.2578,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 6.0342,
+          "spearman_baseline_poisson": 0.5668
+        },
+        {
+          "test_uni": "ku_bangkhen",
+          "n_hexes": 325,
+          "y_mean": 7.803,
+          "mae_model": 5.3211,
+          "spearman_model": 0.7559,
+          "mae_baseline_mean": 8.4005,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 7.2667,
+          "spearman_baseline_poisson": 0.6322
+        },
+        {
+          "test_uni": "ru_huamak",
+          "n_hexes": 369,
+          "y_mean": 15.602,
+          "mae_model": 9.3808,
+          "spearman_model": 0.8194,
+          "mae_baseline_mean": 11.5931,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 10.2771,
+          "spearman_baseline_poisson": 0.401
+        },
+        {
+          "test_uni": "tu_rangsit",
+          "n_hexes": 246,
+          "y_mean": 5.988,
+          "mae_model": 3.7224,
+          "spearman_model": 0.683,
+          "mae_baseline_mean": 9.6417,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 8.4772,
+          "spearman_baseline_poisson": 0.5896
+        },
+        {
+          "test_uni": "mu_salaya",
+          "n_hexes": 299,
+          "y_mean": 8.779,
+          "mae_model": 4.5539,
+          "spearman_model": 0.8306,
+          "mae_baseline_mean": 10.0257,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 8.8234,
+          "spearman_baseline_poisson": 0.6138
+        }
+      ]
+    },
+    "laundry": {
+      "summary": {
+        "n_universities": 7,
+        "n_hexes": 2343,
+        "mae_model": 0.2703,
+        "spearman_model": 0.4219,
+        "mae_baseline_mean": 0.3718,
+        "spearman_baseline_mean": null,
+        "mae_baseline_poisson": 0.5358,
+        "spearman_baseline_poisson": 0.4279,
+        "model_beats_mean_mae": 6,
+        "model_beats_poisson_mae": 6
+      },
+      "folds": [
+        {
+          "test_uni": "kmutt_bangmod",
+          "n_hexes": 382,
+          "y_mean": 0.107,
+          "mae_model": 0.202,
+          "spearman_model": 0.3057,
+          "mae_baseline_mean": 0.3006,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.253,
+          "spearman_baseline_poisson": 0.3284
+        },
+        {
+          "test_uni": "kmitl_ladkrabang",
+          "n_hexes": 338,
+          "y_mean": 0.243,
+          "mae_model": 0.1951,
+          "spearman_model": 0.5823,
+          "mae_baseline_mean": 0.3837,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 1.7685,
+          "spearman_baseline_poisson": 0.6169
+        },
+        {
+          "test_uni": "kmutnb_bangsue",
+          "n_hexes": 384,
+          "y_mean": 0.135,
+          "mae_model": 0.2124,
+          "spearman_model": 0.2952,
+          "mae_baseline_mean": 0.3233,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.2826,
+          "spearman_baseline_poisson": 0.3272
+        },
+        {
+          "test_uni": "ku_bangkhen",
+          "n_hexes": 325,
+          "y_mean": 0.191,
+          "mae_model": 0.2551,
+          "spearman_model": 0.4022,
+          "mae_baseline_mean": 0.3387,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.306,
+          "spearman_baseline_poisson": 0.4151
+        },
+        {
+          "test_uni": "ru_huamak",
+          "n_hexes": 369,
+          "y_mean": 0.317,
+          "mae_model": 0.4615,
+          "spearman_model": 0.4337,
+          "mae_baseline_mean": 0.4082,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.3648,
+          "spearman_baseline_poisson": 0.4231
+        },
+        {
+          "test_uni": "tu_rangsit",
+          "n_hexes": 246,
+          "y_mean": 0.341,
+          "mae_model": 0.3421,
+          "spearman_model": 0.4551,
+          "mae_baseline_mean": 0.4557,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.4276,
+          "spearman_baseline_poisson": 0.3331
+        },
+        {
+          "test_uni": "mu_salaya",
+          "n_hexes": 299,
+          "y_mean": 0.224,
+          "mae_model": 0.2242,
+          "spearman_model": 0.4792,
+          "mae_baseline_mean": 0.3925,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.3479,
+          "spearman_baseline_poisson": 0.5518
+        }
+      ]
+    },
+    "print_stationery": {
+      "summary": {
+        "n_universities": 7,
+        "n_hexes": 2343,
+        "mae_model": 0.2116,
+        "spearman_model": 0.4048,
+        "mae_baseline_mean": 0.3147,
+        "spearman_baseline_mean": null,
+        "mae_baseline_poisson": 0.4013,
+        "spearman_baseline_poisson": 0.3305,
+        "model_beats_mean_mae": 7,
+        "model_beats_poisson_mae": 6
+      },
+      "folds": [
+        {
+          "test_uni": "kmutt_bangmod",
+          "n_hexes": 382,
+          "y_mean": 0.084,
+          "mae_model": 0.1258,
+          "spearman_model": 0.36,
+          "mae_baseline_mean": 0.2537,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.2177,
+          "spearman_baseline_poisson": 0.2513
+        },
+        {
+          "test_uni": "kmitl_ladkrabang",
+          "n_hexes": 338,
+          "y_mean": 0.201,
+          "mae_model": 0.1894,
+          "spearman_model": 0.4888,
+          "mae_baseline_mean": 0.3342,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 1.1048,
+          "spearman_baseline_poisson": 0.4459
+        },
+        {
+          "test_uni": "kmutnb_bangsue",
+          "n_hexes": 384,
+          "y_mean": 0.143,
+          "mae_model": 0.1715,
+          "spearman_model": 0.4004,
+          "mae_baseline_mean": 0.2917,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.2653,
+          "spearman_baseline_poisson": 0.1484
+        },
+        {
+          "test_uni": "ku_bangkhen",
+          "n_hexes": 325,
+          "y_mean": 0.234,
+          "mae_model": 0.2719,
+          "spearman_model": 0.3913,
+          "mae_baseline_mean": 0.3582,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.3379,
+          "spearman_baseline_poisson": 0.3207
+        },
+        {
+          "test_uni": "ru_huamak",
+          "n_hexes": 369,
+          "y_mean": 0.29,
+          "mae_model": 0.3728,
+          "spearman_model": 0.4504,
+          "mae_baseline_mean": 0.3738,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.3509,
+          "spearman_baseline_poisson": 0.4101
+        },
+        {
+          "test_uni": "tu_rangsit",
+          "n_hexes": 246,
+          "y_mean": 0.13,
+          "mae_model": 0.1566,
+          "spearman_model": 0.3849,
+          "mae_baseline_mean": 0.2805,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.2574,
+          "spearman_baseline_poisson": 0.2415
+        },
+        {
+          "test_uni": "mu_salaya",
+          "n_hexes": 299,
+          "y_mean": 0.167,
+          "mae_model": 0.1933,
+          "spearman_model": 0.3578,
+          "mae_baseline_mean": 0.3107,
+          "spearman_baseline_mean": null,
+          "mae_baseline_poisson": 0.2752,
+          "spearman_baseline_poisson": 0.4957
+        }
+      ]
+    }
+  }
+}

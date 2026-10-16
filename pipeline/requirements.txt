@@ -1,4 +1,5 @@
-# collect.py (T0.2), features.py (T1.2), satellite.py (T1.3) — แพ็กเกจของ model จะเพิ่มตอนทำ task นั้น
+# collect.py (T0.2), features.py (T1.2), satellite.py (T1.3), model.py (T2.1)
+# scikit-learn ใช้ทำ baseline Poisson regression (shap ที่จะใช้ใน T2.2 ก็ต้องใช้ scikit-learn อยู่แล้ว)
 pandas>=2.2
 geopandas>=1.0
 shapely>=2.0
@@ -8,3 +9,6 @@ pyyaml>=6.0
 overturemaps>=0.14
 h3>=4.1
 earthengine-api>=1.0
+lightgbm>=4.3
+scikit-learn>=1.4
+scipy>=1.11
