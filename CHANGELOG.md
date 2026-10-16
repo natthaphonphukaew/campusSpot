@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## T1.3 ชั้นดาวเทียม (16 ต.ค. 2026)
+- `pipeline/satellite.py` (Earth Engine project `campusspot`): ค่า built เฉลี่ยรายปี 2019–2025 จาก Dynamic World ต่อช่อง H3 ทั้ง 7 แห่ง → `data/processed/<uni_id>/hex_satellite.parquet` (built_<ปี>, built_now, built_change_2019_2025) ไม่มีช่องว่าง แคชที่ `data/raw/<uni_id>/ee_built_by_year.json`
+- ภาพ Sentinel-2 สีจริง median ม.ค.–เม.ย. ปี 2019–2025 ของ มจธ. (12–23 ภาพต่อปี, ตัดเมฆด้วย SCL) → `web/public/sat/kmutt_bangmod/<ปี>.png` (1024 px, ~420 KB) + `bounds.json`
+- มจธ.: built นอกมหาวิทยาลัยเฉลี่ย 0.575 → 0.600, 24 ช่องเพิ่มเกิน 0.15 (สูงสุด +0.51 ทางตะวันตกเฉียงเหนือของมหาวิทยาลัย ตรงกับโครงการบ้านใหม่ในภาพ) แผนที่ตรวจ `preview_built_change_x100.html`
+- เพิ่ม earthengine-api ใน requirements.txt (ต้อง `earthengine authenticate` ครั้งแรก)
+
+### ข้อเสนอ
+- built ปี 2022 สูงกว่า 2025 ในหลายแห่ง (เช่น มจพ. 0.590 → 0.572) น่าจะมาจากความต่างของภาพแต่ละปี ไม่ใช่ตึกหาย ถ้าใช้ built_change เป็นฟีเจอร์ อาจลองใช้ค่าเฉลี่ย 2 ปีแรกเทียบ 2 ปีหลังเพื่อลด noise
+
 ## T1.2 กริด H3 และฟีเจอร์ (16 ต.ค. 2026)
 - `pipeline/features.py`: กริด H3 res 10 ครอบรัศมี (แห่งละ ~395 ช่อง, รวม 2,766 ช่อง นอกมหาวิทยาลัย 2,343), on_campus จากจุดกลางช่องใน campus.geojson
 - ฟีเจอร์ dorms_200m, condo_200m, dist_gate_m (ช่องในมหาวิทยาลัย = 0), commerce_200m และ `commerce_ex_<cat>_200m` แยกต่อหมวดเพื่อกันข้อมูลรั่ว, ค่าจริง `actual_<cat>_200m` → `data/processed/<uni_id>/hex_features.parquet`

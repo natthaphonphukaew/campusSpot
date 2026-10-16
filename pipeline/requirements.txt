@@ -1,4 +1,4 @@
-# collect.py (T0.2), features.py (T1.2) — แพ็กเกจของ satellite/model จะเพิ่มตอนทำ task นั้น
+# collect.py (T0.2), features.py (T1.2), satellite.py (T1.3) — แพ็กเกจของ model จะเพิ่มตอนทำ task นั้น
 pandas>=2.2
 geopandas>=1.0
 shapely>=2.0
@@ -7,3 +7,4 @@ requests>=2.31
 pyyaml>=6.0
 overturemaps>=0.14
 h3>=4.1
+earthengine-api>=1.0
