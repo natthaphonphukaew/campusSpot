@@ -7,17 +7,17 @@
   ],
   "radius_m": 1500,
   "h3_res": 10,
-  "generated_at": "2026-10-16T07:36:21Z",
+  "generated_at": "2026-10-16T07:47:11Z",
   "categories": {
     "cafe": {
       "label_th": "ร้านกาแฟ",
       "confidence": "high",
-      "note_th": "ข้อมูลหนาแน่น จาก Overture และ OpenStreetMap"
+      "note_th": "รวมจาก Overture และ OpenStreetMap"
     },
     "food": {
       "label_th": "ร้านอาหาร",
       "confidence": "high",
-      "note_th": "ข้อมูลหนาแน่น จาก Overture และ OpenStreetMap"
+      "note_th": "รวมจาก Overture และ OpenStreetMap"
     },
     "laundry": {
       "label_th": "ร้านซักผ้า",

@@ -11,9 +11,28 @@ export const OPP_RAMP: Record<Scheme, readonly string[]> = {
   dark: ["#2e3a2c", "#3e5a3a", "#55804f", "#7aa66a", "#a8c98a", "#dce9b4"],
 };
 
-export const MAP_COLORS: Record<Scheme, { onCampus: string; gap: string; hover: string; radius: string; fillOpacity: number }> = {
-  light: { onCampus: "#d9d5cc", gap: "#faf8f5", hover: "#1f1e1b", radius: "#75726a", fillOpacity: 0.72 },
-  dark: { onCampus: "#3a3934", gap: "#161614", hover: "#edeae3", radius: "#8f8b82", fillOpacity: 0.8 },
+type MapColors = {
+  onCampus: string;
+  gap: string;
+  hover: string;
+  radius: string;
+  fillOpacity: number;
+  /** จุดร้านที่ใช้ได้ (flag ok): จุดทึบสีหมึก มีวงขอบสีพื้น ให้เด่นบนช่องสีเขียว */
+  poi: string;
+  poiRing: string;
+  /** จุดที่ถูกติดธงอื่น: เทาโปร่ง */
+  poiFlagged: string;
+};
+
+export const MAP_COLORS: Record<Scheme, MapColors> = {
+  light: {
+    onCampus: "#d9d5cc", gap: "#faf8f5", hover: "#1f1e1b", radius: "#75726a", fillOpacity: 0.72,
+    poi: "#1f1e1b", poiRing: "#ffffff", poiFlagged: "#8a877f",
+  },
+  dark: {
+    onCampus: "#3a3934", gap: "#161614", hover: "#edeae3", radius: "#8f8b82", fillOpacity: 0.8,
+    poi: "#f4f1ea", poiRing: "#161614", poiFlagged: "#8f8b82",
+  },
 };
 
 // แผนที่พื้นหลังจาก OpenFreeMap ไม่ต้องใช้ API key

@@ -40,8 +40,8 @@ FEATURE_LABELS = {
     "built_change_2019_2025": "อาคารเพิ่มขึ้นตั้งแต่ปี 2019",
 }
 CATEGORY_META = {
-    "cafe": {"label_th": "ร้านกาแฟ", "confidence": "high", "note_th": "ข้อมูลหนาแน่น จาก Overture และ OpenStreetMap"},
-    "food": {"label_th": "ร้านอาหาร", "confidence": "high", "note_th": "ข้อมูลหนาแน่น จาก Overture และ OpenStreetMap"},
+    "cafe": {"label_th": "ร้านกาแฟ", "confidence": "high", "note_th": "รวมจาก Overture และ OpenStreetMap"},
+    "food": {"label_th": "ร้านอาหาร", "confidence": "high", "note_th": "รวมจาก Overture และ OpenStreetMap"},
     "laundry": {"label_th": "ร้านซักผ้า", "confidence": "low", "note_th": "ข้อมูลน่าจะขาด ยังไม่ได้ตรวจภาคสนาม"},
     "print_stationery": {"label_th": "ร้านปริ้นต์และเครื่องเขียน", "confidence": "low", "note_th": "ข้อมูลน่าจะขาด ยังไม่ได้ตรวจภาคสนาม"},
 }
