@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## T1.2 กริด H3 และฟีเจอร์ (16 ต.ค. 2026)
+- `pipeline/features.py`: กริด H3 res 10 ครอบรัศมี (แห่งละ ~395 ช่อง, รวม 2,766 ช่อง นอกมหาวิทยาลัย 2,343), on_campus จากจุดกลางช่องใน campus.geojson
+- ฟีเจอร์ dorms_200m, condo_200m, dist_gate_m (ช่องในมหาวิทยาลัย = 0), commerce_200m และ `commerce_ex_<cat>_200m` แยกต่อหมวดเพื่อกันข้อมูลรั่ว, ค่าจริง `actual_<cat>_200m` → `data/processed/<uni_id>/hex_features.parquet`
+- แผนที่ตรวจ `data/processed/kmutt_bangmod/preview_dorms_200m.html` (ไม่ commit) เพิ่ม `h3` ใน requirements.txt
+
+### ข้อเสนอ
+- commerce ตอนนี้นับทุกจุดที่ไม่ใช่หอพักรวม "other" (วัด โรงเรียน สำนักงาน ฯลฯ จาก Overture) ถ้าโมเดลไม่ดีอาจลองนับเฉพาะร้านค้า
+- dorms_200m สูงสุด 53 ในช่องเดียว (รามคำแหง) ควรดูว่ามีหอซ้ำที่ dedupe ไม่จับหรือเปล่า
+
 ## T1.1 ดึงข้อมูลหลายมหาวิทยาลัย (16 ต.ค. 2026)
 - เพิ่ม 6 แห่งใน `universities.yaml` (ยังไม่ใส่ on_campus_name ให้แห่งใหม่ ใช้ขอบเขต OSM อย่างเดียว) รัน collect.py ครบ 7 แห่ง เจอขอบเขตมหาวิทยาลัยทุกแห่ง
 - `collect.py` เขียน `data/processed/collect_report.csv` (จำนวน ok ต่อหมวด, ขนาดขอบเขต, สัดส่วนที่มหาวิทยาลัยกินพื้นที่ในรัศมี, หมายเหตุ) และเพิ่ม `campus_share_of_radius` ใน collect_meta.json

@@ -20,3 +20,6 @@ next-env.d.ts
 .env*.local
 .DS_Store
 Thumbs.db
+
+# แผนที่ตรวจด้วยตาจาก features.py (สร้างใหม่ได้ทุกครั้ง)
+pipeline/data/processed/**/preview_*.html
