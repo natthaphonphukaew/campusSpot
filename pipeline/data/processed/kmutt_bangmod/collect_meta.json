@@ -1,0 +1,21 @@
+{
+  "uni_id": "kmutt_bangmod",
+  "center": [
+    13.6513,
+    100.4941
+  ],
+  "radius_m": 1500,
+  "generated_at": "2026-10-16T02:51:59Z",
+  "osm_building_count": 291,
+  "campus_polygon_found": true,
+  "campus_km2": 0.215,
+  "n_points": 2263,
+  "usable_by_category": {
+    "dorm_like": 45,
+    "cafe": 112,
+    "food": 508,
+    "laundry": 7,
+    "print_stationery": 5,
+    "convenience": 62
+  }
+}

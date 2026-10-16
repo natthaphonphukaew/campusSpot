@@ -24,7 +24,7 @@
 
 **เสร็จเมื่อ:** repo มีสองไฟล์, ล็อกอิน Vercel ได้, ส่งคำขอ Earth Engine แล้ว, มีรายชื่อพิกัดมหาวิทยาลัย
 
-### ☐ T0.2 แปลงโน้ตบุ๊กเป็น pipeline — A (16–17 ต.ค.)
+### ☑ T0.2 แปลงโน้ตบุ๊กเป็น pipeline — A (16–17 ต.ค.)
 แนบไฟล์ `kmutt_campusspot_data_check_v2.ipynb` ให้ agent ด้วย
 ```
 แปลงโน้ตบุ๊กที่แนบเป็น pipeline/collect.py ตามโครงสร้างใน CLAUDE.md
