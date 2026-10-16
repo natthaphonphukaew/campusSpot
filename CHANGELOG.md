@@ -5,6 +5,7 @@
 - ข้อมูลจำลองที่ `web/public/data/mock/` จาก `scripts/make-mock.mjs` (H3 res 10 รอบ มจธ. 331 ช่อง, ร้าน 50 จุด, ผลประเมินว่างไว้เพราะต้องมาจาก model.py)
 - หน้าแรก: แผนที่ MapLibre + OpenFreeMap ช่อง H3 ไล่สีตาม `scores.cafe.opportunity`, แตะ/ชี้ช่องเห็นคะแนน, ป้าย "ข้อมูลจำลอง" มุมขวาบน
 - ดีไซน์อิง Felt + Airbnb Maps (คนเลือก): แผงลอยบนจอใหญ่ แผ่นล่างบนมือถือ, IBM Plex Sans Thai, พื้นขาวอุ่น เน้นเขียวหม่น, สีช่องเขียวไล่ระดับสีเดียว (โหมดมืดกลับด้าน), ซ่อนโครงอาคาร OSM บนแผนที่พื้นหลัง
+- deploy บน Vercel แล้ว (Root Directory = web): https://campus-spot-beta.vercel.app/
 
 ### ข้อเสนอ
 - hexes.json จำลอง 331 ช่องหนัก ~880 KB เพราะ label_th ซ้ำทุกช่องทุกหมวด ของจริงน่าจะใหญ่กว่า ควรดูตอน T3.1 (เช่น ย้าย label_th ไปไว้ใน meta)
