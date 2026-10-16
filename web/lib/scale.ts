@@ -41,7 +41,20 @@ export const BASEMAP: Record<Scheme, string> = {
   dark: "https://tiles.openfreemap.org/styles/dark",
 };
 
-export function oppGradientCss(scheme: Scheme): string {
-  const ramp = OPP_RAMP[scheme];
-  return `linear-gradient(to right, ${ramp.map((c, i) => `${c} ${OPP_STOPS[i]}%`).join(", ")})`;
+// ความหนาแน่นอาคารจากดาวเทียม (built) ใช้สีอำพันไล่ระดับสีเดียว แยกจากสีเขียวของคะแนนโอกาส
+// ค่าจริงส่วนใหญ่อยู่ราว 0.3–0.85 จึงใช้ช่วง 0.2–0.9 ให้เห็นความต่างระหว่างปีชัดขึ้น
+export const BUILT_STOPS = [0.2, 0.34, 0.48, 0.62, 0.76, 0.9] as const;
+
+export const BUILT_RAMP: Record<Scheme, readonly string[]> = {
+  light: ["#fbeedd", "#f3cf9f", "#e5a660", "#c97a2e", "#9a5418", "#6b3a12"],
+  dark: ["#3a2a1a", "#5c3f20", "#8a5a2a", "#b9803d", "#deaa66", "#f4d6a8"],
+};
+
+function gradientCss(ramp: readonly string[], stops: readonly number[]): string {
+  const lo = stops[0];
+  const hi = stops[stops.length - 1];
+  return `linear-gradient(to right, ${ramp.map((c, i) => `${c} ${((stops[i] - lo) / (hi - lo)) * 100}%`).join(", ")})`;
 }
+
+export const oppGradientCss = (scheme: Scheme) => gradientCss(OPP_RAMP[scheme], OPP_STOPS);
+export const builtGradientCss = (scheme: Scheme) => gradientCss(BUILT_RAMP[scheme], BUILT_STOPS);

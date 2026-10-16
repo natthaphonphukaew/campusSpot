@@ -101,7 +101,26 @@ export interface Poi {
   source: string;
 }
 
-// ---------------------------------------------------------------- ภาพดาวเทียม
+// ---------------------------------------------------------------- ภาพดาวเทียม (ไทม์แลปส์)
 
-/** web/public/sat/<uni_id>/bounds.json = [[west, south], [east, north]] */
+/** [[west, south], [east, north]] */
 export type SatBounds = [[number, number], [number, number]];
+
+export interface SatFrame {
+  release_id: number;
+  /** วันที่ Esri ออกรุ่นนี้ */
+  release_date: string;
+  /** วันที่ถ่ายภาพจริง ณ จุดกลางมหาวิทยาลัย (YYYY-MM-DD) */
+  captured: string;
+  resolution_m: number;
+  /** tile template มี {z}/{y}/{x} — ดึงสดจาก Esri ห้ามดาวน์โหลดเก็บ */
+  tile_url: string;
+}
+
+/** web/public/sat/<uni_id>/wayback.json */
+export interface SatWayback {
+  source: "esri_wayback";
+  attribution: string;
+  bounds: SatBounds;
+  frames: SatFrame[];
+}

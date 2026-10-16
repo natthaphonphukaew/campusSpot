@@ -1,0 +1,65 @@
+{
+  "source": "esri_wayback",
+  "attribution": "Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "bounds": [
+    [
+      100.471914,
+      13.629741
+    ],
+    [
+      100.516286,
+      13.672859
+    ]
+  ],
+  "frames": [
+    {
+      "release_id": 25521,
+      "release_date": "2017-11-16",
+      "captured": "2016-12-25",
+      "resolution_m": 0.46,
+      "tile_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/25521/{z}/{y}/{x}"
+    },
+    {
+      "release_id": 18820,
+      "release_date": "2018-10-17",
+      "captured": "2017-10-29",
+      "resolution_m": 0.31,
+      "tile_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/{z}/{y}/{x}"
+    },
+    {
+      "release_id": 8432,
+      "release_date": "2021-07-21",
+      "captured": "2020-11-09",
+      "resolution_m": 0.46,
+      "tile_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/8432/{z}/{y}/{x}"
+    },
+    {
+      "release_id": 7110,
+      "release_date": "2022-11-02",
+      "captured": "2021-06-18",
+      "resolution_m": 0.5,
+      "tile_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/7110/{z}/{y}/{x}"
+    },
+    {
+      "release_id": 17632,
+      "release_date": "2023-08-10",
+      "captured": "2023-01-26",
+      "resolution_m": 0.31,
+      "tile_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/17632/{z}/{y}/{x}"
+    },
+    {
+      "release_id": 51127,
+      "release_date": "2025-11-20",
+      "captured": "2025-01-19",
+      "resolution_m": 0.5,
+      "tile_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/51127/{z}/{y}/{x}"
+    },
+    {
+      "release_id": 32246,
+      "release_date": "2026-06-30",
+      "captured": "2026-03-05",
+      "resolution_m": 0.5,
+      "tile_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/32246/{z}/{y}/{x}"
+    }
+  ]
+}

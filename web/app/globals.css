@@ -69,6 +69,13 @@ body {
   font-size: 11px;
 }
 
+/* มือถือซูมด้วยนิ้วได้ ซ่อนปุ่มซูมไม่ให้ชนแถบไทม์แลปส์ */
+@media (max-width: 767px) {
+  .maplibregl-map .maplibregl-ctrl-bottom-right .maplibregl-ctrl-group {
+    display: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .maplibregl-map .maplibregl-ctrl-group {
     background: var(--surface);

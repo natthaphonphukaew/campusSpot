@@ -108,7 +108,22 @@ web/
 ```
 ค่า `flag`: ok, duplicate, false_positive, industrial_print, on_campus, needs_check, unnamed_building
 
-**ภาพดาวเทียม**: `web/public/sat/<uni_id>/<year>.png` พร้อม `bounds.json` = `[[west, south], [east, north]]`
+**ภาพดาวเทียม (ไทม์แลปส์บนเว็บ)**: `web/public/sat/<uni_id>/wayback.json` สร้างโดย `pipeline/satellite.py`
+```json
+{
+  "source": "esri_wayback",
+  "attribution": "Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "bounds": [[100.47, 13.63], [100.51, 13.67]],
+  "frames": [
+    {"release_id": 18820, "release_date": "2018-10-17", "captured": "2017-10-29", "resolution_m": 0.31,
+     "tile_url": "https://wayback.maptiles.arcgis.com/.../tile/18820/{z}/{y}/{x}"}
+  ]
+}
+```
+- `bounds` = `[[west, south], [east, north]]`, `frames` เรียงตามเวลา หนึ่งภาพต่อวันที่ถ่าย
+- ภาพเป็น tile ที่ดึงสดจาก Esri World Imagery Wayback (Esri Master License Agreement) **ห้ามดาวน์โหลด tile เก็บไว้** และต้องแสดงเครดิต `attribution` บนแผนที่เสมอ
+- ภาพนี้ใช้แสดงผลเท่านั้น ค่า built ที่ใช้ในโมเดลมาจาก Dynamic World (Sentinel-2) และ `meta.sat_years` คือปีที่มีใน `built_by_year`
+- (16 ต.ค. 2026 คนตัดสินใจเปลี่ยนจาก PNG Sentinel-2 รายปี เพราะ 10 ม./พิกเซลไม่คมพอให้เห็นตึกใหม่)
 
 ## กฎการเขียนโค้ด
 

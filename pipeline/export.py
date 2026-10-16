@@ -188,8 +188,8 @@ def main():
     print(f"{uni['uni_id']}: {len(target)} ช่อง, เทรนด้วย {train.uni_id.nunique()} มหาวิทยาลัยอื่น ({len(train)} ช่อง)")
 
     scores = {cat: score_category(train, target, cat) for cat in CATS}
-    sat_dir = WEB / "sat" / uni["uni_id"]
-    sat_years = sorted(int(p.stem) for p in sat_dir.glob("*.png")) if sat_dir.exists() else []
+    # ปีที่มีค่า built จาก Dynamic World (ภาพไทม์แลปส์บนเว็บอยู่แยกใน sat/<uni_id>/wayback.json)
+    sat_years = sorted(int(c.split("_")[1]) for c in sat.columns if c.startswith("built_") and c.split("_")[1].isdigit())
 
     meta = build_meta(uni, sat_years)
     hexes = build_hexes(target, scores)

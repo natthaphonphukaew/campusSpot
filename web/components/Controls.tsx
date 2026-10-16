@@ -1,5 +1,5 @@
 import { CATEGORY_ORDER, CATEGORY_SHORT } from "@/lib/labels";
-import { MAP_COLORS, oppGradientCss, type Scheme } from "@/lib/scale";
+import { builtGradientCss, MAP_COLORS, oppGradientCss, type Scheme } from "@/lib/scale";
 import type { CategoryId, Meta } from "@/lib/types";
 
 export function CategoryTabs({
@@ -80,6 +80,37 @@ export function Legend({ scheme }: { scheme: Scheme }) {
         ในมหาวิทยาลัย ไม่นับเป็นทำเล
       </div>
     </div>
+  );
+}
+
+export function BuiltLegend({ scheme, year }: { scheme: Scheme; year: number }) {
+  return (
+    <div aria-label="คำอธิบายสีความหนาแน่นอาคาร">
+      <div className="mb-1.5 flex justify-between text-xs text-ink-3">
+        <span>อาคารน้อย</span>
+        <span>อาคารแน่น</span>
+      </div>
+      <div className="h-2.5 rounded-sm" style={{ background: builtGradientCss(scheme) }} />
+      <p className="mt-1.5 text-xs text-ink-3">ความหนาแน่นอาคารจากดาวเทียม ปี {year}</p>
+    </div>
+  );
+}
+
+export function SatelliteButton({ on, onClick }: { on: boolean; onClick: () => void }) {
+  return (
+    <button
+      onClick={onClick}
+      aria-pressed={on}
+      className={`flex min-h-10 w-full items-center gap-2.5 rounded-lg border px-3 text-left text-sm font-medium transition-colors ${
+        on ? "border-accent bg-accent text-surface" : "border-line text-ink hover:border-ink-3"
+      }`}
+    >
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden className="shrink-0">
+        <rect x="5.5" y="5.5" width="5" height="5" rx="1" transform="rotate(45 8 8)" fill="none" stroke="currentColor" strokeWidth="1.4" />
+        <path d="M1.5 6.5 4 4M12 12l2.5-2.5M4 12l-2.5-2.5M12 4l2.5 2.5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+      </svg>
+      {on ? "ปิดภาพดาวเทียม" : "ดูอาคารใหม่จากดาวเทียม 2019–2025"}
+    </button>
   );
 }
 

@@ -1,12 +1,14 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useCallback, useEffect, useState } from "react";
-import { IS_MOCK, loadDataset } from "@/lib/data";
-import type { CategoryId, Hex, Meta, Poi } from "@/lib/types";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { IS_MOCK, loadDataset, loadWayback } from "@/lib/data";
+import type { CategoryId, Hex, Meta, Poi, SatWayback } from "@/lib/types";
 import { useColorScheme } from "@/lib/useColorScheme";
-import { CategoryTabs, ConfidenceNote, Legend, PoiToggle, WarnIcon } from "./Controls";
+import { BuiltLegend, CategoryTabs, ConfidenceNote, Legend, PoiToggle, SatelliteButton, WarnIcon } from "./Controls";
 import HexDetail from "./HexDetail";
+import type { HexMode, SatView } from "./HexMap";
+import Timeline from "./Timeline";
 
 // MapLibre ใช้ได้แค่ในเบราว์เซอร์
 const HexMap = dynamic(() => import("./HexMap"), { ssr: false });
@@ -19,6 +21,14 @@ export default function MapScreen() {
   const [category, setCategory] = useState<CategoryId>("cafe");
   const [showPois, setShowPois] = useState(true);
   const [selected, setSelected] = useState<string | null>(null);
+
+  // ไทม์แลปส์ดาวเทียม
+  const [satOn, setSatOn] = useState(false);
+  const [wayback, setWayback] = useState<SatWayback | null | undefined>(undefined); // undefined = ยังไม่ได้โหลด
+  const [frame, setFrame] = useState(0);
+  const [playing, setPlaying] = useState(false);
+  const [opacity, setOpacity] = useState(1);
+  const [hexMode, setHexMode] = useState<HexMode>("opportunity");
 
   useEffect(() => {
     loadDataset()
@@ -36,6 +46,43 @@ export default function MapScreen() {
   const onSelect = useCallback((h3: string | null) => setSelected(h3), []);
   const ready = state.status === "ready" ? state : null;
   const meta = ready?.meta ?? null;
+  const frames = useMemo(() => wayback?.frames ?? [], [wayback]);
+
+  // เล่นอัตโนมัติ ภาพละ 1 วินาที หยุดเองเมื่อถึงภาพล่าสุด
+  useEffect(() => {
+    if (!playing) return;
+    const t = setTimeout(() => (frame >= frames.length - 1 ? setPlaying(false) : setFrame(frame + 1)), 1000);
+    return () => clearTimeout(t);
+  }, [playing, frame, frames.length]);
+
+  const openSatellite = () => {
+    if (!meta) return;
+    if (wayback === undefined) loadWayback(meta.uni_id).then(setWayback);
+    setFrame(0);
+    setHexMode("none");
+    setSatOn(true);
+  };
+  const closeSatellite = () => {
+    setSatOn(false);
+    setPlaying(false);
+    setHexMode("opportunity");
+  };
+  const togglePlay = () => {
+    if (!playing && frame >= frames.length - 1) setFrame(0);
+    setPlaying(!playing);
+  };
+
+  // ค่า built (Dynamic World มีปี 2019–2025) ที่ใช้ระบายช่องในโหมด "อาคาร" = ปีที่ใกล้วันถ่ายภาพที่สุด
+  const builtYears = meta?.sat_years ?? [];
+  const capturedYear = frames[frame] ? Number(frames[frame].captured.slice(0, 4)) : (builtYears.at(-1) ?? 2025);
+  const builtYear = builtYears.length
+    ? Math.min(Math.max(capturedYear, builtYears[0]), builtYears[builtYears.length - 1])
+    : capturedYear;
+
+  const sat: SatView = useMemo(
+    () => ({ on: satOn, frame, opacity, wayback: wayback ?? null, builtYear }),
+    [satOn, frame, opacity, wayback, builtYear],
+  );
   const hex = ready && selected ? ready.hexes.find((h) => h.h3 === selected) : undefined;
   const label = meta?.categories[category].label_th ?? "ร้านกาแฟ";
 
@@ -56,10 +103,34 @@ export default function MapScreen() {
             showPois={showPois}
             selected={selected}
             onSelect={onSelect}
+            hexMode={hexMode}
+            sat={sat}
           />
         )}
         {state.status === "loading" && <Status text="กำลังโหลดแผนที่…" />}
         {state.status === "error" && <Status text="โหลดข้อมูลไม่สำเร็จ ลองรีเฟรชหน้าอีกครั้ง" />}
+
+        {/* แถบไทม์แลปส์: มือถืออยู่ใต้แถบหมวดด้านบน (ไม่บังเครดิตแผนที่ด้านล่าง) / จอใหญ่อยู่กลางล่าง */}
+        {satOn && wayback !== undefined && (
+          <div className="absolute top-16 right-3 left-3 z-20 md:top-auto md:right-auto md:bottom-6 md:left-1/2 md:w-[520px] md:-translate-x-1/2">
+            <Timeline
+              frames={frames}
+              frame={frame}
+              onFrame={(i) => {
+                setPlaying(false);
+                setFrame(i);
+              }}
+              playing={playing}
+              onTogglePlay={togglePlay}
+              opacity={opacity}
+              onOpacity={setOpacity}
+              hexMode={hexMode}
+              onHexMode={setHexMode}
+              attribution={wayback?.attribution ?? null}
+              onClose={closeSatellite}
+            />
+          </div>
+        )}
 
         {/* มือถือ: แถบหมวดลอยอยู่บนแผนที่ */}
         <div className="absolute top-3 right-3 left-3 z-20 md:hidden">
@@ -79,7 +150,14 @@ export default function MapScreen() {
         {/* มือถือ: เลือกช่องแล้วแผ่นล่างแสดงรายละเอียดแทน */}
         {detail && <div className="md:hidden">{detail}</div>}
 
-        <div className={detail ? "hidden md:block" : ""}>
+        {/* มือถือ + เปิดดาวเทียม: เหลือแค่แถบสี ให้แผนที่มีที่มากขึ้น */}
+        {satOn && !detail && (
+          <div className="md:hidden">
+            {hexMode === "built" ? <BuiltLegend scheme={scheme} year={builtYear} /> : <Legend scheme={scheme} />}
+          </div>
+        )}
+
+        <div className={detail || satOn ? "hidden md:block" : ""}>
           <div className="flex items-baseline justify-between gap-3">
             <p className="text-[15px] font-semibold tracking-tight text-ink">CampusSpot</p>
             {meta && (
@@ -105,12 +183,18 @@ export default function MapScreen() {
           )}
 
           <div className="mt-4">
-            <Legend scheme={scheme} />
+            {hexMode === "built" ? <BuiltLegend scheme={scheme} year={builtYear} /> : <Legend scheme={scheme} />}
           </div>
 
           <div className="mt-3 border-t border-line pt-2">
             <PoiToggle checked={showPois} onChange={setShowPois} scheme={scheme} />
           </div>
+
+          {meta && (
+            <div className="mt-3">
+              <SatelliteButton on={satOn} onClick={satOn ? closeSatellite : openSatellite} />
+            </div>
+          )}
         </div>
       </section>
 

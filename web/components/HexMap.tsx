@@ -6,8 +6,14 @@ import type { GeoJSONSource, LngLatBoundsLike, MapMouseEvent } from "maplibre-gl
 import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { FLAG_LABEL } from "@/lib/labels";
-import { BASEMAP, MAP_COLORS, OPP_RAMP, OPP_STOPS, type Scheme } from "@/lib/scale";
-import type { CategoryId, Hex, Meta, Poi } from "@/lib/types";
+import { BASEMAP, BUILT_RAMP, BUILT_STOPS, MAP_COLORS, OPP_RAMP, OPP_STOPS, type Scheme } from "@/lib/scale";
+import type { CategoryId, Hex, Meta, Poi, SatWayback } from "@/lib/types";
+
+/** ช่องสีแสดงอะไร: คะแนนโอกาส / ความหนาแน่นอาคารของปีที่เลือก / ไม่แสดง (ดูภาพดาวเทียมล้วน) */
+export type HexMode = "opportunity" | "built" | "none";
+
+/** สถานะไทม์แลปส์ดาวเทียม: wayback = null คือยังไม่มีภาพ (แสดงพื้นสีแทน), builtYear = ปีของค่า built ที่ใช้ระบายช่อง */
+export type SatView = { on: boolean; frame: number; opacity: number; wayback: SatWayback | null; builtYear: number };
 
 type Props = {
   meta: Meta;
@@ -18,6 +24,8 @@ type Props = {
   showPois: boolean;
   selected: string | null;
   onSelect: (h3: string | null) => void;
+  hexMode: HexMode;
+  sat: SatView;
 };
 
 // worker ของ MapLibre ถูกก๊อปไปไว้ที่ public/ (ดู scripts/copy-maplibre-worker.mjs)
@@ -33,7 +41,12 @@ function hexesToGeoJSON(hexes: Hex[], category: CategoryId): GeoJSON.FeatureColl
     type: "FeatureCollection",
     features: hexes.map((h) => ({
       type: "Feature",
-      properties: { h3: h.h3, on_campus: h.on_campus, opp: h.scores[category]?.opportunity ?? 0 },
+      properties: {
+        h3: h.h3,
+        on_campus: h.on_campus,
+        opp: h.scores[category]?.opportunity ?? 0,
+        ...Object.fromEntries(Object.entries(h.built_by_year).map(([y, v]) => [`b${y}`, v])),
+      },
       geometry: { type: "Polygon", coordinates: [cellToBoundary(h.h3, true)] },
     })),
   };
@@ -92,6 +105,12 @@ function addLayers(map: maplibregl.Map, src: Sources, scheme: Scheme, showPois: 
   map.addSource("hexes", { type: "geojson", data: src.hexes, promoteId: "h3" });
   map.addSource("radius", { type: "geojson", data: src.ring });
   map.addSource("pois", { type: "geojson", data: src.pois });
+  // placeholder ตอนยังไม่มีภาพดาวเทียม: พื้นสีเรียบครอบรัศมี (ซ่อนไว้จนกว่าจะเปิดโหมดดาวเทียม)
+  const [w, s, e, n] = ringBounds(src.ring) as [number, number, number, number];
+  map.addSource("sat-placeholder", { type: "geojson",
+    data: { type: "Feature", properties: {}, geometry: { type: "Polygon", coordinates: [[[w, s], [e, s], [e, n], [w, n], [w, s]]] } } });
+  map.addLayer({ id: "sat-placeholder", type: "fill", source: "sat-placeholder", layout: { visibility: "none" },
+    paint: { "fill-color": c.onCampus, "fill-opacity": 0.85 } }, beforeId);
 
   const isOn = (flag: boolean): maplibregl.ExpressionSpecification => ["==", ["get", "on_campus"], flag];
   const state = (key: string): maplibregl.ExpressionSpecification => ["boolean", ["feature-state", key], false];
@@ -122,7 +141,50 @@ function addLayers(map: maplibregl.Map, src: Sources, scheme: Scheme, showPois: 
     paint: { "circle-radius": radius, "circle-color": c.poi, "circle-stroke-color": c.poiRing, "circle-stroke-width": 1.5 } });
 }
 
-export default function HexMap({ meta, hexes, pois, category, scheme, showPois, selected, onSelect }: Props) {
+/** สีและความโปร่งของช่องตามโหมด (เปลี่ยนได้โดยไม่ต้องโหลดข้อมูลใหม่) */
+function applyHexStyle(map: maplibregl.Map, mode: HexMode, year: number, scheme: Scheme, satOn: boolean) {
+  if (!map.getLayer("hex-fill")) return;
+  const c = MAP_COLORS[scheme];
+  const color: maplibregl.ExpressionSpecification =
+    mode === "built"
+      ? ["interpolate", ["linear"], ["coalesce", ["get", `b${year}`], 0], ...BUILT_STOPS.flatMap((s, i) => [s, BUILT_RAMP[scheme][i]])]
+      : ["interpolate", ["linear"], ["get", "opp"], ...OPP_STOPS.flatMap((s, i) => [s, OPP_RAMP[scheme][i]])];
+  map.setFilter("hex-fill", mode === "built" ? null : ["==", ["get", "on_campus"], false]);
+  map.setPaintProperty("hex-fill", "fill-color", color);
+  map.setPaintProperty("hex-fill", "fill-opacity", mode === "none" ? 0 : satOn ? 0.55 : c.fillOpacity);
+  map.setPaintProperty("hex-campus", "fill-opacity", mode === "opportunity" ? (satOn ? 0.45 : 0.6) : 0);
+  map.setPaintProperty("hex-gap", "line-opacity", mode === "none" ? 0 : 1);
+}
+
+/**
+ * ภาพดาวเทียมคมจาก Esri Wayback: หนึ่ง raster tile source ต่อหนึ่งภาพถ่าย เพิ่มครั้งแรกที่เปิด
+ * ทุกภาพเปิดค้างไว้ (โหลด tile ไว้ก่อน) แล้วสลับด้วยความโปร่ง เลื่อนเวลาแล้วไม่กระพริบ
+ * ภาพดึงสดจาก Esri ตามเงื่อนไข ห้ามดาวน์โหลดเก็บ และเครดิตขึ้นในช่อง attribution ของแผนที่
+ */
+function syncSat(map: maplibregl.Map, sat: SatView) {
+  if (!map.getLayer("hex-campus")) return;
+  if (!sat.wayback) {
+    // ยังไม่มีภาพ: พื้นสีเรียบเป็น placeholder
+    if (map.getLayer("sat-placeholder")) map.setLayoutProperty("sat-placeholder", "visibility", sat.on ? "visible" : "none");
+    return;
+  }
+  const [[w, s], [e, n]] = sat.wayback.bounds;
+  sat.wayback.frames.forEach((f, i) => {
+    const id = `sat-${f.release_id}`;
+    if (!map.getSource(id)) {
+      if (!sat.on) return;
+      map.addSource(id, { type: "raster", tiles: [f.tile_url], tileSize: 256, maxzoom: 19, bounds: [w, s, e, n],
+        attribution: `ภาพดาวเทียม © ${sat.wayback!.attribution}` });
+      map.addLayer({ id, type: "raster", source: id,
+        paint: { "raster-opacity": 0, "raster-fade-duration": 0, "raster-opacity-transition": { duration: 450, delay: 0 } } },
+        "hex-campus");
+    }
+    map.setLayoutProperty(id, "visibility", sat.on ? "visible" : "none");
+    map.setPaintProperty(id, "raster-opacity", sat.on && i === sat.frame ? sat.opacity : 0);
+  });
+}
+
+export default function HexMap({ meta, hexes, pois, category, scheme, showPois, selected, onSelect, hexMode, sat }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const [hover, setHover] = useState<Hover | null>(null);
@@ -133,10 +195,10 @@ export default function HexMap({ meta, hexes, pois, category, scheme, showPois, 
   const byId = useMemo(() => new Map(hexes.map((h) => [h.h3, h])), [hexes]);
 
   // ค่าล่าสุดสำหรับ callback ของ MapLibre ที่ผูกไว้ครั้งเดียว
-  const latest = useRef({ hexData, poiData, scheme, showPois, selected, onSelect });
+  const latest = useRef({ hexData, poiData, scheme, showPois, selected, onSelect, hexMode, sat });
   useEffect(() => {
-    latest.current = { hexData, poiData, scheme, showPois, selected, onSelect };
-  }, [hexData, poiData, scheme, showPois, selected, onSelect]);
+    latest.current = { hexData, poiData, scheme, showPois, selected, onSelect, hexMode, sat };
+  }, [hexData, poiData, scheme, showPois, selected, onSelect, hexMode, sat]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -158,6 +220,8 @@ export default function HexMap({ meta, hexes, pois, category, scheme, showPois, 
       const l = latest.current;
       addLayers(map, { hexes: l.hexData, pois: l.poiData, ring }, l.scheme, l.showPois);
       if (l.selected) map.setFeatureState({ source: "hexes", id: l.selected }, { selected: true });
+      syncSat(map, l.sat);
+      applyHexStyle(map, l.hexMode, l.sat.builtYear, l.scheme, l.sat.on);
     });
 
     const canHover = window.matchMedia("(hover: hover)").matches;
@@ -224,6 +288,14 @@ export default function HexMap({ meta, hexes, pois, category, scheme, showPois, 
     }
   }, [showPois]);
 
+  // โหมดสีของช่อง / ปีของภาพดาวเทียม
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    syncSat(map, sat);
+    applyHexStyle(map, hexMode, sat.builtYear, scheme, sat.on);
+  }, [hexMode, sat, scheme]);
+
   // ไฮไลต์ช่องที่เลือก
   const prevSelected = useRef<string | null>(null);
   useEffect(() => {
@@ -250,6 +322,12 @@ export default function HexMap({ meta, hexes, pois, category, scheme, showPois, 
               {hover.flag !== "ok" && (
                 <p className="text-xs text-ink-3">{FLAG_LABEL[hover.flag as keyof typeof FLAG_LABEL]} · ไม่นับในคะแนน</p>
               )}
+            </>
+          ) : hexMode === "built" && hoverHex ? (
+            <>
+              <span className="text-ink-2">อาคาร ปี {sat.builtYear} </span>
+              <span className="font-semibold text-ink">{Math.round((hoverHex.built_by_year[String(sat.builtYear)] ?? 0) * 100)}%</span>
+              <span className="text-ink-3"> ของพื้นที่</span>
             </>
           ) : hoverHex?.on_campus ? (
             <span className="text-ink-2">ในมหาวิทยาลัย ไม่นับเป็นทำเล</span>
