@@ -1,0 +1,79 @@
+{
+  "uni_id": "kmutt_bangmod",
+  "name_th": "มจธ. บางมด",
+  "center": [
+    13.6513,
+    100.4941
+  ],
+  "radius_m": 1500,
+  "h3_res": 10,
+  "generated_at": "2026-10-16T07:36:21Z",
+  "categories": {
+    "cafe": {
+      "label_th": "ร้านกาแฟ",
+      "confidence": "high",
+      "note_th": "ข้อมูลหนาแน่น จาก Overture และ OpenStreetMap"
+    },
+    "food": {
+      "label_th": "ร้านอาหาร",
+      "confidence": "high",
+      "note_th": "ข้อมูลหนาแน่น จาก Overture และ OpenStreetMap"
+    },
+    "laundry": {
+      "label_th": "ร้านซักผ้า",
+      "confidence": "low",
+      "note_th": "ข้อมูลน่าจะขาด ยังไม่ได้ตรวจภาคสนาม"
+    },
+    "print_stationery": {
+      "label_th": "ร้านปริ้นต์และเครื่องเขียน",
+      "confidence": "low",
+      "note_th": "ข้อมูลน่าจะขาด ยังไม่ได้ตรวจภาคสนาม"
+    }
+  },
+  "evaluation": {
+    "method": "leave_one_university_out",
+    "per_category": {
+      "cafe": {
+        "mae_model": 1.3337,
+        "mae_baseline": 2.4698,
+        "n_universities": 7
+      },
+      "food": {
+        "mae_model": 4.9508,
+        "mae_baseline": 9.7832,
+        "n_universities": 7
+      },
+      "laundry": {
+        "mae_model": 0.2703,
+        "mae_baseline": 0.3718,
+        "n_universities": 7
+      },
+      "print_stationery": {
+        "mae_model": 0.2116,
+        "mae_baseline": 0.3147,
+        "n_universities": 7
+      }
+    }
+  },
+  "sat_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "scoring": {
+    "formula": "raw = (expected - actual) + 0.5 * growth * expected; opportunity = เปอร์เซ็นไทล์ของ raw ภายในมหาวิทยาลัย (0–100), ช่องในมหาวิทยาลัย = 0",
+    "growth_weight": 0.5,
+    "expected_from": "LightGBM เทรนด้วยมหาวิทยาลัยอื่นที่ไม่ใช่แห่งนี้",
+    "baseline": {
+      "cafe": "baseline_mean",
+      "food": "baseline_mean",
+      "laundry": "baseline_mean",
+      "print_stationery": "baseline_mean"
+    },
+    "shap_unit": "log ของจำนวนร้าน"
+  }
+}

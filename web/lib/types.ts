@@ -43,6 +43,14 @@ export interface Meta {
     per_category: Partial<Record<CategoryId, CategoryEvaluation>>;
   };
   sat_years: number[];
+  /** สูตรคะแนนโอกาส (PLAYBOOK T2.2 ให้บันทึกไว้ใน meta) — ไม่มีใน mock */
+  scoring?: {
+    formula: string;
+    growth_weight: number;
+    expected_from: string;
+    baseline: Partial<Record<CategoryId, "baseline_mean" | "baseline_poisson">>;
+    shap_unit: string;
+  };
 }
 
 // ---------------------------------------------------------------- hexes.json

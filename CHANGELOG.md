@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## T2.2 คะแนนโอกาสและส่งออก (16 ต.ค. 2026)
+- **ตัดสินใจ (คน):** expected รวม commerce (ไม่นับหมวดที่ทำนาย) และ `features.commerce_200m` ใน hexes.json = นับทุกหมวด ไม่เปลี่ยน schema
+- `pipeline/export.py`: expected ของ มจธ. มาจาก LightGBM ที่เทรนด้วยอีก 6 มหาวิทยาลัย (ไม่ให้โมเดลจำคำตอบของที่นี่), growth = built_change ปรับ 0–1, raw = gap + 0.5·growth·expected, opportunity = เปอร์เซ็นไทล์ 0–100 (on_campus = 0), SHAP 4 อันดับจาก LightGBM pred_contrib (ไม่ต้องลง shap), ตรวจ schema ก่อนเขียน
+- เขียน `web/public/data/kmutt_bangmod/` meta.json (evaluation จาก evaluation.json เทียบ baseline ที่ MAE ต่ำสุด = ค่าเฉลี่ยมหาวิทยาลัยอื่น, สูตรใน `scoring`), hexes.json 395 ช่อง (1.07 MB), pois.json 850 จุด — เพิ่ม `scoring?` ใน `web/lib/types.ts`
+- cafe อันดับ 1–5 รวมกันอยู่ย่านการค้าตะวันออกเฉียงใต้ของมหาวิทยาลัย (รองรับ ~12–15 มีอยู่ 7); ช่องร้านกาแฟแน่นสุด (13.6509, 100.4876) มี 18 รองรับ 7.6 คะแนน 0 ใช้เป็นช่วง "อย่าเปิดตรงนี้" ในเดโมได้
+
+### ข้อเสนอ
+- 5 อันดับแรกติดกันเป็นกลุ่มเดียวเพราะรัศมี 200 ม. ของช่องข้างกันซ้อนกัน ตอนทำอันดับแนะนำ 3 อันดับใน T2.4 ควรเว้นระยะระหว่างอันดับ (เช่น ห่างกันอย่างน้อย 300 ม.)
+
 ## T2.1 โมเดลและการประเมินผล (16 ต.ค. 2026)
 - `pipeline/model.py`: LightGBM poisson แยกต่อหมวด (พารามิเตอร์คงที่ ไม่ tune), baseline ค่าเฉลี่ยมหาวิทยาลัยอื่น + Poisson regression ใช้แค่ dorms_200m, ตัดช่อง on_campus, commerce ใช้แบบไม่นับหมวดที่ทำนาย, ประเมิน leave-one-university-out 7 รอบ → `data/processed/evaluation.json`
 - ผล (MAE โมเดล / ค่าเฉลี่ย / Poisson หอพัก): cafe 1.33 / 2.47 / 2.79 (Spearman 0.73), food 4.95 / 9.78 / 11.49 (0.80), laundry 0.27 / 0.37 / 0.54, print 0.21 / 0.31 / 0.40 — cafe และ food ชนะทั้งสอง baseline ครบ 7/7 รอบ
