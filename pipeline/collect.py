@@ -16,7 +16,8 @@ import geopandas as gpd
 import pandas as pd
 import requests
 import yaml
-from shapely.geometry import LineString, Point, Polygon, mapping
+from shapely.affinity import scale
+from shapely.geometry import LineString, Point, Polygon
 from shapely.ops import polygonize, unary_union
 
 ROOT = Path(__file__).resolve().parent
@@ -30,6 +31,12 @@ FLAGS = ["ok", "duplicate", "false_positive", "industrial_print", "on_campus", "
 
 def dist_m(lat, lon, lat0, lon0):
     return math.hypot((lat - lat0) * 111_320, (lon - lon0) * 111_320 * math.cos(math.radians(lat0)))
+
+
+def radius_circle(uni):
+    """วงกลมรัศมีในพิกัด lon/lat (ปรับแกน lon ตาม cos ของละติจูด)"""
+    circle = Point(uni["lon"], uni["lat"]).buffer(uni["radius_m"] / 111_320, 64)
+    return scale(circle, xfact=1 / math.cos(math.radians(uni["lat"])), yfact=1, origin=(uni["lon"], uni["lat"]))
 
 
 def bbox_of(uni):
@@ -125,7 +132,8 @@ def build_polys(els):
 
 
 def campus_polygon(uni, campus_els):
-    cands = [p.buffer(0) for p in build_polys(campus_els)]
+    # รวมทุกชิ้นของ element เดียวกันก่อน (relation อาจมีหลายชิ้น เช่น สจล. มี 4 ชิ้น)
+    cands = [unary_union([p.buffer(0) for p in polys]) for polys in (build_polys([e]) for e in campus_els) if polys]
     center = Point(uni["lon"], uni["lat"])
     poly = max(cands, key=lambda p: (p.contains(center), p.area)) if cands else None
     if poly is None:
@@ -339,11 +347,15 @@ def collect(uni, refresh=False):
              .reindex(index=CATS, columns=FLAGS, fill_value=0))
     table["total"] = table.sum(axis=1)
     named_dorms = int(((pts.category == "dorm_like") & (pts.flag == "ok")).sum())
+    # ขอบเขตมหาวิทยาลัยกินพื้นที่ในรัศมีกี่ % (ถ้าสูงมาก ช่องที่เป็นทำเลได้จะเหลือน้อย)
+    circle = radius_circle(uni)
+    campus_share = campus_poly.intersection(circle).area / circle.area if campus_poly is not None else None
 
     meta = {"uni_id": uid, "center": [uni["lat"], uni["lon"]], "radius_m": uni["radius_m"],
             "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "osm_building_count": building_count, "campus_polygon_found": campus_poly is not None,
             "campus_km2": round(campus_km2, 3) if campus_km2 else None,
+            "campus_share_of_radius": round(campus_share, 3) if campus_share is not None else None,
             "n_points": len(pts), "usable_by_category": {c: int(table.loc[c, "ok"]) for c in CATS}}
     (out_dir / "collect_meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -355,6 +367,34 @@ def collect(uni, refresh=False):
     return pts
 
 
+REPORT_COLS = ["cafe", "food", "laundry", "print_stationery", "dorm_like", "convenience"]
+
+
+def write_report(unis):
+    """สรุปทุกแห่งจาก collect_meta.json ลง data/processed/collect_report.csv"""
+    rows = []
+    for uni in unis:
+        path = PROCESSED / uni["uni_id"] / "collect_meta.json"
+        if not path.exists():
+            rows.append({"uni_id": uni["uni_id"], "name_th": uni["name_th"], "note": "ยังไม่ได้รัน"})
+            continue
+        m = json.loads(path.read_text(encoding="utf-8"))
+        notes = []
+        if not m["campus_polygon_found"]: notes.append("หาขอบเขตมหาวิทยาลัยไม่เจอ")
+        if (m.get("campus_share_of_radius") or 0) > 0.4: notes.append("มหาวิทยาลัยกินพื้นที่เกิน 40% ของรัศมี")
+        if m["usable_by_category"]["cafe"] < 20: notes.append("ร้านกาแฟน้อยผิดปกติ ตรวจพิกัด")
+        rows.append({"uni_id": m["uni_id"], "name_th": uni["name_th"],
+                     "campus_polygon_found": m["campus_polygon_found"], "campus_km2": m["campus_km2"],
+                     "campus_share_of_radius": m.get("campus_share_of_radius"),
+                     "osm_building_count": m["osm_building_count"], "n_points": m["n_points"],
+                     **{c: m["usable_by_category"][c] for c in REPORT_COLS}, "note": "; ".join(notes)})
+    report = pd.DataFrame(rows)
+    report.to_csv(PROCESSED / "collect_report.csv", index=False, encoding="utf-8-sig")
+    print("\n===== สรุปทุกมหาวิทยาลัย (จำนวน ok ต่อหมวด) =====")
+    print(report.drop(columns="name_th").to_string(index=False))
+    print("บันทึก:", (PROCESSED / "collect_report.csv").relative_to(ROOT))
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     pd.set_option("display.width", 200)
@@ -363,7 +403,8 @@ def main():
     ap.add_argument("--refresh", action="store_true", help="ไม่ใช้แคช ดึงข้อมูลใหม่ทั้งหมด")
     args = ap.parse_args()
 
-    unis = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))["universities"]
+    all_unis = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))["universities"]
+    unis = all_unis
     if args.uni_ids:
         unknown = set(args.uni_ids) - {u["uni_id"] for u in unis}
         if unknown:
@@ -371,6 +412,7 @@ def main():
         unis = [u for u in unis if u["uni_id"] in args.uni_ids]
     for uni in unis:
         collect(uni, refresh=args.refresh)
+    write_report(all_unis)
 
 
 if __name__ == "__main__":

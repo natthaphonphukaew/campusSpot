@@ -1,0 +1,22 @@
+{
+  "uni_id": "tu_rangsit",
+  "center": [
+    14.072,
+    100.605
+  ],
+  "radius_m": 1500,
+  "generated_at": "2026-10-16T04:22:35Z",
+  "osm_building_count": 818,
+  "campus_polygon_found": true,
+  "campus_km2": 2.693,
+  "campus_share_of_radius": 0.381,
+  "n_points": 2012,
+  "usable_by_category": {
+    "dorm_like": 87,
+    "cafe": 69,
+    "food": 292,
+    "laundry": 16,
+    "print_stationery": 6,
+    "convenience": 23
+  }
+}

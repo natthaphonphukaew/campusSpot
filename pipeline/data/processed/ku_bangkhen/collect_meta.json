@@ -1,0 +1,22 @@
+{
+  "uni_id": "ku_bangkhen",
+  "center": [
+    13.8486,
+    100.5681
+  ],
+  "radius_m": 1500,
+  "generated_at": "2026-10-16T04:22:34Z",
+  "osm_building_count": 1114,
+  "campus_polygon_found": true,
+  "campus_km2": 1.274,
+  "campus_share_of_radius": 0.18,
+  "n_points": 3008,
+  "usable_by_category": {
+    "dorm_like": 91,
+    "cafe": 171,
+    "food": 440,
+    "laundry": 9,
+    "print_stationery": 16,
+    "convenience": 34
+  }
+}

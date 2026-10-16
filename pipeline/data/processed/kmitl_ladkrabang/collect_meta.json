@@ -1,0 +1,22 @@
+{
+  "uni_id": "kmitl_ladkrabang",
+  "center": [
+    13.7298,
+    100.7782
+  ],
+  "radius_m": 1500,
+  "generated_at": "2026-10-16T04:22:33Z",
+  "osm_building_count": 641,
+  "campus_polygon_found": true,
+  "campus_km2": 0.989,
+  "campus_share_of_radius": 0.14,
+  "n_points": 2113,
+  "usable_by_category": {
+    "dorm_like": 140,
+    "cafe": 96,
+    "food": 503,
+    "laundry": 13,
+    "print_stationery": 11,
+    "convenience": 31
+  }
+}

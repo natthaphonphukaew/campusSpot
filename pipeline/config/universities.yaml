@@ -11,3 +11,41 @@ universities:
     lon: 100.4941
     radius_m: 1500
     on_campus_name: "kmutt|มจธ|ตึกอธิการ|residencehall|พระจอมเกล้า|ธรรมรักษา"
+
+  # แห่งอื่นยังไม่ใส่ on_campus_name: ใช้ขอบเขตจาก OSM แยกร้านในมหาวิทยาลัยอย่างเดียว
+  # (กฎชื่อจับร้านนอกรั้วที่ใช้ชื่อมหาวิทยาลัยเป็นจุดสังเกตด้วย ดูข้อเสนอใน CHANGELOG T0.2)
+  - uni_id: kmitl_ladkrabang
+    name_th: สจล. ลาดกระบัง
+    lat: 13.7298
+    lon: 100.7782
+    radius_m: 1500
+
+  - uni_id: kmutnb_bangsue
+    name_th: มจพ. บางซื่อ
+    lat: 13.8191
+    lon: 100.5143
+    radius_m: 1500
+
+  - uni_id: ku_bangkhen
+    name_th: ม.เกษตรศาสตร์ บางเขน
+    lat: 13.8486
+    lon: 100.5681
+    radius_m: 1500
+
+  - uni_id: ru_huamak
+    name_th: ม.รามคำแหง หัวหมาก
+    lat: 13.7544
+    lon: 100.6164
+    radius_m: 1500
+
+  - uni_id: tu_rangsit
+    name_th: ม.ธรรมศาสตร์ รังสิต
+    lat: 14.0720
+    lon: 100.6050
+    radius_m: 1500
+
+  - uni_id: mu_salaya
+    name_th: ม.มหิดล ศาลายา
+    lat: 13.7944
+    lon: 100.3256
+    radius_m: 1500

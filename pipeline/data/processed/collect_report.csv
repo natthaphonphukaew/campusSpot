@@ -1,0 +1,8 @@
+﻿uni_id,name_th,campus_polygon_found,campus_km2,campus_share_of_radius,osm_building_count,n_points,cafe,food,laundry,print_stationery,dorm_like,convenience,note
+kmutt_bangmod,มจธ. บางมด,True,0.215,0.03,291,2263,112,508,7,5,45,62,
+kmitl_ladkrabang,สจล. ลาดกระบัง,True,0.989,0.14,641,2113,96,503,13,11,140,31,
+kmutnb_bangsue,มจพ. บางซื่อ,True,0.146,0.021,509,2118,110,396,9,8,87,40,
+ku_bangkhen,ม.เกษตรศาสตร์ บางเขน,True,1.274,0.18,1114,3008,171,440,9,16,91,34,
+ru_huamak,ม.รามคำแหง หัวหมาก,True,0.457,0.065,835,4667,215,924,17,17,261,71,
+tu_rangsit,ม.ธรรมศาสตร์ รังสิต,True,2.693,0.381,818,2012,69,292,16,6,87,23,
+mu_salaya,ม.มหิดล ศาลายา,True,1.7,0.241,472,1849,89,468,11,9,36,27,

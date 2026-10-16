@@ -1,0 +1,22 @@
+{
+  "uni_id": "mu_salaya",
+  "center": [
+    13.7944,
+    100.3256
+  ],
+  "radius_m": 1500,
+  "generated_at": "2026-10-16T04:22:36Z",
+  "osm_building_count": 472,
+  "campus_polygon_found": true,
+  "campus_km2": 1.7,
+  "campus_share_of_radius": 0.241,
+  "n_points": 1849,
+  "usable_by_category": {
+    "dorm_like": 36,
+    "cafe": 89,
+    "food": 468,
+    "laundry": 11,
+    "print_stationery": 9,
+    "convenience": 27
+  }
+}

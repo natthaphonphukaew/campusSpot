@@ -1,0 +1,22 @@
+{
+  "uni_id": "ru_huamak",
+  "center": [
+    13.7544,
+    100.6164
+  ],
+  "radius_m": 1500,
+  "generated_at": "2026-10-16T04:22:35Z",
+  "osm_building_count": 835,
+  "campus_polygon_found": true,
+  "campus_km2": 0.457,
+  "campus_share_of_radius": 0.065,
+  "n_points": 4667,
+  "usable_by_category": {
+    "dorm_like": 261,
+    "cafe": 215,
+    "food": 924,
+    "laundry": 17,
+    "print_stationery": 17,
+    "convenience": 71
+  }
+}

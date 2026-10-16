@@ -1,0 +1,22 @@
+{
+  "uni_id": "kmutnb_bangsue",
+  "center": [
+    13.8191,
+    100.5143
+  ],
+  "radius_m": 1500,
+  "generated_at": "2026-10-16T04:22:33Z",
+  "osm_building_count": 509,
+  "campus_polygon_found": true,
+  "campus_km2": 0.146,
+  "campus_share_of_radius": 0.021,
+  "n_points": 2118,
+  "usable_by_category": {
+    "dorm_like": 87,
+    "cafe": 110,
+    "food": 396,
+    "laundry": 9,
+    "print_stationery": 8,
+    "convenience": 40
+  }
+}

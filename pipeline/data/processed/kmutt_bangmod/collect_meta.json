@@ -5,10 +5,11 @@
     100.4941
   ],
   "radius_m": 1500,
-  "generated_at": "2026-10-16T02:51:59Z",
+  "generated_at": "2026-10-16T04:22:32Z",
   "osm_building_count": 291,
   "campus_polygon_found": true,
   "campus_km2": 0.215,
+  "campus_share_of_radius": 0.03,
   "n_points": 2263,
   "usable_by_category": {
     "dorm_like": 45,
