@@ -1,0 +1,633 @@
+﻿name,category,category_th,lat,lon,source,distance_from_campus_center_m,license,overture_id,confidence,data_date
+Jin Cha,cafe,ร้านกาแฟ,13.6505064,100.4964767,overture,272,CDLA-Permissive-2.0,72460baf-2326-4663-87f1-4db751c6c4e0,0.393,2026-10-16
+Sha Bear,cafe,ร้านกาแฟ,13.6504723,100.4965074,overture,276,CDLA-Permissive-2.0,bfa8e94d-67d3-46c2-865e-16378dc356e6,0.311,2026-10-16
+BLK. Boba,cafe,ร้านกาแฟ,13.6498998,100.4963393,osm,288,ODbL-1.0,,,2026-10-16
+ร้านป้าเต้ย กาแฟโบราณ,cafe,ร้านกาแฟ,13.6525853,100.4964721,overture,294,CDLA-Permissive-2.0,93022c49-765e-4819-9aef-e0e9078db291,0.34,2026-10-16
+ชาดงทอง,cafe,ร้านกาแฟ,13.6498499,100.4964294,overture,299,CDLA-Permissive-2.0,694f6e33-3184-40ec-b9fa-6d11c930a18d,0.48,2026-10-16
+ร้านมอร์,cafe,ร้านกาแฟ,13.651006,100.496906,overture,305,CDLA-Permissive-2.0,fc290f60-0ff7-4a27-a0f1-b2ed24d71c9d,0.599,2026-10-16
+More Cafe,cafe,ร้านกาแฟ,13.650464,100.496804,overture,307,CDLA-Permissive-2.0,a2e93c5f-0e5b-402b-945f-66b9119d510a,0.44,2026-10-16
+Study room Cafe,cafe,ร้านกาแฟ,13.6504856,100.496872,overture,313,CDLA-Permissive-2.0,b7fac860-0684-4dab-8f1c-f4df50673d1b,0.265,2026-10-16
+Star Hug Café,cafe,ร้านกาแฟ,13.652533,100.49675,overture,318,CDLA-Permissive-2.0,ce39d307-653c-477d-85e6-4444a7ae39dc,0.325,2026-10-16
+Café Amazon,cafe,ร้านกาแฟ,13.6519954,100.4969938,overture,322,CDLA-Permissive-2.0,8f837954-e214-4eb2-9506-77b9ac2de2d0,0.992,2026-10-16
+Mixue,cafe,ร้านกาแฟ,13.6516857,100.4971581,osm,334,ODbL-1.0,,,2026-10-16
+Green House Cafe at Pracha Uthit,cafe,ร้านกาแฟ,13.6525108,100.4969403,overture,336,CDLA-Permissive-2.0,e164eb39-7e4b-4cfc-8a8d-6cb4f1cc9be3,0.294,2026-10-16
+41กาแฟสด by เล็กนุ้ย,cafe,ร้านกาแฟ,13.648996,100.4962537,overture,346,CDLA-Permissive-2.0,68e60fce-7ee8-41d3-a94a-cf03ed15ea57,0.919,2026-10-16
+Beans and Bottles Cafe Bistro,cafe,ร้านกาแฟ,13.6526911,100.4969994,overture,350,CDLA-Permissive-2.0,248c79ac-6005-4330-bc13-8a2c57138ed2,0.798,2026-10-16
+MJ Cafe and Exotic Pets,cafe,ร้านกาแฟ,13.6498724,100.4970129,overture,353,CDLA-Permissive-2.0,aa559f25-7829-4002-b690-9e63a51782cd,0.645,2026-10-16
+จอมหวาน Jomwaan,cafe,ร้านกาแฟ,13.6520745,100.4974588,osm,373,ODbL-1.0,,,2026-10-16
+KoffeeWanderlust Cafe,cafe,ร้านกาแฟ,13.6486774,100.4964455,overture,387,CDLA-Permissive-2.0,e4133434-e2ff-46a5-8b20-68aea9c31458,0.611,2026-10-16
+กัญชาใกล้ฉัน WORSHIP Cannabis Shop,cafe,ร้านกาแฟ,13.6486512,100.4964197,overture,387,CDLA-Permissive-2.0,86bf0a45-db1f-4230-bb8f-aaeca3fa8772,0.104,2026-10-16
+Iiisib - ทรีซิบส์,cafe,ร้านกาแฟ,13.6504966,100.497681,overture,398,CDLA-Permissive-2.0,92b80a85-d145-46bd-8bd7-9c96f6e0416d,0.35,2026-10-16
+วาฬ ชานม สาขาบางมด - Whale milk tea,cafe,ร้านกาแฟ,13.6482319,100.496105,overture,405,CDLA-Permissive-2.0,6431dde2-28a2-4d73-ba90-056f89d275db,0.912,2026-10-16
+โก้หนึบ33 ประชาอุทิศ,cafe,ร้านกาแฟ,13.64798,100.49603,overture,424,CDLA-Permissive-2.0,a49fc838-01f8-4161-83ba-95895be3b126,0.659,2026-10-16
+ยัมมี่ คอฟฟี่,cafe,ร้านกาแฟ,13.6477693,100.495912,overture,439,CDLA-Permissive-2.0,270af2a5-6b6c-42de-9f1d-4da69762be1e,0.522,2026-10-16
+Jaross Coffee,cafe,ร้านกาแฟ,13.649591,100.4903324,overture,450,CDLA-Permissive-2.0,3ab9bc82-b887-4e19-b659-26eeede04928,0.976,2026-10-16
+กินหนม นมปัง,cafe,ร้านกาแฟ,13.6500538,100.4980703,overture,451,CDLA-Permissive-2.0,f0dcd9f5-aff6-40dc-844f-5d97784f1f67,0.58,2026-10-16
+Dek-Cha เด็กชา ม.บางมด,cafe,ร้านกาแฟ,13.6500538,100.4980703,overture,451,CDLA-Permissive-2.0,fb4a97ee-7c9c-4c3c-a7a2-4bd2e686c796,0.829,2026-10-16
+Jollycoffeeandbagel,cafe,ร้านกาแฟ,13.64752,100.49574,overture,457,CDLA-Permissive-2.0,9d45497f-0716-4971-967a-21673fe8d134,0.704,2026-10-16
+Hello Cafe,cafe,ร้านกาแฟ,13.64737,100.49597,overture,482,CDLA-Permissive-2.0,3b0223f7-f06c-4968-b23d-fe79ab5f0f50,0.299,2026-10-16
+Pronto Coffee,cafe,ร้านกาแฟ,13.6470433,100.4956781,overture,504,CDLA-Permissive-2.0,c3a57390-bd67-49b5-8fa5-ca79af96ae15,0.97,2026-10-16
+La-On Cafe,cafe,ร้านกาแฟ,13.65386,100.49802,overture,511,CDLA-Permissive-2.0,897e14fe-30bb-4a4b-aef2-e680bc233f2e,0.705,2026-10-16
+Go Roti Cafe,cafe,ร้านกาแฟ,13.6510523,100.4893296,overture,517,CDLA-Permissive-2.0,ffa5100c-c595-49cb-a993-f718d4e379e4,0.982,2026-10-16
+ชาพะยอมสาขาพุทธบูชา,cafe,ร้านกาแฟ,13.64698,100.49617,overture,530,CDLA-Permissive-2.0,41a3629a-ce3f-4162-ab34-25d47fafd91c,0.696,2026-10-16
+นานา Cafe,cafe,ร้านกาแฟ,13.6545393,100.4903209,overture,545,CDLA-Permissive-2.0,15292c19-e670-42da-a9eb-a9eed82411f0,0.384,2026-10-16
+Starbucks,cafe,ร้านกาแฟ,13.6507,100.489,overture,556,CC0-1.0; CDLA-Permissive-2.0,d6fe0e10-d141-4bb4-b4bd-2a007e5b702c,0.8,2026-10-16
+The Glory Coffee Bar and Garden,cafe,ร้านกาแฟ,13.650772,100.488949,overture,560,CDLA-Permissive-2.0,ece42ffd-2a23-4d96-8881-887f5b3b90bc,0.299,2026-10-16
+Casa coffee,cafe,ร้านกาแฟ,13.6510681,100.4883316,overture,625,CDLA-Permissive-2.0,18502983-3e21-43e0-87c9-06c082b962b3,0.406,2026-10-16
+Proud Coffee,cafe,ร้านกาแฟ,13.6470689,100.4981462,overture,643,CDLA-Permissive-2.0,6e53004a-5e0d-481a-bb71-a9ad929ced36,0.765,2026-10-16
+นมบางมด,cafe,ร้านกาแฟ,13.649653,100.488325,overture,651,CDLA-Permissive-2.0,60ecda02-9a26-4985-bd0d-dfb085144933,0.434,2026-10-16
+Strangers Again,cafe,ร้านกาแฟ,13.6509744,100.4880952,overture,651,CDLA-Permissive-2.0,265be45f-6c9a-4045-a851-5bd74da592d7,0.968,2026-10-16
+อินทนินคอฟฟี่ บ้านสวนธน,cafe,ร้านกาแฟ,13.6509297,100.4880849,overture,652,CDLA-Permissive-2.0,ed975e29-4f27-4780-b1ec-9425ba310af7,0.752,2026-10-16
+Coffee Cee,cafe,ร้านกาแฟ,13.654872,100.499011,overture,664,CDLA-Permissive-2.0,b33ffb38-bb4c-4165-93f0-52a7cb058d37,0.343,2026-10-16
+Toy Cafe',cafe,ร้านกาแฟ,13.65077,100.4878,overture,684,CDLA-Permissive-2.0,046184ca-d515-4cf6-983b-53f026ee4476,0.921,2026-10-16
+ปาท่องโก๋ เฉาก๊วย บ้านสวนธน,cafe,ร้านกาแฟ,13.651151,100.487682,overture,694,CDLA-Permissive-2.0,f37ff163-88d8-45df-8723-103c950cf178,0.599,2026-10-16
+The High Garden,cafe,ร้านกาแฟ,13.64597,100.49769,overture,709,CDLA-Permissive-2.0,ce057ca6-4612-4002-be0f-5c1bae31d25f,0.575,2026-10-16
+SK-Secret Nail Salon,cafe,ร้านกาแฟ,13.65086,100.48753,overture,712,CDLA-Permissive-2.0,a0172cba-fda2-4ffe-ba5a-c8f96a83a7d3,0.514,2026-10-16
+นมสดพระนคร สาขาบางมด,cafe,ร้านกาแฟ,13.6508511,100.4874606,overture,720,CDLA-Permissive-2.0,bf4295d9-f733-44ec-a98e-e1b78c6aed0d,0.885,2026-10-16
+กาแฟไร่คุณหญิง,cafe,ร้านกาแฟ,13.650978,100.487431,overture,722,CDLA-Permissive-2.0,40b34d0f-9ba3-4704-aef0-bc72cacfbb8c,0.609,2026-10-16
+คาเฟ่ อเมซอน,cafe,ร้านกาแฟ,13.6558776,100.4989845,overture,734,CC0-1.0; CDLA-Permissive-2.0,9e0e0115-ac37-47e1-891f-c9cdc989fffc,0.954,2026-10-16
+ตั้งหวาน น้ำแข็งไส,cafe,ร้านกาแฟ,13.6512112,100.4871117,overture,756,CDLA-Permissive-2.0,c0fa9527-0fab-4cea-b32f-f07fe7ccf223,0.705,2026-10-16
+Bell Cafe,cafe,ร้านกาแฟ,13.6513812,100.4869036,osm,779,ODbL-1.0,,,2026-10-16
+จะหวานไปไหน,cafe,ร้านกาแฟ,13.651616,100.486863,overture,784,CDLA-Permissive-2.0,25a13e9b-0ae6-45c3-9e29-1f10251edaac,0.157,2026-10-16
+Matcha & More,cafe,ร้านกาแฟ,13.6517054,100.4868311,overture,788,CDLA-Permissive-2.0,9975e193-2c86-4f93-a308-5cb032fb50da,0.925,2026-10-16
+คาเฟ่ อเมซอน,cafe,ร้านกาแฟ,13.6512722,100.4867998,overture,790,CC0-1.0; CDLA-Permissive-2.0,163d1e47-641a-4b3a-ad64-b1a9ac11f0fa,0.8,2026-10-16
+ร้านกาแฟ ใบชา,cafe,ร้านกาแฟ,13.645703,100.4986303,overture,793,CDLA-Permissive-2.0,f8c7ce19-3943-4a96-8654-d143ce11029b,0.376,2026-10-16
+Colour,cafe,ร้านกาแฟ,13.652121,100.4865427,overture,823,CDLA-Permissive-2.0,2f5380e5-1e2f-4d83-b2d5-4eaced281671,0.922,2026-10-16
+Charlie's Cafe,cafe,ร้านกาแฟ,13.6513734,100.5018488,overture,838,CDLA-Permissive-2.0,16872b97-ba08-4081-9e1c-02020148f3b5,0.329,2026-10-16
+Soya House,cafe,ร้านกาแฟ,13.6511181,100.5018435,overture,838,CDLA-Permissive-2.0,80a301bb-3b6e-4fa5-9618-a52bc0a2c1fe,0.926,2026-10-16
+ข้าวปลาคาเฟ่,cafe,ร้านกาแฟ,13.6438594,100.495368,overture,840,CDLA-Permissive-2.0,ba98330e-c96a-48f0-8918-4b282290222c,0.901,2026-10-16
+Dinocha สาขาประชาอุทิศ 61,cafe,ร้านกาแฟ,13.645288,100.4988645,overture,845,CDLA-Permissive-2.0,d3800771-0666-4f03-927e-0ce372578c6b,0.829,2026-10-16
+Dream Cafe,cafe,ร้านกาแฟ,13.6466735,100.4872599,overture,902,CDLA-Permissive-2.0,8f1c52de-1b82-429f-9167-f33e2a29ebd6,0.926,2026-10-16
+ร้านกาแฟพันธุ์ไทย,cafe,ร้านกาแฟ,13.6576287,100.4994722,overture,913,CDLA-Permissive-2.0,10289917-53be-42a3-9a92-7c354a264b90,0.907,2026-10-16
+C-Train,cafe,ร้านกาแฟ,13.6514085,100.4856229,overture,917,CDLA-Permissive-2.0,fac66fe9-27eb-486e-bbb1-94c13494d871,0.625,2026-10-16
+Lamay Da Flower & Cafe,cafe,ร้านกาแฟ,13.646298,100.5009108,overture,924,CDLA-Permissive-2.0,f71f40b2-7881-4689-8943-3bdc4508cb71,0.564,2026-10-16
+Afdol Conner (ร้านชา-ตลาดประชาอุทิศ 61),cafe,ร้านกาแฟ,13.6443999,100.4991392,overture,942,CDLA-Permissive-2.0,ddf0e63c-4a60-4b7a-bf33-b6987da63944,0.75,2026-10-16
+Café Amazon,cafe,ร้านกาแฟ,13.6441925,100.4991223,overture,960,CDLA-Permissive-2.0,eae32046-646f-4cb4-85ba-efe6ab5a266d,0.977,2026-10-16
+ชาซูฮก,cafe,ร้านกาแฟ,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,fd028b10-1f67-4b2a-b157-e0c7cbd0169d,0.931,2026-10-16
+Coffee At Garden Home,cafe,ร้านกาแฟ,13.6506858,100.4850735,overture,979,CDLA-Permissive-2.0,9b331099-52c3-4cbd-bd61-5f138bbd739c,0.442,2026-10-16
+Cafe by the Bay Thailand,cafe,ร้านกาแฟ,13.6439745,100.4991235,overture,980,CDLA-Permissive-2.0,deb5c339-4343-4cb4-9e98-92963572c3b1,0.261,2026-10-16
+ร้านอามีนะห์กาแฟนมสด,cafe,ร้านกาแฟ,13.6436829,100.4987487,overture,986,CDLA-Permissive-2.0,5ce4b533-9a35-40b6-b2fd-a138d023d57e,0.776,2026-10-16
+กาแฟเขาชะงุ้ม,cafe,ร้านกาแฟ,13.6569502,100.5011746,overture,991,CDLA-Permissive-2.0,47e70456-5877-4fe3-b941-dd297111960b,0.637,2026-10-16
+Kansosey Cafe,cafe,ร้านกาแฟ,13.6442476,100.4997367,overture,994,CDLA-Permissive-2.0,8923fa17-edbf-4dd6-b32a-d25836e35adf,0.59,2026-10-16
+ร้านน้ำจรวดโบราณสุดฮิต,cafe,ร้านกาแฟ,13.6441116,100.4996333,overture,999,CDLA-Permissive-2.0,2452957e-1fe2-4e0e-8d4b-d25446698689,0.695,2026-10-16
+Chatudio Coffee and Tea,cafe,ร้านกาแฟ,13.6478449,100.5026752,overture,1004,CDLA-Permissive-2.0,f23fe739-621d-44b6-b483-4771527fb7c1,0.95,2026-10-16
+Poohpoom Cafe' & Restaurant,cafe,ร้านกาแฟ,13.6467931,100.5024287,overture,1031,CDLA-Permissive-2.0,f0118904-ad4a-4b70-93dd-1921cceb148b,0.977,2026-10-16
+D'oro บางจาก ประชาอุทิศ,cafe,ร้านกาแฟ,13.642942,100.499054,overture,1074,CC0-1.0; CDLA-Permissive-2.0,c4bd68bc-a8e0-496b-b3e4-ce593cfd4df4,0.8,2026-10-16
+DoubleM Roasted Coffee Cafe,cafe,ร้านกาแฟ,13.6416257,100.4947261,overture,1079,CDLA-Permissive-2.0,c4c54c09-4975-43d8-b1fe-dce4afd58685,0.915,2026-10-16
+𝑀𝑎𝑙𝑜𝑛𝑔𝑡𝑒𝑎 シ,cafe,ร้านกาแฟ,13.6609397,100.4924915,overture,1087,CDLA-Permissive-2.0,caba4fc1-8adc-463b-ac22-48230952c4e0,0.894,2026-10-16
+Caffé D'Oro,cafe,ร้านกาแฟ,13.6426586,100.4992405,overture,1111,CDLA-Permissive-2.0,919f6212-3814-4808-b134-238b3f497e91,0.309,2026-10-16
+COCO Walk สาขาโลตัสโกเฟรชบ้านสวนธน,cafe,ร้านกาแฟ,13.64593,100.48541,overture,1114,CDLA-Permissive-2.0,bccaa7b2-ba1a-4469-9118-7564cdb0a002,0.576,2026-10-16
+คาเฟ่ อเมซอน,cafe,ร้านกาแฟ,13.651205,100.4836892,overture,1126,CC0-1.0; CDLA-Permissive-2.0,b6edd621-d191-4167-b42b-56d4fb389d4c,0.8,2026-10-16
+Harmony Cafe' حلا ل,cafe,ร้านกาแฟ,13.64574,100.5032,overture,1163,CDLA-Permissive-2.0,501e55f0-1d9c-4501-8d5f-1bfbfa184bd8,0.877,2026-10-16
+MikeNeko Cafe,cafe,ร้านกาแฟ,13.64574,100.5032,overture,1163,CDLA-Permissive-2.0,cc6c08bd-864c-4d8d-904c-a24b6fbfefba,0.887,2026-10-16
+เฉย-ชา คาเฟ่,cafe,ร้านกาแฟ,13.64574,100.5032,overture,1163,CDLA-Permissive-2.0,8218e77a-7005-44e1-843d-f6d77fcac245,0.968,2026-10-16
+Dairy.daisy.slowbar,cafe,ร้านกาแฟ,13.6475612,100.5041891,overture,1168,CDLA-Permissive-2.0,2b36b490-f471-40bf-bc5a-2a41471a84ce,0.751,2026-10-16
+มามา-กัญ,cafe,ร้านกาแฟ,13.64311,100.5009673,overture,1176,CDLA-Permissive-2.0,44c4ba21-bffd-4853-aff3-cb51782194ba,0.946,2026-10-16
+ร้านฟาร์มรักกาแฟสด,cafe,ร้านกาแฟ,13.6503153,100.4830164,overture,1204,CDLA-Permissive-2.0,205ebba3-ad26-4d53-92a7-612e2565adae,0.729,2026-10-16
+Assembly Specialty coffee and bar,cafe,ร้านกาแฟ,13.64165,100.49958,overture,1227,CDLA-Permissive-2.0,9487e8db-2ab4-45cf-b5a8-0f8ea2e4e502,0.701,2026-10-16
+Dayone coffee & tea,cafe,ร้านกาแฟ,13.6496904,100.4827124,overture,1245,CDLA-Permissive-2.0,577b70be-c061-4774-ad0e-ce6b88f7a1eb,0.616,2026-10-16
+มิตรกาแฟโบราณ,cafe,ร้านกาแฟ,13.6401081,100.4938488,overture,1246,CDLA-Permissive-2.0,2c7ccf6f-ef54-46fb-8b60-4c3530d1c87b,0.703,2026-10-16
+39 Coffee,cafe,ร้านกาแฟ,13.6528976,100.4826974,overture,1246,CDLA-Permissive-2.0,5e9777e7-ad5b-48fb-88c6-0c037ba8076f,0.921,2026-10-16
+Botoko Cafe' พุทธบูชา,cafe,ร้านกาแฟ,13.6527354,100.4826672,overture,1247,CDLA-Permissive-2.0,30c6cb20-b033-4972-af84-1b6ad4d5a162,0.71,2026-10-16
+Princess Coffee,cafe,ร้านกาแฟ,13.6414548,100.4997763,osm,1256,ODbL-1.0,,,2026-10-16
+Sweet Grill,cafe,ร้านกาแฟ,13.6602741,100.501375,overture,1272,CDLA-Permissive-2.0,8faf28f1-4982-4d5f-a172-8d08a794673f,0.36,2026-10-16
+รักนะ Cup,cafe,ร้านกาแฟ,13.6514012,100.4823222,overture,1274,CDLA-Permissive-2.0,79b9c612-9fba-43dc-bcde-264cf1fcb721,0.553,2026-10-16
+Coffee Leen,cafe,ร้านกาแฟ,13.65217,100.48225,overture,1286,CDLA-Permissive-2.0,b9aa1448-fbea-449a-9747-a94d3331950c,0.78,2026-10-16
+ร้านกาแฟโบราณบังโจ๊ก,cafe,ร้านกาแฟ,13.6514025,100.4821031,overture,1298,CDLA-Permissive-2.0,99d73250-3d6b-445d-bac3-77fb77f5c57a,0.709,2026-10-16
+Chic cha ชิคชา - ซอยประชาอุทิศ 27,cafe,ร้านกาแฟ,13.6600883,100.5027067,overture,1351,CDLA-Permissive-2.0,66fc886e-f09d-4d54-89d9-f9b05f6cc5d9,0.972,2026-10-16
+Mamemi CAFE,cafe,ร้านกาแฟ,13.6600883,100.5027067,overture,1351,CDLA-Permissive-2.0,84e5705f-4772-43f6-b47c-24ebd13e03ec,0.684,2026-10-16
+The Nine Cafe.,cafe,ร้านกาแฟ,13.6597696,100.5030584,overture,1352,CDLA-Permissive-2.0,4f3dca0e-1346-4167-a26e-bb31b42858a7,0.743,2026-10-16
+Cafe De Mee? (Ep.2),cafe,ร้านกาแฟ,13.647651,100.50607,overture,1357,CDLA-Permissive-2.0,7a05bcdf-3938-479c-9cef-9ab9919a1d49,0.562,2026-10-16
+Crush.bkk cafe,cafe,ร้านกาแฟ,13.6545874,100.481894,overture,1370,CDLA-Permissive-2.0,c6db45e8-41a0-4f2b-9053-a099b8887851,0.748,2026-10-16
+IM-JA Coffee,cafe,ร้านกาแฟ,13.640432,100.5000627,overture,1371,CDLA-Permissive-2.0,5c10dd39-ca3c-465f-ba38-b0f4405086cd,0.871,2026-10-16
+Starbucks,cafe,ร้านกาแฟ,13.6404,100.5,overture,1371,CC0-1.0; CDLA-Permissive-2.0,c6633e06-ffc9-4496-9b94-2769df0b5363,0.8,2026-10-16
+ร้านกาแฟลุงรงค์,cafe,ร้านกาแฟ,13.6498008,100.4813126,overture,1393,CDLA-Permissive-2.0,47b56fbe-fad1-446a-bc74-93b5fdf1ec57,0.497,2026-10-16
+คาเฟ่ บ้านสวน 161,cafe,ร้านกาแฟ,13.6577227,100.4830098,overture,1397,CDLA-Permissive-2.0,35fecbcb-54d3-4bbf-bd76-8c1a9a2bd1b7,0.493,2026-10-16
+Meen's Coffee,cafe,ร้านกาแฟ,13.6546356,100.481417,overture,1421,CDLA-Permissive-2.0,e3c47db9-83fa-486c-a879-6dc2bf11ed0a,0.918,2026-10-16
+"Flair Mix Co., Ltd",cafe,ร้านกาแฟ,13.654705,100.4814072,overture,1424,CDLA-Permissive-2.0,6a5e6a9a-9621-4267-bb91-c18acc3d6d9e,0.625,2026-10-16
+ร้านนมแม่ โค้ชขวัญ,cafe,ร้านกาแฟ,13.6469252,100.5065393,overture,1431,CDLA-Permissive-2.0,93d6a76e-c616-4b35-95b6-88db1e92c614,0.749,2026-10-16
+Caffein 36,cafe,ร้านกาแฟ,13.6490812,100.4809149,overture,1448,CDLA-Permissive-2.0,553350bf-a3e2-40c7-b183-dcce05783b87,0.966,2026-10-16
+พฤกษาวิลล์ 17,cafe,ร้านกาแฟ,13.642613,100.4840606,overture,1454,CDLA-Permissive-2.0,24a41166-fcff-473e-bf3a-f58ae56dee85,0.741,2026-10-16
+94° Coffee,cafe,ร้านกาแฟ,13.640092,100.501136,overture,1462,CDLA-Permissive-2.0,f1fde506-cb9c-4e2e-836c-f0175d4ee791,0.409,2026-10-16
+พระราม 2 พุธทบุชา,cafe,ร้านกาแฟ,13.6502021,100.4804191,overture,1485,CDLA-Permissive-2.0,0c00ec81-8dfb-4aa9-8f23-e82d506c1d39,0.786,2026-10-16
+Suntahna,cafe,ร้านกาแฟ,13.6391,100.4996974,overture,1487,CDLA-Permissive-2.0,4cfb5e97-ffc7-41f2-b240-916638aefefc,0.21,2026-10-16
+ก๋วยเตี๋ยวเรือสามแซ่บ,food,ร้านอาหาร,13.6494985,100.4952619,overture,237,CDLA-Permissive-2.0,343df512-18d1-48c1-85d8-5c3003e00e50,0.884,2026-10-16
+Chubby Child Cafe,food,ร้านอาหาร,13.651001,100.49649,overture,261,CDLA-Permissive-2.0,0df8e2f2-5dbf-449c-8814-cbd447b01039,0.72,2026-10-16
+V Fries,food,ร้านอาหาร,13.6507323,100.4964711,overture,264,CDLA-Permissive-2.0,8ab5eced-b475-402c-9a39-1c3107e3607b,0.308,2026-10-16
+ร้านอาหารป้ามะลิ,food,ร้านอาหาร,13.6503801,100.4963531,overture,264,CDLA-Permissive-2.0,91af8bd6-d319-4c13-abb9-80124dfec02b,0.283,2026-10-16
+หม้อไฟศาสตร์,food,ร้านอาหาร,13.650632,100.496465,overture,266,CDLA-Permissive-2.0,77a341e6-41d6-4724-a096-c7ecec46bec9,0.218,2026-10-16
+Hokkaido Curry Yukimi,food,ร้านอาหาร,13.6506392,100.4964698,overture,267,CDLA-Permissive-2.0,bb8f5416-658d-408b-88f4-9212d3bdaf6e,0.621,2026-10-16
+Dim Sum Project - ติ่มซำร้านนั้นอะ,food,ร้านอาหาร,13.65061,100.49651,overture,272,CDLA-Permissive-2.0,40da04a7-31ae-4df4-a5b5-e53af2366b27,0.727,2026-10-16
+Steak ป้าวรรณ,food,ร้านอาหาร,13.6497509,100.496054,overture,273,CDLA-Permissive-2.0,6365891f-131d-434c-9b17-f99451e7586e,0.307,2026-10-16
+The FIRST Korean Dessert Cafe,food,ร้านอาหาร,13.6517998,100.4965984,overture,276,CDLA-Permissive-2.0,0c5578bd-37ea-40d6-a818-16368a93b762,0.932,2026-10-16
+ร้านกะเพราผู้จัดการ,food,ร้านอาหาร,13.651864,100.4966747,overture,286,CDLA-Permissive-2.0,30e8d591-b81a-402c-8ce8-7ad154681257,0.379,2026-10-16
+Manpuku,food,ร้านอาหาร,13.6500975,100.4964508,overture,287,CDLA-Permissive-2.0,5645a135-8eb7-4cbc-9339-10c7fa36fee9,0.996,2026-10-16
+แซ่บนัวส์ ครัวอีสาน - ประชาอุทิศ 90,food,ร้านอาหาร,13.6500145,100.4964061,overture,288,CDLA-Permissive-2.0,30e1bd9b-878c-4731-860f-5d120ec2172b,0.86,2026-10-16
+รสสยาม นู้ดเดิ้ล,food,ร้านอาหาร,13.6507651,100.496742,overture,292,CDLA-Permissive-2.0,ebef3bd9-7397-4a71-8290-d8ab20e980ed,0.777,2026-10-16
+จิ๊กกี๋ก๋วยเตี๋ยวลูกชิ้นปลา,food,ร้านอาหาร,13.6503622,100.4966163,overture,292,CDLA-Permissive-2.0,e6d0d239-0609-4f89-be33-b17c4431d8f7,0.953,2026-10-16
+ตำด๊องแด๊ง ประชาอุทิศ47,food,ร้านอาหาร,13.650356,100.4966153,overture,292,CDLA-Permissive-2.0,47df72b4-c514-4518-91b2-9ec50889ff07,0.363,2026-10-16
+ราดหน้าพี่หมูเทคโน,food,ร้านอาหาร,13.6500122,100.4964515,overture,292,CDLA-Permissive-2.0,16418ca3-7bf7-49f3-883d-003413983562,0.775,2026-10-16
+บะหมี่ เกี้ยวจอมยุทธ,food,ร้านอาหาร,13.6508363,100.4967862,overture,295,CDLA-Permissive-2.0,bb8bdbbd-f576-41c9-88c4-e433e3005fcd,0.682,2026-10-16
+ครัวอีสาน เทคโนบางมด,food,ร้านอาหาร,13.6499222,100.4964258,overture,295,CDLA-Permissive-2.0,a7030378-b50a-4b4d-8742-b614ac960953,0.435,2026-10-16
+DAG Burgerแดกเบอร์เกอร์,food,ร้านอาหาร,13.6498826,100.4964031,overture,295,CDLA-Permissive-2.0,ed2d8f90-6975-488e-b0e4-0c4c5fb4468c,0.596,2026-10-16
+มีข้าวมีเตี๋ยว,food,ร้านอาหาร,13.6520908,100.4967161,overture,296,CDLA-Permissive-2.0,09497848-69d9-41c9-b16f-c49f01565c1a,0.878,2026-10-16
+Jae Jhim Made to order,food,ร้านอาหาร,13.6521358,100.4966979,overture,296,CDLA-Permissive-2.0,fabb2012-22cf-4e8c-9535-a895fc1bc85c,0.527,2026-10-16
+พรนมสด,food,ร้านอาหาร,13.652082,100.496724,overture,297,CDLA-Permissive-2.0,bf368f00-d143-43d0-8c3c-fa2483660d55,0.475,2026-10-16
+Bento Shabu Buffet,food,ร้านอาหาร,13.6505848,100.4967687,overture,299,CDLA-Permissive-2.0,e0fa7a6a-5e51-49f6-af6d-49036f56e366,0.711,2026-10-16
+โลมาเส้น,food,ร้านอาหาร,13.651645,100.496864,overture,301,CDLA-Permissive-2.0,680ccad5-da02-49b9-9b91-f9637c34ff56,0.325,2026-10-16
+ข้าวหมูทอดกะเพราเนื้อดาวกระจาย,food,ร้านอาหาร,13.6503,100.49669,overture,301,CDLA-Permissive-2.0,f0e2d7ce-92e6-46c3-83f6-dd2fc8733392,0.64,2026-10-16
+จีบช่ายเปา,food,ร้านอาหาร,13.6503,100.49669,overture,301,CDLA-Permissive-2.0,8d27cb7d-dd81-47dc-b0df-0d2021be1686,0.724,2026-10-16
+สุริยะ บะหมี่เกี๊ยว-หมูแดง,food,ร้านอาหาร,13.6499641,100.4965238,overture,301,CDLA-Permissive-2.0,e00097cd-6b8f-4c39-bbf8-dae451c2708d,0.61,2026-10-16
+โจ๊กอีเล็คตรอน,food,ร้านอาหาร,13.6495848,100.4962452,overture,301,CDLA-Permissive-2.0,d40e6d04-9581-4016-9efa-41ddf702144e,0.378,2026-10-16
+"GUGU Chicken, Pracha Uthit Branch",food,ร้านอาหาร,13.6522818,100.4967187,overture,304,CDLA-Permissive-2.0,57dc6946-2d1b-4e54-8908-b76bca8a8359,0.525,2026-10-16
+Toast Bear,food,ร้านอาหาร,13.6500941,100.4966182,overture,304,CDLA-Permissive-2.0,4d8ea527-12dd-40a7-a5c9-11e9a29faa1e,0.875,2026-10-16
+สินเชื่อผู้ประกอบการ,food,ร้านอาหาร,13.6511188,100.4969095,overture,305,CDLA-Permissive-2.0,07aa2279-d8a2-473d-9968-59dcfc894db1,0.676,2026-10-16
+Bann Gin Sen บ้านกินเส้น,food,ร้านอาหาร,13.650112,100.496636,overture,305,CDLA-Permissive-2.0,21c929e5-8f4d-4bd9-9d9f-2705ce32f3fe,0.484,2026-10-16
+Fattom Japanese Food Fusion Style,food,ร้านอาหาร,13.65099,100.49691,overture,306,CDLA-Permissive-2.0,377937b1-6bb4-47c0-8e88-a72a2d4d8c3d,0.724,2026-10-16
+แฮปปี้เฟรนฟรายชีส (Happy Fries) ลานปูน ถนนประชาอุทิศ,food,ร้านอาหาร,13.6516618,100.4969133,overture,307,CDLA-Permissive-2.0,15eed87e-9c6f-40a0-a4d0-3969120a8cc7,0.521,2026-10-16
+ยำ หน้า ม.,food,ร้านอาหาร,13.6514717,100.4969378,overture,308,CDLA-Permissive-2.0,feccb08f-a681-4984-948a-4e5b2fbef804,0.858,2026-10-16
+Kobetsu อาหารญี่ปุ่น ร้านแฮมเบิร์กสุดคุ้ม,food,ร้านอาหาร,13.651116,100.4969402,overture,308,CDLA-Permissive-2.0,4306cc1b-ef3d-43eb-b088-6d5debb2a284,0.848,2026-10-16
+ครัวเพื่อคุณ,food,ร้านอาหาร,13.649572,100.4963198,overture,308,CDLA-Permissive-2.0,6a5a19a4-a23b-46d0-b8e4-287348125657,0.687,2026-10-16
+กระดานชนวน,food,ร้านอาหาร,13.6501975,100.4967259,overture,309,CDLA-Permissive-2.0,a8dbdfdc-f9ca-4d51-bb38-ce7a73ce755a,0.327,2026-10-16
+ครัวพี่ต๊อด,food,ร้านอาหาร,13.6495656,100.4963247,overture,309,CDLA-Permissive-2.0,f9684478-0411-4a60-819c-0b96b379c4d9,0.893,2026-10-16
+Station 45,food,ร้านอาหาร,13.6511388,100.496964,overture,310,CDLA-Permissive-2.0,cfd9454b-b2d1-4c63-b1d0-a9977ca1c601,0.975,2026-10-16
+แซ่บอีสาน,food,ร้านอาหาร,13.6524488,100.4967317,overture,312,CDLA-Permissive-2.0,7ff3b62b-415e-4b02-90f5-abfd5b614443,0.515,2026-10-16
+ข้าวยำ ตำแซ่บ,food,ร้านอาหาร,13.6517466,100.4969503,overture,312,CDLA-Permissive-2.0,d8520f9b-2cd0-4ec5-8a59-0c1013f22b2f,0.656,2026-10-16
+Burger King,food,ร้านอาหาร,13.6516899,100.4969538,overture,312,CDLA-Permissive-2.0,eecac1d8-27af-4b0f-be6c-7a6d6fc4619d,0.715,2026-10-16
+ไออุ่นสเต็ก,food,ร้านอาหาร,13.651122,100.49698,overture,312,CDLA-Permissive-2.0,fb895b15-78bb-4261-a55e-446c870c5012,0.42,2026-10-16
+ลาบทร พย สมบ รณ,food,ร้านอาหาร,13.650086,100.496714,overture,313,CDLA-Permissive-2.0,6fb83aad-73d6-4d61-bbbd-a1a821bbf30b,0.601,2026-10-16
+ข้าวต้มเครื่องกะเรื่องยำ,food,ร้านอาหาร,13.65358,100.49583,overture,315,CDLA-Permissive-2.0,a445c5c6-38a2-4272-a6f1-a489f6716648,0.526,2026-10-16
+Sea Secret Seafood Buffet,food,ร้านอาหาร,13.652576,100.496702,overture,315,CDLA-Permissive-2.0,c87762ff-ba0f-4170-8d07-b852fe5561c2,0.62,2026-10-16
+ร้านอาหารเจ๊จิ๋ม,food,ร้านอาหาร,13.6520363,100.4969156,overture,315,CDLA-Permissive-2.0,24dce3de-1d8e-4386-8307-f11ff856bc7f,0.691,2026-10-16
+บะหมี่จับกังขั้นเทพ ประชาอุทิศ 45,food,ร้านอาหาร,13.6511746,100.4970073,overture,315,CDLA-Permissive-2.0,6015e25e-4812-4bfd-b57f-a0ef0ff69fd6,0.738,2026-10-16
+Bonchon Prachautit 45,food,ร้านอาหาร,13.6521352,100.4968933,overture,316,CDLA-Permissive-2.0,390c181c-1f3f-47f4-b64b-8239ebe858ff,0.925,2026-10-16
+YOI Chao Kao Restaurant,food,ร้านอาหาร,13.6516095,100.4970047,overture,316,CDLA-Permissive-2.0,e31dd6f9-62a1-4dfd-95b9-4b98cb2cbd9c,0.395,2026-10-16
+โจ๊กทรงเครื่อง,food,ร้านอาหาร,13.6495597,100.4964054,overture,316,CDLA-Permissive-2.0,80cba87a-00f6-4ae9-b25c-4b61d5819cb3,0.884,2026-10-16
+ผัดไทย หอยทอด (คุณแอน),food,ร้านอาหาร,13.6517405,100.4970054,overture,318,CDLA-Permissive-2.0,afdbe7ab-3c9a-48b4-abc3-3a2c1260c5c8,0.715,2026-10-16
+Bonchon Chicken,food,ร้านอาหาร,13.6520511,100.4969502,osm,319,ODbL-1.0,,,2026-10-16
+ป้าดาตามสั่ง,food,ร้านอาหาร,13.6514631,100.4970427,overture,319,CDLA-Permissive-2.0,abfd24dd-b793-4513-8557-27993cd16f65,0.287,2026-10-16
+MIXY,food,ร้านอาหาร,13.6525297,100.4967743,overture,320,CDLA-Permissive-2.0,2fd6fd7a-7f83-4589-9530-8e3ae15d2192,0.327,2026-10-16
+เนียนจังอาหารญี่ปุ่น,food,ร้านอาหาร,13.6518577,100.4970103,overture,321,CDLA-Permissive-2.0,047203f8-e7ec-4361-876a-ec3ee9e24599,0.49,2026-10-16
+เบอร์เกอร์ คิง  ประชาอุทิศ 45,food,ร้านอาหาร,13.652036,100.496972,overture,321,CC0-1.0; CDLA-Permissive-2.0,b226dddd-91d6-4bdc-bca6-407c793805d0,0.8,2026-10-16
+Kin Kin Shabu,food,ร้านอาหาร,13.6519284,100.4969942,overture,321,CDLA-Permissive-2.0,aaa70cac-6038-4b97-96e0-ac584a627a70,0.848,2026-10-16
+ก๋วยเตี๋ยวเรือหมูน้ำตก,food,ร้านอาหาร,13.6523555,100.4969081,overture,326,CDLA-Permissive-2.0,5ecf03cf-8115-4942-968d-8a544f9e0d93,0.842,2026-10-16
+ตำเจ๊าะแจ๊ะ,food,ร้านอาหาร,13.6509202,100.4970975,overture,327,CDLA-Permissive-2.0,a0d9fb55-eb42-446a-b4e3-d9a019720150,0.6,2026-10-16
+อี้จาสุกี้หม่าล่า สาขาบางมด,food,ร้านอาหาร,13.6520232,100.4970401,overture,328,CDLA-Permissive-2.0,54d190b9-b41e-4d5f-9957-90da6b3f2221,0.941,2026-10-16
+ครัวสามอนงค์,food,ร้านอาหาร,13.6518103,100.4971019,overture,330,CDLA-Permissive-2.0,ad1f6282-e943-4699-bdf5-f6bd3b0a1ceb,0.415,2026-10-16
+ร้านปิ้งกะเทย,food,ร้านอาหาร,13.6500723,100.4968958,overture,332,CDLA-Permissive-2.0,4e3a7a1e-609c-491a-8f98-3fe253361db7,0.333,2026-10-16
+A Ramen,food,ร้านอาหาร,13.6529005,100.4967254,overture,335,CDLA-Permissive-2.0,498f3ab2-4f50-47d5-83c3-a244cbbf819d,0.991,2026-10-16
+โอชิน สุกี้โบราณ,food,ร้านอาหาร,13.6492085,100.4963299,overture,335,CDLA-Permissive-2.0,586bac56-f28e-4d1b-bf58-d9b64b994d2a,0.831,2026-10-16
+ร้านก๋วยเตี๋ยวโบราณ คุณปุ้ย,food,ร้านอาหาร,13.6510297,100.4972257,overture,339,CDLA-Permissive-2.0,d1fd6e95-82e3-4dc7-9ae8-4d56eb9bb7ba,0.723,2026-10-16
+The Pizza Company,food,ร้านอาหาร,13.65182,100.4972024,overture,341,CDLA-Permissive-2.0,3664df9b-5812-45f5-a73d-bf1da930bb20,0.986,2026-10-16
+8ttc Cafe,food,ร้านอาหาร,13.6525103,100.4970139,overture,343,CDLA-Permissive-2.0,5459cbcd-9da4-41ee-8689-e8ab704b6569,0.32,2026-10-16
+หมูกระทะแชมป์ ประชาอุทิศ,food,ร้านอาหาร,13.6492496,100.4964618,overture,343,CDLA-Permissive-2.0,59583db7-5725-45e4-a5f7-af0ab4107d5d,0.967,2026-10-16
+ร้านบ้านนา,food,ร้านอาหาร,13.6539845,100.4956668,overture,344,CDLA-Permissive-2.0,d707f1b9-59ab-4e90-b868-fd99429f8a59,0.837,2026-10-16
+กินกันจัง Shabu Cheese,food,ร้านอาหาร,13.6518416,100.4972397,overture,345,CDLA-Permissive-2.0,38146121-50cf-4a6e-b5f3-bf970dfa0b60,0.975,2026-10-16
+About Chicken,food,ร้านอาหาร,13.6511144,100.4972945,overture,346,CDLA-Permissive-2.0,166aee89-befb-47fa-814b-114fc90795f3,0.668,2026-10-16
+Wawa house,food,ร้านอาหาร,13.648996,100.4962537,overture,346,CDLA-Permissive-2.0,b8e8ecc1-b1da-433b-925a-ac3e4e6425b4,0.472,2026-10-16
+สยามนิเวศน์,food,ร้านอาหาร,13.648996,100.4962537,overture,346,CDLA-Permissive-2.0,46be9d92-f1f4-4b11-89a7-6f3d59727f73,0.529,2026-10-16
+ร้านน้ำชงแบบไทย ป้าน้อย อร่อยมาก at แยกนาหลวง -เจ้าเก่ามากกว่า 10 ปี,food,ร้านอาหาร,13.648996,100.4962537,overture,346,CDLA-Permissive-2.0,d584136d-238f-4c13-9ec9-52590ed2394a,0.552,2026-10-16
+บ้านลูกชิ้น,food,ร้านอาหาร,13.648996,100.4962537,overture,346,CDLA-Permissive-2.0,9706612d-3732-4e15-b6b0-6039b1d2d273,0.408,2026-10-16
+ร้านข้าวหมกไก่,food,ร้านอาหาร,13.6525801,100.4970275,overture,347,CDLA-Permissive-2.0,f734c0ee-e0c6-4390-8872-df2c0a2cd8ba,0.341,2026-10-16
+Rannamcha,food,ร้านอาหาร,13.6525743,100.4970244,overture,347,CDLA-Permissive-2.0,676500f6-7365-4f2d-af61-3365caae2e82,0.534,2026-10-16
+ร้านยำ,food,ร้านอาหาร,13.65155,100.4973211,overture,350,CDLA-Permissive-2.0,fe4d0e6b-749d-4c6e-af47-ba852805254b,0.531,2026-10-16
+Catory Pizza,food,ร้านอาหาร,13.6529198,100.496881,overture,351,CDLA-Permissive-2.0,1122426f-0d7d-480a-b084-5315cd593151,0.693,2026-10-16
+มากินเด้,food,ร้านอาหาร,13.6491596,100.4964812,overture,351,CDLA-Permissive-2.0,d1e3342f-4146-42f5-b2d7-f686ee0a6a66,0.87,2026-10-16
+ป้าเฉื่อย,food,ร้านอาหาร,13.6509982,100.4973304,overture,351,CDLA-Permissive-2.0,e318e36b-1635-4052-9db7-95268d42b1cd,0.33,2026-10-16
+"ครัวหน้า""มอ""",food,ร้านอาหาร,13.6521063,100.497254,overture,353,CDLA-Permissive-2.0,4509ab84-c7fe-45ca-a7ec-90e72d6a9316,0.16,2026-10-16
+เรือนไม้ ลาบยโสธร,food,ร้านอาหาร,13.652806,100.496983,overture,354,CDLA-Permissive-2.0,5fddce35-8702-4e42-b68b-b50f5896c3ad,0.833,2026-10-16
+โกบังก๋วยเตี๋ยวเนื้อ&อาหารตามสั่ง,food,ร้านอาหาร,13.6536525,100.496358,overture,358,CDLA-Permissive-2.0,090d5f00-1e4d-4cd2-8f46-8592608b6201,0.545,2026-10-16
+Kitchen Chef's,food,ร้านอาหาร,13.6507043,100.4974023,overture,363,CDLA-Permissive-2.0,48b8469b-2e98-41c3-a11c-b7274d8bf1fa,0.88,2026-10-16
+ก๋วยเตี๋ยวบ้านบึง,food,ร้านอาหาร,13.6520616,100.497392,overture,366,CDLA-Permissive-2.0,63e20f0d-4a99-48b7-8efc-7aa26f7830e1,0.902,2026-10-16
+Eat With Bear Steak and More,food,ร้านอาหาร,13.6520569,100.4974036,overture,367,CDLA-Permissive-2.0,762dd1e9-2b51-44e6-b3a1-e3b1fdc21226,0.666,2026-10-16
+ไก่โอ๊ก ข้าวมันไก่บ้านสวนธน,food,ร้านอาหาร,13.6513316,100.49751,overture,369,CDLA-Permissive-2.0,55711686-2ad5-4455-91d9-27106da847e2,0.741,2026-10-16
+ก๋วยเตี๋ยวเป็ด นาหลวง,food,ร้านอาหาร,13.648601,100.496163,overture,374,CDLA-Permissive-2.0,b905c118-e955-4774-9b0b-37cef0a1e775,0.654,2026-10-16
+ร้านเลียบด่วนทุ่งครุ,food,ร้านอาหาร,13.64867,100.49629,overture,377,CDLA-Permissive-2.0,b84ee83a-6e53-46a7-887b-a191b808bfb6,0.592,2026-10-16
+แหนมปลากรายแท้ไม่ผสมแป้ง,food,ร้านอาหาร,13.6485257,100.4961264,overture,379,CDLA-Permissive-2.0,a170ecc9-9fee-44cf-a69f-6254fd0e72a6,0.086,2026-10-16
+ภัตตาคารแชงเกียล่า,food,ร้านอาหาร,13.6484149,100.4960989,overture,387,CDLA-Permissive-2.0,99130d00-76c2-4cef-95ba-e6ddc5994bbc,0.622,2026-10-16
+ก๋วยเตี๋ยวหมูต้มยำมะนาว,food,ร้านอาหาร,13.6515692,100.4977385,overture,395,CDLA-Permissive-2.0,6c15c568-9739-43b5-90c9-a7a3b38a2480,0.426,2026-10-16
+ร้านตั้มกีฬาท้าโลก,food,ร้านอาหาร,13.64833,100.4961,overture,395,CDLA-Permissive-2.0,93ce3883-45e0-4842-ac0c-178140154d25,0.531,2026-10-16
+ทำกะข้าว ทำกะเพื่อน,food,ร้านอาหาร,13.6489081,100.4968224,overture,397,CDLA-Permissive-2.0,aebf194c-081e-4c31-a437-53126f6df898,0.105,2026-10-16
+แม่ทัพแซลมอน,food,ร้านอาหาร,13.653195,100.4972482,overture,401,CDLA-Permissive-2.0,8b5797f0-910e-4ec6-a283-7a0c989c2e55,0.302,2026-10-16
+R-manah เตี๋ยวเรือ&กาแฟโบราณ,food,ร้านอาหาร,13.6532585,100.4972708,overture,406,CDLA-Permissive-2.0,ddc685a3-cbff-4a9c-a5a8-1b4b4b8ad5be,0.56,2026-10-16
+ไก่ทอดเดชา สาขาทุ่งครุ,food,ร้านอาหาร,13.6535012,100.4971784,overture,413,CDLA-Permissive-2.0,ba88ad11-81d8-462b-9248-09e4baf041e2,0.35,2026-10-16
+สุวิชย์ จุฬา ลาบเป็ดยโส,food,ร้านอาหาร,13.6534959,100.4971754,overture,413,CDLA-Permissive-2.0,210cb954-6369-4e49-aa1e-16632348cf66,0.674,2026-10-16
+Retro Tea House,food,ร้านอาหาร,13.6481125,100.4960495,overture,413,CDLA-Permissive-2.0,45b99ebc-d433-4107-902d-4a38305c5963,0.2,2026-10-16
+ส มตำโคราช,food,ร้านอาหาร,13.6533951,100.4973438,overture,421,CDLA-Permissive-2.0,9c73b5f2-4855-4329-8056-1017ad655441,0.665,2026-10-16
+นาย9ราดหน้าประชาอุทิศเจ้าเก่า,food,ร้านอาหาร,13.6481732,100.4962965,overture,421,CDLA-Permissive-2.0,aa8eee9b-0290-4802-bff8-38fbae42d3d2,0.839,2026-10-16
+ไทเปหม้อไฟชาบู,food,ร้านอาหาร,13.65359,100.4972097,overture,422,CDLA-Permissive-2.0,eaf1b8aa-47e8-493c-82ba-c7e3f418f66b,0.556,2026-10-16
+ครัวอาแหมะ,food,ร้านอาหาร,13.64798,100.49603,overture,424,CDLA-Permissive-2.0,b146947d-af64-4a3c-b0f9-b079de53a0e7,0.855,2026-10-16
+ซาลาเปา ภาวิณี,food,ร้านอาหาร,13.64798,100.49603,overture,424,CDLA-Permissive-2.0,ab9b4590-4ff7-4ff8-bf36-dee775bedc43,0.474,2026-10-16
+ยายต้อ Bar,food,ร้านอาหาร,13.652414,100.4903318,overture,426,CDLA-Permissive-2.0,853cebc1-37af-439e-b668-e9fabada869b,0.727,2026-10-16
+ประชาอุทิศ,food,ร้านอาหาร,13.6486898,100.4969773,overture,426,CDLA-Permissive-2.0,f66fa5b3-5d48-46e9-b5f4-daa47b152db1,0.78,2026-10-16
+กะเพรา และ ผัดไทย,food,ร้านอาหาร,13.64789,100.496,overture,432,CDLA-Permissive-2.0,dbe491e3-a943-4b2a-8d55-009cd6c43b43,0.57,2026-10-16
+ร้านข้าวหมูทอดนำ้จิ้มรสเด็ด,food,ร้านอาหาร,13.6481478,100.4964428,overture,433,CDLA-Permissive-2.0,be869ebd-cb51-4db5-8b1e-62b6396a3a03,0.22,2026-10-16
+T.Lex หม่าล่าปิ้งย่าง,food,ร้านอาหาร,13.650319,100.49803,overture,439,CDLA-Permissive-2.0,115df37d-e8f9-4eaa-ae36-5263c38f73fb,0.953,2026-10-16
+ราดหน ายอดผ กประชาอ ท ศ,food,ร้านอาหาร,13.648027,100.496387,overture,440,CDLA-Permissive-2.0,b65c007c-e0da-4f76-b323-3c63948e1da0,0.91,2026-10-16
+ก๋วยเตี๋ยวไก่ป้าแอน,food,ร้านอาหาร,13.6496022,100.4904192,overture,441,CDLA-Permissive-2.0,9bd5540b-bea0-4519-b3cc-fe54119715c3,0.461,2026-10-16
+MaruCha - แยกนาหลวง,food,ร้านอาหาร,13.65346,100.49753,overture,442,CDLA-Permissive-2.0,23981c40-81e4-46f9-a3cf-ad4fff4b32a1,0.857,2026-10-16
+นฤมล Suki house,food,ร้านอาหาร,13.6492283,100.4906078,overture,443,CDLA-Permissive-2.0,ce59be4f-eb99-469d-935e-75e76ef20f54,0.53,2026-10-16
+ร้านน้ำชา,food,ร้านอาหาร,13.647899,100.496239,overture,444,CDLA-Permissive-2.0,0627e095-01d7-4732-8163-24b60a681f9f,0.32,2026-10-16
+ข้าวต้มแห้งคุณนิด สาขา พุทธบูชา,food,ร้านอาหาร,13.6496158,100.4903495,overture,447,CDLA-Permissive-2.0,a1e00e2f-108f-4671-bd6c-cfc2b91219ea,0.771,2026-10-16
+โกดังนมสด พุทธบูชา,food,ร้านอาหาร,13.6496362,100.4903069,overture,450,CDLA-Permissive-2.0,e6891886-c160-4ff9-bfb2-7c35290545b6,0.659,2026-10-16
+BaanBeef Butchery,food,ร้านอาหาร,13.6502035,100.4981465,overture,454,CDLA-Permissive-2.0,e595b943-45f0-4e46-8062-e6e43681ef00,0.789,2026-10-16
+ร้านข้าวหลังคอสโม,food,ร้านอาหาร,13.6489716,100.4975676,overture,456,CDLA-Permissive-2.0,2724f5bb-8095-4c4c-93ae-2faa5bce03f7,0.332,2026-10-16
+อาบิวส์ ก๋วยเตี๋ยวเรือ,food,ร้านอาหาร,13.64752,100.49574,overture,457,CDLA-Permissive-2.0,c68c966f-5cc2-4efe-bfde-bb072f4a562e,0.559,2026-10-16
+Jorhana,food,ร้านอาหาร,13.64752,100.49574,overture,457,CDLA-Permissive-2.0,de00d712-958c-46c1-88ad-cb7e7856a0eb,0.657,2026-10-16
+ของดอง ของแซ่บ,food,ร้านอาหาร,13.64752,100.49574,overture,457,CDLA-Permissive-2.0,6c87cbcb-e5f8-4dd2-9586-a8fbf1e2479d,0.261,2026-10-16
+ศรีภัทราวินเนอร์,food,ร้านอาหาร,13.64752,100.49574,overture,457,CDLA-Permissive-2.0,5466e223-73c4-4854-a9ba-a1fbc95c5f8d,0.533,2026-10-16
+ร้านอาหาร,food,ร้านอาหาร,13.64752,100.49574,overture,457,CDLA-Permissive-2.0,b91d0f7c-b7b9-4d66-b034-7d6c9035004b,0.539,2026-10-16
+ไก่ย่าง28,food,ร้านอาหาร,13.65455,100.49671,overture,459,CDLA-Permissive-2.0,1fb9270a-f8d3-4665-9737-3f6ee319939c,0.741,2026-10-16
+ลาบเป็ดยโสธร,food,ร้านอาหาร,13.6538687,100.4974313,overture,460,CDLA-Permissive-2.0,e0b41df7-9d92-4039-a736-188004c2c062,0.716,2026-10-16
+ยโสธรลาบเป็ด,food,ร้านอาหาร,13.6536877,100.4976011,osm,463,ODbL-1.0,,,2026-10-16
+ฮองเฮา ติ่มซำ,food,ร้านอาหาร,13.6494069,100.4902906,overture,463,CDLA-Permissive-2.0,d704427d-a376-487a-9a89-d6a09e1ab2dd,0.701,2026-10-16
+นายหัว ก๋วยเตี๋ยวต้มยำกระดูกเล้ง,food,ร้านอาหาร,13.6495108,100.4902053,overture,466,CDLA-Permissive-2.0,c689d845-712a-41a4-ab4a-83e5427788c9,0.215,2026-10-16
+ร้านข้าวแกงเจ้เดือน,food,ร้านอาหาร,13.6539551,100.4974501,overture,468,CDLA-Permissive-2.0,5585ff20-4de9-4e9d-bc91-4a950ffcd751,0.508,2026-10-16
+กะเพราหน้าลุ้น  ประชาอุทิศ,food,ร้านอาหาร,13.6494887,100.4901789,overture,470,CDLA-Permissive-2.0,641208a6-9679-4dac-a6f0-68e8f0bad55f,0.902,2026-10-16
+ยุ่งย่าง - Yungyang Mala BarBeer,food,ร้านอาหาร,13.647518,100.496056,overture,471,CDLA-Permissive-2.0,9f7dcf9b-60e7-463f-a381-c679798b9f34,0.549,2026-10-16
+ลาบ อุบล,food,ร้านอาหาร,13.6474565,100.4959576,overture,473,CDLA-Permissive-2.0,77f61a26-a620-4e08-8b35-2071b20e8ea7,0.899,2026-10-16
+ชายสี่,food,ร้านอาหาร,13.6540223,100.4975231,osm,478,ODbL-1.0,,,2026-10-16
+"Snack Village Co.,Ltd บริษัท สแนค วิลเลจ จำกัด",food,ร้านอาหาร,13.6533244,100.4980061,overture,479,CDLA-Permissive-2.0,e4f2cfaf-93ff-4586-80f5-320a04d50c19,0.241,2026-10-16
+โจ๊กสามย่าน,food,ร้านอาหาร,13.6538488,100.497705,osm,482,ODbL-1.0,,,2026-10-16
+WestSide - เวสไซด์ ประชาอุทิศ45,food,ร้านอาหาร,13.64736,100.49597,overture,483,CDLA-Permissive-2.0,74660645-4624-46b1-ab61-76e9854b34c4,0.54,2026-10-16
+Bangmod Pizzeria,food,ร้านอาหาร,13.6499539,100.4897922,overture,489,CDLA-Permissive-2.0,25f513b6-db44-4676-b8a3-64a19c0e4d47,0.453,2026-10-16
+Yi er san ChickenRice ข้าวมันไก่ตอน,food,ร้านอาหาร,13.64727,100.49595,overture,491,CDLA-Permissive-2.0,caacf051-8599-4369-b619-ceda3d682186,0.582,2026-10-16
+ป.ประทีป ก๋วยเตี๋ยวเรือ สาขาประชาอุทิศ28,food,ร้านอาหาร,13.6541704,100.4976184,overture,497,CDLA-Permissive-2.0,265d5649-9926-4abf-b6b9-1ebe99c9814b,0.91,2026-10-16
+รังผึ้ง,food,ร้านอาหาร,13.649061,100.490103,overture,499,CDLA-Permissive-2.0,e7806053-b6a0-4291-a7c7-10711ff8aebc,0.684,2026-10-16
+ร้านหมูหมู,food,ร้านอาหาร,13.6494578,100.4898988,overture,499,CDLA-Permissive-2.0,06e75370-03f7-483c-b18c-2ab3d8aab4b5,0.291,2026-10-16
+ชาบ้านสวน,food,ร้านอาหาร,13.6497421,100.4984207,overture,499,CDLA-Permissive-2.0,0ca78a93-a43e-42af-96ea-391d3c637f7d,0.352,2026-10-16
+แพนด้าลูกชิ้นปลาระเบิด by เพลง,food,ร้านอาหาร,13.6519991,100.4987277,overture,507,CDLA-Permissive-2.0,7d10ade7-200b-4d9d-8079-ac2bbc9adad8,0.264,2026-10-16
+ร้านก๋วยเตี๋ยวไก่มะระเมืองสองแคว,food,ร้านอาหาร,13.6489429,100.4900554,overture,510,CDLA-Permissive-2.0,3a41f82c-3b46-442f-8395-0b54929e3f96,0.608,2026-10-16
+หนีแม่มายำ,food,ร้านอาหาร,13.6511323,100.4893556,overture,514,CDLA-Permissive-2.0,4b49ba0e-9083-487e-8971-c5a70e633840,0.788,2026-10-16
+หล่อลวก ก๋วยเตี๋ยวลูกชิ้นปลา,food,ร้านอาหาร,13.6512291,100.4892721,overture,522,CDLA-Permissive-2.0,ba7b5fd4-b4d5-4db1-b64d-42b88f0b1438,0.9,2026-10-16
+สุกี้ตี๋น้อย ซัสโก้ พุทธบูชา,food,ร้านอาหาร,13.6514632,100.4891839,osm,532,ODbL-1.0,,,2026-10-16
+กลิ่น หอม นม.เนย,food,ร้านอาหาร,13.6469137,100.496156,overture,537,CDLA-Permissive-2.0,c5ee3757-03fa-4b87-9aec-88c29ed7d65f,0.702,2026-10-16
+แล้วแต่ บุฟเฟ่ต์,food,ร้านอาหาร,13.6510429,100.4891034,overture,541,CDLA-Permissive-2.0,73cdc487-4dd8-4518-b76c-b5be43cce358,0.869,2026-10-16
+No.51 Burger & Room,food,ร้านอาหาร,13.647009,100.4964725,overture,542,CDLA-Permissive-2.0,26783df1-3086-446f-82ec-6a8a15bba201,0.714,2026-10-16
+ลุงอี๊ดแกงใต้,food,ร้านอาหาร,13.646543,100.4951769,overture,542,CDLA-Permissive-2.0,99ca948a-c745-4865-830f-033d0d28e816,0.751,2026-10-16
+ผัดไทย หอยทอด,food,ร้านอาหาร,13.650322,100.489132,overture,548,CDLA-Permissive-2.0,e7a6bf1d-46a3-4cd9-9508-fd3508640a5b,0.654,2026-10-16
+ร้านยำ,food,ร้านอาหาร,13.647044,100.4966753,overture,550,CDLA-Permissive-2.0,677fdf1e-869c-4313-ab7b-8c25b49ee295,0.634,2026-10-16
+เลยมานัว,food,ร้านอาหาร,13.6512206,100.4889822,overture,554,CDLA-Permissive-2.0,8eee4ea3-741b-4a32-9847-b44e5562aad7,0.621,2026-10-16
+คั่วเลิศรส ปิ่นเกล้า,food,ร้านอาหาร,13.65104,100.48895,overture,558,CDLA-Permissive-2.0,8b90cccc-9035-42f3-9ec8-4067c21a5ba4,0.576,2026-10-16
+ป้าอาหลาน,food,ร้านอาหาร,13.6465166,100.4956367,overture,558,CDLA-Permissive-2.0,57972a61-ba2c-41c8-ba21-9c0a796d5bed,0.052,2026-10-16
+โบรา โคเรียน มาร์ท Bora Korean Mart สาขาบางมด,food,ร้านอาหาร,13.6514072,100.4889151,overture,561,CDLA-Permissive-2.0,423b1f50-181a-4850-a18c-234ea95961ba,0.84,2026-10-16
+แดงดอกบัว,food,ร้านอาหาร,13.650349,100.4889713,overture,565,CDLA-Permissive-2.0,71a9e6cd-c4b5-4d68-a2bc-33f8124afca9,0.716,2026-10-16
+ครัวนายพัน ข้าวแกงปักษ์ใต้,food,ร้านอาหาร,13.650523,100.488937,overture,565,CDLA-Permissive-2.0,522d339c-b55e-4756-acbf-535b95a8cdb6,0.811,2026-10-16
+KFC,food,ร้านอาหาร,13.6508659,100.4888313,osm,572,ODbL-1.0,,,2026-10-16
+ครัวบ้านสวน@28,food,ร้านอาหาร,13.6565732,100.4944208,overture,588,CDLA-Permissive-2.0,d72287b7-d6bf-4c7c-b3ce-bd9c88a5c499,0.838,2026-10-16
+KFC,food,ร้านอาหาร,13.650837,100.488591,overture,598,CC0-1.0; CDLA-Permissive-2.0,ebe95f8a-4c0c-4082-bcc0-3eb09024599f,0.954,2026-10-16
+นานาก๋วยเตี๋ยวปลาเย็นตาโฟ ฮาลาล,food,ร้านอาหาร,13.65474,100.49835,overture,598,CDLA-Permissive-2.0,9269487d-04f7-43bf-b5d4-eb5d5b4329d8,0.301,2026-10-16
+ร้านเฮียออยของทะเลสดจากมหาชัย,food,ร้านอาหาร,13.65474,100.49835,overture,598,CDLA-Permissive-2.0,e80f2c53-c9fa-4c3c-b4d7-47cc9ccc9013,0.408,2026-10-16
+ฮาน่าอีสานฮาลาล-ตลาด61-สาขาเดียวเท่านั้น,food,ร้านอาหาร,13.65474,100.49835,overture,598,CDLA-Permissive-2.0,eb9651d4-5605-4818-b4b1-7c573a204555,0.844,2026-10-16
+ลาเต็บปลาทูมุสลิม ปลาทูนึ่งสูตรสมุนไพรเพื่อสุขภาพ,food,ร้านอาหาร,13.65474,100.49835,overture,598,CDLA-Permissive-2.0,f644bae0-c56f-4973-a156-452dacbf705e,0.389,2026-10-16
+ครัวมุสลิม ทุ่งครุ BY Yumun,food,ร้านอาหาร,13.65474,100.49835,overture,598,CDLA-Permissive-2.0,2864eeea-6bd0-4586-a509-0929037d396e,0.685,2026-10-16
+ครัวเฮียง้วน,food,ร้านอาหาร,13.6460788,100.4954324,overture,599,CDLA-Permissive-2.0,5d2f4e3e-ff41-4626-bd63-c8630005d3a5,0.607,2026-10-16
+Ebisu Ramen พุทธบูชา,food,ร้านอาหาร,13.6508839,100.4885603,overture,601,CDLA-Permissive-2.0,272ce80b-f0b5-4f09-91e9-9f06f880c225,0.975,2026-10-16
+ร้านกะเพราสมใจ,food,ร้านอาหาร,13.6498137,100.4886702,overture,610,CDLA-Permissive-2.0,804f4eb3-0402-4cdc-8401-33c8e8001dfc,0.847,2026-10-16
+โจ๊กหมูเห็ดหอม พุทธบูชา44,food,ร้านอาหาร,13.6495864,100.48868,overture,617,CDLA-Permissive-2.0,37d02ada-4ca6-4a5a-8089-939972552637,0.874,2026-10-16
+ป้าติ๋ม อาหารตามสั่ง,food,ร้านอาหาร,13.6496502,100.4886431,overture,618,CDLA-Permissive-2.0,f2ed45a9-3ae3-444b-9f1c-b1249f86035c,0.625,2026-10-16
+กุ๊กกุ๊ยโภชนา,food,ร้านอาหาร,13.650936,100.4882649,osm,633,ODbL-1.0,,,2026-10-16
+ครัวกุ๊กกุ่ย,food,ร้านอาหาร,13.650936,100.4882638,overture,633,CDLA-Permissive-2.0,d292d830-25d0-4403-8825-c9ee202b6b4f,0.919,2026-10-16
+อร่าม ซูชิ,food,ร้านอาหาร,13.647999,100.49886,overture,633,CDLA-Permissive-2.0,b6821a82-5e44-444c-a3ee-0daad566f55f,0.436,2026-10-16
+เจ๊กีกี้ สาขาบางมด,food,ร้านอาหาร,13.6459017,100.4959571,overture,634,CDLA-Permissive-2.0,4b55f0f0-d5eb-4ae1-b341-fd48d0325940,0.921,2026-10-16
+เจ้หน่อยข้าวขาหมู เกาเหลาเลือดหมู - เจ้าเก่าพุทธบูชา,food,ร้านอาหาร,13.6490619,100.4886728,overture,638,CDLA-Permissive-2.0,e37cce52-f02f-43b8-9bcb-59c38346dcce,0.593,2026-10-16
+ยโสธร อ้วนลาบเป็ด,food,ร้านอาหาร,13.6508635,100.4881997,overture,640,CDLA-Permissive-2.0,784e8062-b0c8-4ddf-9eb4-683ec3214a80,0.892,2026-10-16
+Makro Food Service,food,ร้านอาหาร,13.6548341,100.4987931,overture,642,CDLA-Permissive-2.0,fef5db6a-eb4c-47af-bcbd-479fd06a5804,0.994,2026-10-16
+คนกินเส้น,food,ร้านอาหาร,13.649386,100.4997019,overture,642,CDLA-Permissive-2.0,4182ed07-25ee-4b11-b5c6-d0efa7f79ae6,0.067,2026-10-16
+มุมนั่ง ฮาลาล ข้าวหมกไก่,food,ร้านอาหาร,13.64956,100.48838,overture,648,CDLA-Permissive-2.0,e1b9b38b-1185-40f3-9009-69b241f51166,0.87,2026-10-16
+จิฟุ้งอาหารเวียดนาม สาขาประชาอุทิศ,food,ร้านอาหาร,13.646485,100.4974921,overture,650,CDLA-Permissive-2.0,a0eb674f-5ca8-4187-9c22-c6814e1ecfab,0.536,2026-10-16
+Stranger Again,food,ร้านอาหาร,13.6510096,100.4880932,osm,651,ODbL-1.0,,,2026-10-16
+บะหมี่ฮ่องเต้ หน้าม.สวนธน,food,ร้านอาหาร,13.65105,100.48804,overture,656,CDLA-Permissive-2.0,6b297fa6-5da6-433a-bd38-f74e229c5e65,0.585,2026-10-16
+Mommy Clean Food สาขาทุ่งครุ,food,ร้านอาหาร,13.6454701,100.494978,overture,656,CDLA-Permissive-2.0,c15b28bd-b591-4c65-ae05-a6f7407cff71,0.432,2026-10-16
+ส้มตำ ร้านวรรณ,food,ร้านอาหาร,13.651034,100.487971,overture,664,CDLA-Permissive-2.0,ede5117a-2f10-412a-af36-94587ad3f8c2,0.415,2026-10-16
+บ้านก๋งเปาว์ Ban Gong Pao,food,ร้านอาหาร,13.6453298,100.494341,overture,665,CDLA-Permissive-2.0,83be40b7-ebd8-44cf-ad0c-97564782f7a5,0.29,2026-10-16
+MaeWan Craving แม่วรรณเครฟวิ่ง,food,ร้านอาหาร,13.6526417,100.4881005,overture,666,CDLA-Permissive-2.0,5e818077-48a8-4aa6-b98a-cd57534ca36a,0.524,2026-10-16
+สำนักงานทนายความสมุทร โพธิ์ไทย,food,ร้านอาหาร,13.6573092,100.493381,overture,673,CDLA-Permissive-2.0,88e8937e-aa0d-4266-8d11-bf1fdc13ace0,0.565,2026-10-16
+บ้านข้าวกล้อง,food,ร้านอาหาร,13.6508978,100.4878534,overture,677,CDLA-Permissive-2.0,9ed1004a-95ca-469b-83b4-c4915e1fec23,0.744,2026-10-16
+ร้านวรรณ ส้มตำไก่ย่าง,food,ร้านอาหาร,13.6510828,100.4877911,overture,683,CDLA-Permissive-2.0,be131a8c-9d82-400c-b7b1-65a6b5bce9b0,0.634,2026-10-16
+Jager Burger,food,ร้านอาหาร,13.65078,100.48776,overture,688,CDLA-Permissive-2.0,bd32408d-debe-4418-b9a7-45e094a74ac0,0.543,2026-10-16
+บ้านหนิงตุ้งแช่,food,ร้านอาหาร,13.6510882,100.4877223,overture,690,CDLA-Permissive-2.0,7efaf4bb-fb3d-4ab9-b2d5-37909e577d73,0.331,2026-10-16
+มากินดะ,food,ร้านอาหาร,13.651151,100.487682,overture,694,CDLA-Permissive-2.0,c2aa1e53-7059-4250-9ce8-48d8e7284222,0.45,2026-10-16
+พี่น้อย อาหารปักษ์ใต้,food,ร้านอาหาร,13.651151,100.487682,overture,694,CDLA-Permissive-2.0,cb33812d-70e8-42e3-8bbf-10350abdee2b,0.801,2026-10-16
+ครัวชาวนา,food,ร้านอาหาร,13.6485386,100.4998567,overture,694,CDLA-Permissive-2.0,23363835-9aa4-43c4-9328-97fa286ded41,0.789,2026-10-16
+ก๋วยเตี๋ยวไก่หน้าสวนธน,food,ร้านอาหาร,13.6511379,100.4876176,overture,701,CDLA-Permissive-2.0,a9b9e6e7-7fcf-4b34-8174-cb0e3ece75aa,0.769,2026-10-16
+ร้านป้าน้อยแกงใต้,food,ร้านอาหาร,13.6509527,100.4875992,overture,704,CDLA-Permissive-2.0,048ea8b8-a95e-422d-aa73-0b9dce910d3d,0.878,2026-10-16
+Manoi Cafe - มาโนอิ at บางมด,food,ร้านอาหาร,13.65086,100.48753,overture,712,CDLA-Permissive-2.0,bb9bcaf8-041f-4fa0-8a69-1c9352535009,0.858,2026-10-16
+ย่างให้บางมด สวนธน,food,ร้านอาหาร,13.6509556,100.4875079,overture,714,CDLA-Permissive-2.0,4ffdf2aa-4800-4bbe-a122-d6341e0daf40,0.828,2026-10-16
+ร้านใส้กรอกเจ้านาย,food,ร้านอาหาร,13.6514621,100.4874639,overture,718,CDLA-Permissive-2.0,4765fd73-bd99-4697-8ce5-f13dc94ea0ba,0.739,2026-10-16
+จิตต์ สตรีทฟู้ด,food,ร้านอาหาร,13.6511944,100.4874438,overture,720,CDLA-Permissive-2.0,338f0941-7495-4b57-8b82-35d0915ff982,0.31,2026-10-16
+Bangmod Cafe and Glamping บางมดคาเฟ่ แอนด์ แกลมปิ้ง - พุทธบูชา,food,ร้านอาหาร,13.6517688,100.4874534,overture,721,CDLA-Permissive-2.0,dfe0f730-f496-49b0-8a6f-4ddc4bb5f179,0.857,2026-10-16
+ร้านประจักษ์ผลไม้,food,ร้านอาหาร,13.6512165,100.487398,overture,725,CDLA-Permissive-2.0,b4e6947f-e92d-4e6b-ae28-eff1303d2a13,0.442,2026-10-16
+โลตัสเอ๊กเพรส หมู่บ้านสวนธนฯ,food,ร้านอาหาร,13.6512066,100.4873588,overture,729,CDLA-Permissive-2.0,ed47e9de-3fe9-4fb0-94e3-1a4d586b9e68,0.732,2026-10-16
+กล้วยปิ้งลิงเกาะ บาย มาดามอ้น,food,ร้านอาหาร,13.6512356,100.4873213,overture,733,CDLA-Permissive-2.0,68217528-f63c-4bc5-b481-f97f4415a053,0.414,2026-10-16
+วราภรณ์ ซาลาเปา ปตท.ประชาอุทิศ 35,food,ร้านอาหาร,13.6556786,100.499172,overture,734,CDLA-Permissive-2.0,5c7e2953-97b5-4c02-a9dd-9cd085d0b0f8,0.891,2026-10-16
+Cat style,food,ร้านอาหาร,13.6460664,100.498243,overture,735,CDLA-Permissive-2.0,cf871c36-5268-45ee-b4fa-5160ff72923b,0.374,2026-10-16
+โต๊ะจีน หม้อไฟสายพาน,food,ร้านอาหาร,13.6509775,100.4873068,overture,736,CDLA-Permissive-2.0,9025834b-79fd-40a2-9aba-f1be37f9d5f1,0.836,2026-10-16
+Land Before Times,food,ร้านอาหาร,13.64621,100.49848,overture,739,CDLA-Permissive-2.0,aa40c760-1f6a-43b0-a7c2-ded478851eb7,0.923,2026-10-16
+The Milk บ้ๅนสวนธน,food,ร้านอาหาร,13.651261,100.487263,overture,740,CDLA-Permissive-2.0,92e0220a-46b7-42ae-a7c1-5c18a1c83ad7,0.354,2026-10-16
+OQU,food,ร้านอาหาร,13.6458282,100.4980015,overture,741,CDLA-Permissive-2.0,14452665-5225-404a-bf95-f5cccb7b60ac,0.957,2026-10-16
+อู่ข้าวอู่น้ำ,food,ร้านอาหาร,13.645888,100.498153,overture,745,CDLA-Permissive-2.0,9ab910ee-e32c-48b4-acbe-2b399a07f230,0.787,2026-10-16
+สะเด็ดสุกี้หม้อไฟไทย,food,ร้านอาหาร,13.645847,100.498254,overture,755,CDLA-Permissive-2.0,a5ef781c-2c54-4421-aa55-554669ed83c2,0.323,2026-10-16
+ร้านหลืบ อาหารตามสั่ง,food,ร้านอาหาร,13.648074,100.500282,overture,759,CDLA-Permissive-2.0,3a376ea8-6a33-45e0-a1fd-ff338004eb91,0.488,2026-10-16
+ร้านสุกี้หม้อดิน,food,ร้านอาหาร,13.6510744,100.4870828,overture,760,CDLA-Permissive-2.0,cd26eb59-bd44-49f8-881b-d29cac28eb0e,0.409,2026-10-16
+ตำปากแตก,food,ร้านอาหาร,13.65131,100.487065,overture,761,CDLA-Permissive-2.0,5283c795-267e-4d16-9475-3ddab5b38a58,0.965,2026-10-16
+Sinthorn Steak House,food,ร้านอาหาร,13.6457114,100.4981856,overture,763,CDLA-Permissive-2.0,2a639081-f438-4724-affa-638adddab712,0.902,2026-10-16
+เจ๊พรอาหารตามสั่ง,food,ร้านอาหาร,13.6512889,100.4870373,overture,764,CDLA-Permissive-2.0,eea764a2-eb8f-4c7f-9e2c-a258436c0cdb,0.432,2026-10-16
+ปิงข้าวหมูแดงหมูกรอบ,food,ร้านอาหาร,13.6513758,100.486957,overture,773,CDLA-Permissive-2.0,ed1ac17d-6e9f-4773-8c52-72372d5e94b3,0.966,2026-10-16
+PorkaBun ปังญวนหมูปิ้ง,food,ร้านอาหาร,13.6510705,100.4869223,overture,777,CDLA-Permissive-2.0,d6e1e5e3-b8e7-4577-89b0-97cebeadbc3d,0.834,2026-10-16
+บ้านลุงอ๊อด,food,ร้านอาหาร,13.6475412,100.4879492,overture,786,CDLA-Permissive-2.0,3917386d-ee4b-443a-bb02-e5343252936d,0.241,2026-10-16
+Dino Papa Chicken,food,ร้านอาหาร,13.6518435,100.4868581,overture,786,CDLA-Permissive-2.0,e2acad91-7c2e-452c-b555-a4bebd60a406,0.949,2026-10-16
+Cheer Ban,food,ร้านอาหาร,13.651528,100.48682,overture,788,Apache-2.0; CDLA-Permissive-2.0,0139df60-d46a-4cc0-918f-529cac8f1efb,0.77,2026-10-16
+ใบสลาดขนมไทย,food,ร้านอาหาร,13.6477396,100.5004064,overture,789,CDLA-Permissive-2.0,f9e7382b-cf1a-4dd8-8ea4-9eb1d57e32df,0.638,2026-10-16
+ศรแก้ว,food,ร้านอาหาร,13.6522785,100.4868156,overture,795,CDLA-Permissive-2.0,486cbf6d-8f36-44e2-b8a7-4180dfeae066,0.847,2026-10-16
+ร้านอาหาร บ้านใบปอ,food,ร้านอาหาร,13.651308,100.4867541,overture,795,CDLA-Permissive-2.0,22ce5104-1451-43d4-af86-ba7d044bfbdc,0.573,2026-10-16
+สวนหมาก,food,ร้านอาหาร,13.651482,100.486723,overture,798,CDLA-Permissive-2.0,ac8c9aa1-03e5-4804-8364-c6c66e7aff32,0.751,2026-10-16
+Shabu Home,food,ร้านอาหาร,13.6520415,100.4867135,overture,803,CDLA-Permissive-2.0,cc23a335-8aed-430f-bc9a-c21580d9637a,0.948,2026-10-16
+ก๋วยเตี๋ยวเรือสี่สหาย,food,ร้านอาหาร,13.6565787,100.4992654,overture,811,CDLA-Permissive-2.0,a3e00341-7a19-4117-97d0-b0932091b5cb,0.537,2026-10-16
+ครัวคุณเอ๋,food,ร้านอาหาร,13.65424,100.48716,overture,819,CDLA-Permissive-2.0,890dd345-83ce-4e5e-a1c1-49817ecfec70,0.536,2026-10-16
+ตาโตสเต็กจานร้อน,food,ร้านอาหาร,13.6514693,100.4865197,overture,820,CDLA-Permissive-2.0,73a625ad-ca13-4f30-8240-25fa9d1bbc9e,0.715,2026-10-16
+ร้านอาหาร9สิบ4โภชนา,food,ร้านอาหาร,13.65706,100.49884,overture,821,CDLA-Permissive-2.0,dfead732-fd61-41af-ab51-9d9c7fdc3725,0.778,2026-10-16
+จิ๊บชากาแฟ,food,ร้านอาหาร,13.65706,100.49884,overture,821,CDLA-Permissive-2.0,ef12800a-b805-42a3-adee-2a127ff20112,0.583,2026-10-16
+V.sataporn,food,ร้านอาหาร,13.65706,100.49884,overture,821,CDLA-Permissive-2.0,966a540d-8c16-4c4c-844f-8c24d1b2ce53,0.814,2026-10-16
+ร้านเก๋าใหญ่ซีฟู้ด ซ.พุทธบูชา 40,food,ร้านอาหาร,13.6509209,100.4864807,overture,825,CDLA-Permissive-2.0,6ae0b6c2-0d52-4171-b8e1-974d94a15f7c,0.726,2026-10-16
+Payok,food,ร้านอาหาร,13.6505742,100.4864073,overture,836,CDLA-Permissive-2.0,fb8ea5c9-61d1-4906-89fd-6118707e8ad3,0.587,2026-10-16
+4x4,food,ร้านอาหาร,13.6512144,100.4862942,osm,844,ODbL-1.0,,,2026-10-16
+Heng Heng Seafood,food,ร้านอาหาร,13.6562902,100.4999861,overture,845,CDLA-Permissive-2.0,08b96c88-da5a-4c8c-9a10-8022b63c9fd6,0.527,2026-10-16
+ธนาคารไทยพานิช 61,food,ร้านอาหาร,13.6452173,100.4988149,overture,848,CDLA-Permissive-2.0,6e103439-8618-4b99-bd66-1b8f5f197dc4,0.751,2026-10-16
+ติดมันส์ บางมด,food,ร้านอาหาร,13.6522426,100.4862842,osm,852,ODbL-1.0,,,2026-10-16
+OK Steak 61,food,ร้านอาหาร,13.6452023,100.4988707,overture,853,CDLA-Permissive-2.0,fe24c061-bdb6-41c2-bef7-4b5838ed18f9,0.916,2026-10-16
+ร้านฟาฮัดข้าวมันไก่,food,ร้านอาหาร,13.6451747,100.4988556,overture,854,CDLA-Permissive-2.0,a4be005e-f505-4104-a4ff-1b0684dc4f34,0.971,2026-10-16
+ก๋วยเตี๋ยวเรือสุรอยญา,food,ร้านอาหาร,13.6451733,100.4988565,overture,854,CDLA-Permissive-2.0,ba79179d-4194-4d52-afcc-4af1245bdd5c,0.748,2026-10-16
+ติดมัน สาขาบางมด,food,ร้านอาหาร,13.651211,100.4861831,overture,856,CDLA-Permissive-2.0,b449419a-98e7-435c-8d77-7571a58b846c,0.961,2026-10-16
+ร้าน ปะแล่มมม,food,ร้านอาหาร,13.6567968,100.4996653,overture,858,CDLA-Permissive-2.0,72c9a0de-da68-4035-b132-97c7b655c684,0.841,2026-10-16
+Baan Pakistan,food,ร้านอาหาร,13.6449101,100.498663,osm,866,ODbL-1.0,,,2026-10-16
+พุทธบูชา44 แยก 11 D&H&W,food,ร้านอาหาร,13.6451442,100.4891752,overture,868,CDLA-Permissive-2.0,6aa45518-9531-4c18-9052-f1b318f10852,0.774,2026-10-16
+ร้านคำโต บางมด,food,ร้านอาหาร,13.6515334,100.486064,overture,870,CDLA-Permissive-2.0,757c69e4-53b6-4821-891d-8c652a2c1c3b,0.799,2026-10-16
+ใอ้ซ่างหม่าล่าสายพาน สาขาพุทธบูชา,food,ร้านอาหาร,13.6515065,100.4860481,overture,871,CDLA-Permissive-2.0,b6231484-3a0d-43fa-b207-18c5fe4cafc1,0.656,2026-10-16
+อาสา ก๋วยเตี๋ยวโบราณ,food,ร้านอาหาร,13.65144,100.4859575,overture,881,CDLA-Permissive-2.0,848dc86a-9b71-4229-be5a-a9ba21d7b75f,0.692,2026-10-16
+Panda Grill,food,ร้านอาหาร,13.6514796,100.4858516,overture,892,CDLA-Permissive-2.0,7a542903-e813-4f74-9ccc-7c5793ce8325,0.478,2026-10-16
+บัน'S Town バンタウン,food,ร้านอาหาร,13.6514691,100.4858548,overture,892,CDLA-Permissive-2.0,154477bd-716f-4675-a30f-f4ff98753446,0.917,2026-10-16
+อิสมาแอล เป็ดย่าง เป็ดพะโล้,food,ร้านอาหาร,13.644809,100.498962,overture,894,CDLA-Permissive-2.0,861ce997-6460-4fb4-8bdb-6b13aace4939,0.48,2026-10-16
+"ร้านข้าวแกงอาอีซ๊ะห์ ""ตลาดใหม่ทุ่งครุ61""",food,ร้านอาหาร,13.6448295,100.4990244,overture,896,CDLA-Permissive-2.0,54fb5a98-b3b1-48fc-acdc-6ecb3bc848fa,0.89,2026-10-16
+ร้านหมูเจ้ต้อย ตลาดใหม่ประชาอุทิศ 61,food,ร้านอาหาร,13.6453586,100.4996908,overture,896,CDLA-Permissive-2.0,85df6606-aea9-47e9-86a7-4af9ef8f114a,0.847,2026-10-16
+ก๋วยเตี๋ยวเป็ด วิเศษสุข,food,ร้านอาหาร,13.6447694,100.4990011,overture,900,CDLA-Permissive-2.0,0d199086-2446-43ee-b79c-81c4d67f1505,0.385,2026-10-16
+นิจิยำแซ่บมุสลิมรสเด็ด,food,ร้านอาหาร,13.6447638,100.4989891,overture,900,CDLA-Permissive-2.0,ea2f318a-c79c-4075-8c13-1e0ba113d960,0.27,2026-10-16
+ร้านอดิภา หมูสด ตลาดประชาอุทิศ 61,food,ร้านอาหาร,13.645012,100.499424,overture,906,CDLA-Permissive-2.0,74dd514e-9b39-495a-a001-eaedb7603cab,0.828,2026-10-16
+อาหมัดก๋วยเตี๋ยวปลา สาขา3 ประชาอุทิศ61,food,ร้านอาหาร,13.6446921,100.4990032,overture,907,CDLA-Permissive-2.0,ac3c8da8-17f0-4882-8a53-3be7f030d095,0.896,2026-10-16
+Cafe & Restaurant,food,ร้านอาหาร,13.6512728,100.4855954,overture,920,CDLA-Permissive-2.0,515c4dc2-ccb7-41ab-9edd-3cfa1ca03b28,0.658,2026-10-16
+ก๋วยเตี๋ยวสุโขทัย,food,ร้านอาหาร,13.6431157,100.4954136,overture,922,CDLA-Permissive-2.0,15238065-d64d-43a0-a6ed-da83aea7deaf,0.509,2026-10-16
+ลุงวัช ตามสั่ง,food,ร้านอาหาร,13.6433689,100.4965667,overture,922,CDLA-Permissive-2.0,f30fa20f-d362-44f5-8595-f1628b858e33,0.439,2026-10-16
+ORDER clean food,food,ร้านอาหาร,13.6517267,100.4855158,overture,930,CDLA-Permissive-2.0,6f1452e2-a5b7-4b14-9b68-07f6393ecc21,0.064,2026-10-16
+โฮเด้ง,food,ร้านอาหาร,13.6442955,100.4987935,overture,930,CDLA-Permissive-2.0,7767f90e-92a9-4be0-b034-b102de7ad76c,0.879,2026-10-16
+เฉาก๊วยนมสด By Doomilk Audio,food,ร้านอาหาร,13.6512594,100.48548,overture,932,CDLA-Permissive-2.0,3a25caf8-e154-4a32-bdd9-d5cc0a323f4f,0.505,2026-10-16
+ลาบ 101,food,ร้านอาหาร,13.651583,100.4854769,overture,933,CDLA-Permissive-2.0,983876e2-0bbd-4d3c-af36-45958727882c,0.518,2026-10-16
+สเต็กปากมันส์,food,ร้านอาหาร,13.6429299,100.4935289,overture,934,CDLA-Permissive-2.0,c692d7ba-34a9-4e53-8e6b-dec4dab10bf7,0.514,2026-10-16
+โย๊ตจัง บัวลอยไข่หวาน,food,ร้านอาหาร,13.6517843,100.485479,overture,934,CDLA-Permissive-2.0,9e3c6935-9b81-4f07-b015-819ea821923b,0.763,2026-10-16
+น้ำส้มคั้นสด ประชาอุทิศ  90,food,ร้านอาหาร,13.64419,100.49872,overture,936,CDLA-Permissive-2.0,3ae20817-7b4f-4ae4-a48b-a555004b1c7c,0.646,2026-10-16
+เจ๊เอ็งข้าวต้มปลา,food,ร้านอาหาร,13.6516218,100.4854277,overture,939,CDLA-Permissive-2.0,ee9c300c-da49-4a09-b85b-25ba7c85f5cc,0.43,2026-10-16
+ร้าน โรตีโอ่ง,food,ร้านอาหาร,13.6442339,100.4988481,overture,939,CDLA-Permissive-2.0,9016318b-9f04-41f1-bfa2-1df432e3670f,0.931,2026-10-16
+เจ้ณีอาหารตามสั่ง,food,ร้านอาหาร,13.6554754,100.5016523,overture,940,CDLA-Permissive-2.0,30da191f-7952-4452-94ef-ad08d3ccd5bf,0.455,2026-10-16
+ก๋วยเตี๋ยวเนื้อนำชัย168,food,ร้านอาหาร,13.6519718,100.5027578,overture,940,CDLA-Permissive-2.0,733c0151-fa99-4cdd-b3a9-dfcb5f71b8ae,0.496,2026-10-16
+โรงเตี๊ยมบางมด ติ่มซำ-หมาล่า,food,ร้านอาหาร,13.6515186,100.4853807,overture,944,CDLA-Permissive-2.0,fecf53a4-f7ca-49b5-a14d-1140bca00727,0.854,2026-10-16
+ร้านคนสวย ตลาดสดทุ่งครุพลาซ่า61,food,ร้านอาหาร,13.6446991,100.499595,overture,945,CDLA-Permissive-2.0,f9106e69-d8e9-430b-8130-a2fdc8006c18,0.467,2026-10-16
+The Middle.,food,ร้านอาหาร,13.6505088,100.5028424,overture,950,CDLA-Permissive-2.0,39eb2cbb-00f1-48c7-964b-f927d6fd9b22,0.486,2026-10-16
+ฮั้วโภชนา,food,ร้านอาหาร,13.6512046,100.4853027,overture,952,CDLA-Permissive-2.0,13c60aab-f26d-4708-8def-cc1745c2737c,0.928,2026-10-16
+100 ลี้ บะหมี่-เกี๊ยว ต้มยำ ข้าวหมูแดง-หมูกรอบ,food,ร้านอาหาร,13.657759,100.499887,overture,953,CDLA-Permissive-2.0,7b63bbbf-e8e0-4e3e-86f4-ca6256cad75c,0.342,2026-10-16
+BINGSU HOK-ED byNathong,food,ร้านอาหาร,13.6442512,100.4991226,overture,954,CDLA-Permissive-2.0,8d1d4967-575f-4c30-b831-95448f1c1839,0.613,2026-10-16
+เอ้กบุรี คันทรี่ฟาร์ม,food,ร้านอาหาร,13.6443708,100.4993677,overture,959,CDLA-Permissive-2.0,3c4a83d4-6b8d-4646-8d6e-c3c2b6301cb4,0.785,2026-10-16
+Sushiwa,food,ร้านอาหาร,13.64393,100.49872,overture,961,CDLA-Permissive-2.0,4610de94-080b-4d9e-b74b-92ee3731a737,0.748,2026-10-16
+บ้านขนมญี่ปุ่น,food,ร้านอาหาร,13.6519848,100.4852271,overture,963,CDLA-Permissive-2.0,18880233-202e-4335-b958-a3fa112747e7,0.169,2026-10-16
+ร้านกระเพาะปลา ยูฮันเงาะ,food,ร้านอาหาร,13.64792,100.50232,overture,966,CDLA-Permissive-2.0,59ec8058-bf10-4084-82ff-35eb1345b3d7,0.63,2026-10-16
+โตเกียวสล็อต,food,ร้านอาหาร,13.6442144,100.4992486,overture,966,CDLA-Permissive-2.0,794faf9c-8077-406d-a90e-911f2015fb80,0.387,2026-10-16
+สุใบด๊ะห์ชวนชิม,food,ร้านอาหาร,13.6435203,100.4980698,overture,967,CDLA-Permissive-2.0,0d3e1f40-5c80-49a6-b3e1-1f666943bf32,0.58,2026-10-16
+พิซซ่ามินิ,food,ร้านอาหาร,13.6446466,100.4998624,overture,968,CDLA-Permissive-2.0,5ee2be7b-a25f-448c-b221-1fc91d5b9286,0.45,2026-10-16
+ปลาหมึกย่าง อ้ายตี๋,food,ร้านอาหาร,13.6575078,100.4877927,overture,971,CDLA-Permissive-2.0,78e7a155-4e42-49bb-afc3-f8bdbb8146a9,0.529,2026-10-16
+หม่าล่าโซลฮอต ประชาอุทิศ 54,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,b2bb1385-55ed-4abc-b892-433cbe17acf2,0.783,2026-10-16
+ก๋วยเตี๋ยวซามูไร1  ประชาอุทิศ58,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,9d13f945-29ea-4fc1-83dc-ac0d1dc39d5e,0.607,2026-10-16
+MaruCha มารุชา สาขาซอยสุขสวัสดิ์ 30 ชานมไข่มุก,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,96ed434f-d017-41af-a5d6-19f13616fee1,0.772,2026-10-16
+The lion milk tea,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,38f05646-acfa-45e2-b9a0-92f4d7acc093,0.647,2026-10-16
+หม่าล่าจักรพรรดิ ประชาอุทิศ131,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,6702545e-6b06-49fa-a63b-c0853f25a56c,0.735,2026-10-16
+PM Powder Coat,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,1d4874c7-60fc-4478-a868-25959a9c28b8,0.539,2026-10-16
+"Bismillah Döner Kebab , Pizza , ice Crem Roll",food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,1786d24e-a7af-4643-b55a-3f9002f7a60b,0.606,2026-10-16
+KAN AENG Fishing&Bar,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,1b9ecf86-82fe-4cd2-9ede-e3e7b54d7c8d,0.971,2026-10-16
+บ้านโขทัย,food,ร้านอาหาร,13.6575,100.48779,overture,971,CDLA-Permissive-2.0,a22dfd94-33b9-4c80-a84b-6e6e3c9a5461,0.614,2026-10-16
+72 House,food,ร้านอาหาร,13.6496394,100.5029333,overture,973,CDLA-Permissive-2.0,d40047de-6a00-4bef-8a99-52c287cbab34,0.176,2026-10-16
+ก๋วยเตี๋ยวเรือวัดสน,food,ร้านอาหาร,13.6575144,100.48775,overture,975,CDLA-Permissive-2.0,4f3a2837-06bb-4be8-8ba6-a8347ed66c83,0.561,2026-10-16
+ครัวอิ่มอร่อยข้าวต้ม1บาท ประชาอุทิศ,food,ร้านอาหาร,13.6581175,100.4999193,overture,986,CDLA-Permissive-2.0,a04f0274-64e7-4c62-b3f5-ebe7c3bc5472,0.569,2026-10-16
+Mr. เกี๊ยวซ่า,food,ร้านอาหาร,13.6441676,100.499538,overture,988,CDLA-Permissive-2.0,ff8565ec-ddc2-42f6-816f-c2a852b8499e,0.315,2026-10-16
+เบนโตะ ชาบ,food,ร้านอาหาร,13.6581422,100.4999344,overture,989,CDLA-Permissive-2.0,6b73449e-239b-421c-92c0-40e5acb1a432,0.669,2026-10-16
+เกาเหลาเลือดหมู โจ๊กหมู,food,ร้านอาหาร,13.6442003,100.4995887,overture,989,CDLA-Permissive-2.0,e18b0ea8-2d0d-4c3c-aaa1-76cd8a944da8,0.506,2026-10-16
+ครัวชูศักดิ์,food,ร้านอาหาร,13.65819,100.49988,overture,990,CDLA-Permissive-2.0,38e1ab5c-b9b2-47c0-999a-256229daf2ce,0.288,2026-10-16
+ฟองจันทร์ อาหารเหนือ,food,ร้านอาหาร,13.6582151,100.4999847,overture,999,CDLA-Permissive-2.0,6db26634-6011-482c-99ea-ff2a168eca69,0.688,2026-10-16
+เฮียบอย,food,ร้านอาหาร,13.6582934,100.5000169,overture,1008,CDLA-Permissive-2.0,d1b194ab-4ca6-4682-8bcd-53e2e60d4a5a,0.225,2026-10-16
+ผัดไทยโบราณแม่สมจิตร เจ้โอ่ง,food,ร้านอาหาร,13.6474912,100.5025536,overture,1008,CDLA-Permissive-2.0,caea0395-2cd4-45c9-b938-0002d21a8853,0.611,2026-10-16
+มาลองที หมูกระทะ,food,ร้านอาหาร,13.658357,100.500005,overture,1013,CDLA-Permissive-2.0,f020f04f-a672-470e-8341-66157c245280,0.818,2026-10-16
+เตี๋ยวเนื้อลกชุน,food,ร้านอาหาร,13.6583522,100.5000249,overture,1013,CDLA-Permissive-2.0,3cd9dfd9-019b-419a-b678-72967dc8360f,0.433,2026-10-16
+กิ๊บบ้านสวน,food,ร้านอาหาร,13.6471656,100.4857346,overture,1015,CDLA-Permissive-2.0,b7f5d1c0-f2c6-43d4-865d-870b78ded294,0.607,2026-10-16
+Khor Chang Restaurant,food,ร้านอาหาร,13.6515627,100.4846823,overture,1019,CDLA-Permissive-2.0,4a531dbe-d34d-4fd5-a20f-4beb8af2f27c,0.512,2026-10-16
+บุฟเฟ่ต์&ข้าวกล่องครัวในสวน,food,ร้านอาหาร,13.6467391,100.5022708,overture,1019,CDLA-Permissive-2.0,80d836b0-aadc-457c-8b76-02da49fb96e6,0.719,2026-10-16
+ร้านชูรส,food,ร้านอาหาร,13.6513345,100.4846466,overture,1023,CDLA-Permissive-2.0,b1691051-db42-4036-be29-83ae151fedd6,0.882,2026-10-16
+ร้านก๋วยเตี๋ยวลกซุน,food,ร้านอาหาร,13.6584287,100.5000652,overture,1023,CDLA-Permissive-2.0,e078a3ee-c648-4cf9-9d94-7990246a2e4c,0.951,2026-10-16
+ร้านศรแก้ว ต้มตำยำเผ,food,ร้านอาหาร,13.6515409,100.484624,overture,1025,CDLA-Permissive-2.0,77462c8a-dfb5-4bf4-9bc4-b37fed6714cd,0.475,2026-10-16
+สโลว์Bar BY Skinhead กาแฟสด,food,ร้านอาหาร,13.643447,100.4990687,overture,1026,CDLA-Permissive-2.0,6afec77c-8719-4e52-bcd3-a7e909673783,0.823,2026-10-16
+House Burgers & Premium Food,food,ร้านอาหาร,13.6561626,100.5022619,overture,1036,CDLA-Permissive-2.0,69b0e20a-5e8a-4bf9-99a9-2a7ca05c273d,0.667,2026-10-16
+SUEAK Phutthabucha 45,food,ร้านอาหาร,13.6515676,100.4844781,overture,1041,CDLA-Permissive-2.0,73670ba1-804f-4d0c-b62f-8b5dc920cbd5,0.32,2026-10-16
+Jintapanya,food,ร้านอาหาร,13.6480959,100.5031699,overture,1044,CDLA-Permissive-2.0,1a4d4dfb-3d10-4df5-90ea-933caad50a6c,0.421,2026-10-16
+ครัวร่มไม้,food,ร้านอาหาร,13.6512316,100.4844286,overture,1046,CDLA-Permissive-2.0,6f8ca490-ceb8-4b6a-b3a8-048b0c6bdd10,0.814,2026-10-16
+พอดี40,food,ร้านอาหาร,13.650864,100.4844135,overture,1049,CDLA-Permissive-2.0,f727f1ae-2cad-4f05-ae4e-bcf72a5df534,0.722,2026-10-16
+HR Safe Facility,food,ร้านอาหาร,13.65123,100.4844,overture,1049,CDLA-Permissive-2.0,123febac-2962-4c8a-aeb6-faec369d94a7,0.909,2026-10-16
+หม่าล่าทรพี ประชาอุทิศ131,food,ร้านอาหาร,13.6532329,100.5036879,overture,1059,CDLA-Permissive-2.0,ff761d2e-9edd-42d6-a80f-7ea07402ccad,0.543,2026-10-16
+ครัวกันเอง,food,ร้านอาหาร,13.6512026,100.484295,overture,1061,CDLA-Permissive-2.0,85659be7-f98e-4c2e-b605-2759b70bece4,0.895,2026-10-16
+ขาหมูฮ่องเต้-ประชาอุทิศ,food,ร้านอาหาร,13.6587189,100.500276,overture,1062,CDLA-Permissive-2.0,4be46b6c-08a3-47d9-81e4-71cb516790e8,0.292,2026-10-16
+บังมีน ข้าวต้มโต้รุ่ง,food,ร้านอาหาร,13.6432175,100.4993381,overture,1063,CDLA-Permissive-2.0,83fe0581-d43d-402e-9551-536162b6d96b,0.628,2026-10-16
+ร้านก๋วยเตี๋ยวไก่ตุ๋นมะระ บุฟเฟต์,food,ร้านอาหาร,13.6417291,100.4948135,overture,1068,CDLA-Permissive-2.0,e23a0907-e0e8-42ba-aec6-d820998b7186,0.597,2026-10-16
+กรุงสยาม ตลาด61,food,ร้านอาหาร,13.6422501,100.4974518,overture,1071,CDLA-Permissive-2.0,81448012-adb0-41b6-b4b8-8c6e3f93bc4d,0.62,2026-10-16
+หมู่บ้านสวนกล้วยไม้ ซอยพุทธบูชา39,food,ร้านอาหาร,13.6535313,100.4844316,overture,1075,CDLA-Permissive-2.0,be5e3fc9-1156-402c-b31a-e9a564813abf,0.942,2026-10-16
+เจ้ส้ม ก๋วยเตี๋ยวต้มยำ,food,ร้านอาหาร,13.641657,100.4952288,overture,1080,CDLA-Permissive-2.0,4c7cdadf-6325-4877-a12a-7e40b107addd,0.349,2026-10-16
+เส้นเจ้าสัว Chaosua Noodle Shake,food,ร้านอาหาร,13.6592999,100.4997864,overture,1082,CDLA-Permissive-2.0,dd9abae7-b15c-4c05-9972-08afbae9874e,0.333,2026-10-16
+บ้านน้ายันต์อาหารป่า&บ่อตกปลา,food,ร้านอาหาร,13.65092,100.48408,overture,1085,CDLA-Permissive-2.0,5a5fc16f-dea0-415c-8a94-a53982872d90,0.644,2026-10-16
+บ้านริมสวน,food,ร้านอาหาร,13.6585,100.50097,overture,1093,CDLA-Permissive-2.0,3643e61c-d9db-414f-bf72-44550a3165ac,0.469,2026-10-16
+Hanguk 한국,food,ร้านอาหาร,13.651005,100.483995,overture,1094,CDLA-Permissive-2.0,d6a0cec5-9aed-49b4-8b5a-5f0ff251e1fa,0.709,2026-10-16
+Cruise Dinner River City Chaopraya - Bangkok,food,ร้านอาหาร,13.6486922,100.5039429,overture,1104,CDLA-Permissive-2.0,d7660598-08f3-4274-8816-e31b18662b37,0.584,2026-10-16
+ก๋วยเตี๋ยวเรือ พ่อช้อน,food,ร้านอาหาร,13.6417013,100.4967849,overture,1107,CDLA-Permissive-2.0,e51920f4-f90b-4559-8b47-f7f8464f0277,0.741,2026-10-16
+ร้านยักษ์กินแซลมอน Yak Kin Salmon,food,ร้านอาหาร,13.6508676,100.4838582,overture,1109,CDLA-Permissive-2.0,0ce7317b-74e9-4b4b-ac82-5e3e37e737a8,0.546,2026-10-16
+ข้าวแกง บ ใบไม้ ,food,ร้านอาหาร,13.64555,100.5025,overture,1111,CDLA-Permissive-2.0,1cf36b49-9e3a-4bc8-b42f-14a758cb63ce,0.484,2026-10-16
+หมีพ่นไฟ The Fire Bear บางพึ่ง พระประแดง,food,ร้านอาหาร,13.64556,100.50251,overture,1112,CDLA-Permissive-2.0,70357e1c-5f8d-4042-8dcb-3f69de07e734,0.784,2026-10-16
+ปั๊ม ปตท วัดพุทธ,food,ร้านอาหาร,13.6514613,100.4838164,overture,1113,CDLA-Permissive-2.0,e80eb157-6326-4911-b53a-da963da960b0,0.852,2026-10-16
+ร้านยำใกล้ฉัน ประชาอุทิศ (หนูนายำลูกชิ้น),food,ร้านอาหาร,13.6538161,100.5040686,overture,1114,CDLA-Permissive-2.0,cb3c8390-a1c9-42f3-955c-44479dc70d6c,0.424,2026-10-16
+น้ำส้มเกล็ดหิมะติ๊ก,food,ร้านอาหาร,13.6492504,100.504364,overture,1134,CDLA-Permissive-2.0,1ab7f594-fe00-47ec-9020-9a8e07934ed0,0.586,2026-10-16
+MaTaste,food,ร้านอาหาร,13.6496962,100.5044618,overture,1135,CDLA-Permissive-2.0,adf6401b-ed00-4aec-93dd-f0112c34ba72,0.775,2026-10-16
+ปายเส่ เฮ้าส์ • Paisei House,food,ร้านอาหาร,13.64612,100.50314,overture,1135,CDLA-Permissive-2.0,356ad932-3431-4621-9dd5-1a606845b3ff,0.709,2026-10-16
+Aven Thai Travel,food,ร้านอาหาร,13.64564,100.50284,overture,1136,CDLA-Permissive-2.0,5a274c8c-d8e2-4607-8e8e-20997ace2026,0.66,2026-10-16
+อามีนาร์ตามสั่ง น้าแอ้ม/ ประชาอุทิศ 115,food,ร้านอาหาร,13.64565,100.50286,overture,1137,CDLA-Permissive-2.0,eedade9b-c8b3-4c1e-9001-627b09b931a3,0.751,2026-10-16
+โลตัสประชาอุทิศ 69 แยก11,food,ร้านอาหาร,13.64565,100.50286,overture,1137,CDLA-Permissive-2.0,551acc9d-cb07-4f18-a355-9f612ff0f8e2,0.594,2026-10-16
+ร้านอาหารอินเดีย A-Ish Shop,food,ร้านอาหาร,13.64565,100.50287,overture,1138,CDLA-Permissive-2.0,760c3256-30a9-4b71-9a75-14c455dd6939,0.317,2026-10-16
+Help Health,food,ร้านอาหาร,13.6413132,100.4913476,overture,1151,CDLA-Permissive-2.0,72c6bb94-ff86-4563-8212-4eaf1956139b,0.427,2026-10-16
+บ้านแก้วสวนผัก,food,ร้านอาหาร,13.6525462,100.504661,overture,1151,CDLA-Permissive-2.0,b0bce585-9ac7-4163-956d-da262b4c7323,0.948,2026-10-16
+ร้านกินข้าวกัน,food,ร้านอาหาร,13.65379,100.50443,overture,1151,CDLA-Permissive-2.0,41e8c3a2-0dcc-4aa1-9240-d0b4f9235011,0.824,2026-10-16
+ร้านก๋วยเตี๋ยวเรือจับกัง,food,ร้านอาหาร,13.6549477,100.4841203,overture,1153,CDLA-Permissive-2.0,95e39ba7-f004-4591-b8db-8d5315e0722b,0.443,2026-10-16
+ดีน่าชาบูฮาลาล,food,ร้านอาหาร,13.6423344,100.499459,overture,1154,CDLA-Permissive-2.0,09937f6e-4114-4f3b-9ca5-87b3601bbd5c,0.682,2026-10-16
+เจ๊ติ๋มข้าวต้มปลา,food,ร้านอาหาร,13.65616,100.48464,overture,1158,CDLA-Permissive-2.0,ff4eaebb-977c-4dc2-9521-16ff0fb6a222,0.646,2026-10-16
+บ้านมะกะป๋า,food,ร้านอาหาร,13.64572,100.50313,overture,1158,CDLA-Permissive-2.0,302afac2-1049-42f3-b066-13704ed3db5f,0.811,2026-10-16
+ตะบันตำปลาร้าหอม,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,42334ecb-e98c-4271-b9f1-13e6d03887eb,0.577,2026-10-16
+ดาวเรือง บ่อตกกุ้ง ประชาอุทิศ79 & ร้านอาหาร,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,e7b9f8a4-bab3-439b-86d9-9a3ba5431b5a,0.841,2026-10-16
+ทุ่งครุ ประชาอุทิศ79,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,dd851635-88e1-4489-87d4-fb50280507c0,0.657,2026-10-16
+ก๋วยเตี๋ยวไก่บุฟเฟต์ ประชาอุทิศ,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,6353fa6f-0078-430c-94d1-e47f6f96faac,0.827,2026-10-16
+โกบัง Halal Life ประชาอุทิศ,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,7c9e5e25-947f-482e-b947-7f3aad3dde8b,0.5,2026-10-16
+ฮอวอขอแชร์,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,b20760ca-3c16-4092-b97b-40612c9d8258,0.886,2026-10-16
+อีสานพาแซ่บ ลาบต้มก้อยลวกจิ้ม,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,de60817d-8207-48c7-8473-70d719a4ced0,0.608,2026-10-16
+ร้านนวลวรรรณ์ กรุงเทพ,food,ร้านอาหาร,13.64573,100.50316,overture,1160,CDLA-Permissive-2.0,9d31fef1-e260-437a-a101-909c807bf9be,0.285,2026-10-16
+มูฮัมหมัดเป็ดย่าง - ยีนัส เจ๊เจ็ง,food,ร้านอาหาร,13.64573,100.50318,overture,1162,CDLA-Permissive-2.0,0c887af9-eb27-4038-90f7-aeba28f7bc7b,0.958,2026-10-16
+ก๋วยเตี๋ยวเนื้อ บะหมี่เส้นสด,food,ร้านอาหาร,13.64574,100.5032,overture,1163,CDLA-Permissive-2.0,52129a81-bf63-46d8-b89f-061c0b43507d,0.928,2026-10-16
+Sugary Halal Food,food,ร้านอาหาร,13.64574,100.5032,overture,1163,CDLA-Permissive-2.0,4e4ceaef-3272-4887-a3c4-2444ab4e8f30,0.553,2026-10-16
+ร้าน ดุ๊กกาน สเต็ก&เบอรเกอร์,food,ร้านอาหาร,13.64574,100.5032,overture,1163,CDLA-Permissive-2.0,0b023c22-09fe-4078-95bb-301f90fc71e8,0.976,2026-10-16
+Khun Rung,food,ร้านอาหาร,13.641183,100.4912938,overture,1166,CDLA-Permissive-2.0,e8a2ba02-fc7a-4bb8-a4a6-066b43c43cd0,0.576,2026-10-16
+สวนอาหาร นำ้ทิพย์,food,ร้านอาหาร,13.64096,100.495925,overture,1168,CDLA-Permissive-2.0,3d585efe-ce65-4c42-91bb-ed224b481e11,0.388,2026-10-16
+เตี๋ยวไก่ตุ๋น อิ่มพุงกาง บุฟเฟต์,food,ร้านอาหาร,13.6531707,100.5047472,overture,1170,CDLA-Permissive-2.0,6aa88342-a61f-4e4f-be8a-e609504b2964,0.538,2026-10-16
+ร้านติ๊ด ผัดไท ซอย24,food,ร้านอาหาร,13.659753,100.500656,overture,1178,CDLA-Permissive-2.0,e71ab66d-e128-41f8-a931-7158e7938ff8,0.959,2026-10-16
+ผลไม้ลอยแก้วจุฑารัตน์,food,ร้านอาหาร,13.6558698,100.5039252,overture,1178,CDLA-Permissive-2.0,d1e183be-0e27-4cd8-bae0-26c3d4c079f4,0.54,2026-10-16
+ครัวนายพันสวนธน ข้าวแกงปักษ์ใต้&ขนมจีนเส้นสด,food,ร้านอาหาร,13.6506612,100.4832184,overture,1179,CDLA-Permissive-2.0,db8548e1-c287-47c8-8fe6-53227b1f8a8d,0.838,2026-10-16
+สเต็กลุงหนวดประชาอุทิศ,food,ร้านอาหาร,13.6594212,100.5011809,overture,1185,CDLA-Permissive-2.0,3caa9158-74ee-4710-a05a-b4cc8cbcc2e7,0.916,2026-10-16
+สากลนคร,food,ร้านอาหาร,13.649998,100.4831972,overture,1188,CDLA-Permissive-2.0,bd9ee42d-50b4-4584-a67b-8775d23cf8c6,0.938,2026-10-16
+แว่นบะหมี่ & ขนมปังสังขยา,food,ร้านอาหาร,13.6595014,100.5011243,overture,1188,CDLA-Permissive-2.0,e5973cb9-4307-41df-9c9c-f0fd2e6654f9,0.825,2026-10-16
+Farm Luck,food,ร้านอาหาร,13.6503798,100.4830722,overture,1197,CDLA-Permissive-2.0,4f3c0a02-3100-4ee3-b55d-311e6f567f11,0.991,2026-10-16
+โลตัสเอ็กเพรส ประชาอุทิศ,food,ร้านอาหาร,13.6520432,100.5052393,overture,1208,CDLA-Permissive-2.0,7a9c916b-0390-4b8a-955c-54131c6dcfb6,0.633,2026-10-16
+"Paper Thai Co, Ltd",food,ร้านอาหาร,13.6557723,100.5042947,overture,1210,CDLA-Permissive-2.0,f15b3668-991f-4bc4-9e4c-c7703a1d026b,0.894,2026-10-16
+ก๊วยจั๊บญวน,food,ร้านอาหาร,13.6565667,100.5039233,overture,1214,CDLA-Permissive-2.0,0f0e8b25-5ca5-4679-8d90-91fe5bbd92fb,0.345,2026-10-16
+โอ้โหโตเกียว บางมด,food,ร้านอาหาร,13.6503526,100.48291,overture,1215,CDLA-Permissive-2.0,da90d138-f7ba-4afb-9a98-3b51d2d9d162,0.851,2026-10-16
+ร้าน​ ยำมะม่วง​ แซ่บ​ แสบ​ ปาก,food,ร้านอาหาร,13.6517388,100.5053457,overture,1217,CDLA-Permissive-2.0,4bc4756a-8684-44da-a75c-788e1fc5a572,0.974,2026-10-16
+ก๋วยเตี๋ยวเรือถูกปาก สาขาพุทธบูชา39,food,ร้านอาหาร,13.653119,100.4829454,overture,1224,CDLA-Permissive-2.0,53aba5b5-6e5b-4c92-bd60-60131724b07f,0.92,2026-10-16
+Isaac Camp ไอแซคแคมป์,food,ร้านอาหาร,13.64165,100.49958,overture,1227,CDLA-Permissive-2.0,a694c63d-4c13-4f96-b43a-f32792264491,0.582,2026-10-16
+SushiYoko,food,ร้านอาหาร,13.652565,100.5053939,overture,1230,CDLA-Permissive-2.0,943a14e5-7662-496f-a4f4-55829c6bbe6e,0.393,2026-10-16
+นายบู๊ ก๋วยเตี๋ยวลูกชิ้นปลา,food,ร้านอาหาร,13.659924,100.50123,overture,1231,CDLA-Permissive-2.0,7d07322f-871c-4732-86a1-8aede8663343,0.332,2026-10-16
+ไก่ทอดซัวเถา,food,ร้านอาหาร,13.6578721,100.5032551,overture,1231,CDLA-Permissive-2.0,6027ba85-c948-4cd0-ae65-a52cf4283b48,0.724,2026-10-16
+YakiZen - ยากิเซน,food,ร้านอาหาร,13.6402108,100.4929733,overture,1240,CDLA-Permissive-2.0,91c56928-2afb-4376-ba4e-47278677a155,0.876,2026-10-16
+กะเพราซิ่งพริกแซ่บ หอยทอดทะเลกรอบ,food,ร้านอาหาร,13.6532247,100.482812,overture,1240,CDLA-Permissive-2.0,ec37535c-2302-4aeb-8c8c-303ba074f4e5,0.234,2026-10-16
+ร้านเจ๊เล็กก๋วยเตี๋ยวเป็ดสะท้านฟ้า-ข้าวขาหมูสะท้านโลกันต์ ซอยพุทธบูชา44,food,ร้านอาหาร,13.64558,100.4842199,overture,1244,CDLA-Permissive-2.0,23a06046-6b68-4257-a27b-b041eab8b7e2,0.522,2026-10-16
+ก๋วยเตี๋ยวเรือฮาลาล,food,ร้านอาหาร,13.6500139,100.482629,overture,1249,CDLA-Permissive-2.0,7b4e96de-f03e-4a57-a340-a20178538a0d,0.902,2026-10-16
+เจ๊ออ เนื้อตุ๋น หมูตุ๋น,food,ร้านอาหาร,13.6501165,100.4825945,overture,1252,CDLA-Permissive-2.0,a9e890fb-c856-42c8-92fe-7a1868ef9937,0.916,2026-10-16
+ซือหวังสุกี้หม่าล่า สาขาพุทธบูชา-บางมด,food,ร้านอาหาร,13.6499629,100.4825865,osm,1254,ODbL-1.0,,,2026-10-16
+แจ่วแจ๋ว ชาบู,food,ร้านอาหาร,13.650147,100.48256,overture,1255,CDLA-Permissive-2.0,79a7b3e5-9851-4be0-878e-4135779c22c1,0.948,2026-10-16
+ครัวรอซีดะห์,food,ร้านอาหาร,13.6416378,100.5000955,overture,1256,CDLA-Permissive-2.0,cc0475ef-445a-44fc-b413-59d4dba22874,0.596,2026-10-16
+Simple Little Osaka พระราม2,food,ร้านอาหาร,13.6499268,100.4825434,overture,1259,CDLA-Permissive-2.0,c9999fa8-0bca-4edc-9c45-4608f22eb112,0.975,2026-10-16
+ไข่หวานบ้านซูชิ,food,ร้านอาหาร,13.6602156,100.5013051,overture,1262,CDLA-Permissive-2.0,196a4838-3622-4f86-869d-f4ef685bffed,0.897,2026-10-16
+ชบา Cafe House,food,ร้านอาหาร,13.6399785,100.4933387,overture,1263,CDLA-Permissive-2.0,6fa17bff-c0ec-46ce-b191-25b78d7d6d03,0.921,2026-10-16
+ขนมแม่ สาขาพุทธบูชา บางมด Kanom-Mae,food,ร้านอาหาร,13.6498498,100.482515,overture,1264,CDLA-Permissive-2.0,7d6936fc-f18c-4477-abb1-a8631b704174,0.913,2026-10-16
+33 นั่งชิว,food,ร้านอาหาร,13.6529261,100.5056672,overture,1264,CDLA-Permissive-2.0,3fc8cc1a-573a-428b-bfef-592da1604f9f,0.895,2026-10-16
+ปราณี ขนมจีน & ข้าวซอย,food,ร้านอาหาร,13.65968,100.48617,overture,1267,CDLA-Permissive-2.0,559d7ce3-5ef8-4cae-a70a-a3acf1b3775f,0.754,2026-10-16
+ก๊วยเตี๋ยวปลาเล่าจึง,food,ร้านอาหาร,13.64131,100.49973,overture,1268,CDLA-Permissive-2.0,54a870ac-1d32-412c-b73c-c3d851f1370b,0.626,2026-10-16
+Du R Cafe,food,ร้านอาหาร,13.6416747,100.5003923,overture,1269,CDLA-Permissive-2.0,ed59911f-ebae-42bf-980d-93010ef5f733,0.959,2026-10-16
+Qgoodshop,food,ร้านอาหาร,13.6563762,100.5046137,overture,1270,CDLA-Permissive-2.0,c6c4a37f-6c29-47fb-afa8-3d2ef32d5f15,0.509,2026-10-16
+ร้านอาหารบ้านเรา,food,ร้านอาหาร,13.64179,100.500603,overture,1271,CDLA-Permissive-2.0,118ba945-2d61-4e4d-8b30-522666c7b966,0.808,2026-10-16
+ลินจง สารพัดตำ&ยำ ประชาอุทิศ54ข้างเซเว่น,food,ร้านอาหาร,13.6399022,100.4932704,overture,1272,CDLA-Permissive-2.0,7aa52310-7c74-41e0-9de1-7bfd5a79e74b,0.749,2026-10-16
+ศรีสมบูรณ์เตี๋ยวเรือเลียบด่วน,food,ร้านอาหาร,13.64125,100.49976,overture,1275,CDLA-Permissive-2.0,41451d30-4ef4-4260-98fc-25e2fb15abe5,0.713,2026-10-16
+ถังถังหม่าล่าทัง حلال สาขาพุทธบูชา,food,ร้านอาหาร,13.6495641,100.4824223,overture,1278,CDLA-Permissive-2.0,e8d034cd-8368-49e9-b59e-a141352bddcb,0.859,2026-10-16
+นฤมล Suki House,food,ร้านอาหาร,13.6505945,100.4822504,overture,1284,CDLA-Permissive-2.0,7b2b1ed5-933f-4f20-87fa-0bacc267ceaf,0.888,2026-10-16
+ก๋วยเตี๋ยวหมูอ้วน ซอยพุทธบูชา 39,food,ร้านอาหาร,13.6518419,100.4822039,overture,1288,CDLA-Permissive-2.0,e59e9538-c1af-4bab-a863-0b132520cd45,0.963,2026-10-16
+ขนมจีนน้ำเงี้ยว,food,ร้านอาหาร,13.6411401,100.499822,overture,1289,CDLA-Permissive-2.0,3c5ea750-239f-418b-aa81-4de06be7a0a3,0.32,2026-10-16
+ถนนประชาอุทิศ,food,ร้านอาหาร,13.6600149,100.5019641,overture,1290,CDLA-Permissive-2.0,4134e887-b638-4f50-94a7-1ce2848a31d2,0.745,2026-10-16
+หมวยเล็กเย็นตาโฟหม้อดิน,food,ร้านอาหาร,13.6603563,100.5016284,overture,1296,CDLA-Permissive-2.0,a019c92c-0673-499e-a1b6-61870253def3,0.627,2026-10-16
+ร้านมุสลิมเจียงฮาย,food,ร้านอาหาร,13.6410938,100.499855,overture,1296,CDLA-Permissive-2.0,dfc839e0-6bd6-435c-99f7-63ade6e2e8a9,0.868,2026-10-16
+ร้านอาหารเจฝอกวง,food,ร้านอาหาร,13.66052,100.50145,overture,1298,CDLA-Permissive-2.0,6b47432c-6dfc-4b72-a1d9-80ad7be3278f,0.821,2026-10-16
+K.นิ้ง อาหารทะเล&ไก่สด,food,ร้านอาหาร,13.64099,100.49974,overture,1300,CDLA-Permissive-2.0,6c4a2087-a7bc-49fa-95e2-38da1357705e,0.274,2026-10-16
+ฮับเซาะฮ์ ข้าวเหนียวมูน,food,ร้านอาหาร,13.6417586,100.5011684,overture,1309,CDLA-Permissive-2.0,c5386d77-95a2-45f8-ad87-85d93ff687b4,0.866,2026-10-16
+ข้าวมันไก่ ประชาอุทิศ27,food,ร้านอาหาร,13.660299,100.501906,overture,1310,CDLA-Permissive-2.0,67c3b105-2032-420f-9cd2-64bfe6f7fd83,0.364,2026-10-16
+Aniss Halal Shop,food,ร้านอาหาร,13.6418576,100.5014176,overture,1316,CDLA-Permissive-2.0,0af716eb-a56f-4b3c-b050-3797d0605977,0.895,2026-10-16
+ชากิรีนก๋วยเตี๋ยวไก่ตุ๋น,food,ร้านอาหาร,13.65912,100.50324,overture,1317,CDLA-Permissive-2.0,f1bd6693-dfea-4b29-a42c-11c930dc7f33,0.558,2026-10-16
+ร้านข้าวเจ๊จง,food,ร้านอาหาร,13.63943,100.49366,overture,1322,CDLA-Permissive-2.0,155c5f52-2445-4e4c-a5be-856093912cec,0.781,2026-10-16
+Anda × Cafe,food,ร้านอาหาร,13.6418982,100.5016549,overture,1328,CDLA-Permissive-2.0,26a0745f-659c-4802-a7d5-9e8950ff27ec,0.681,2026-10-16
+Paradise Steak ประชาอุทิศ,food,ร้านอาหาร,13.6418982,100.5016549,overture,1328,CDLA-Permissive-2.0,76b3501d-b08c-45fd-a1e5-21efae463c2a,0.598,2026-10-16
+ร้าน มะติ๊ก,food,ร้านอาหาร,13.6418982,100.5016549,overture,1328,CDLA-Permissive-2.0,5fecd6de-165e-410b-a882-e90caa619060,0.544,2026-10-16
+ซัลมาค้าข้าว,food,ร้านอาหาร,13.6418805,100.5016928,overture,1332,CDLA-Permissive-2.0,645db7f7-5fd4-4265-b61e-98a23189316e,0.65,2026-10-16
+กิตติ ซีฟู๊ด,food,ร้านอาหาร,13.660184,100.502366,overture,1333,CDLA-Permissive-2.0,f7f0872a-56dd-4bd6-9068-6eb38694f046,0.451,2026-10-16
+หอมคำลาว ,food,ร้านอาหาร,13.66018,100.50242,overture,1337,CDLA-Permissive-2.0,12e35008-ccbb-4d05-a089-b0b9c5a41c15,0.719,2026-10-16
+ครัวบ้านเจ้อ้อย,food,ร้านอาหาร,13.6443,100.48399,overture,1343,CDLA-Permissive-2.0,f55c3cc3-7425-4ccc-b28f-be4efdb9cff5,0.734,2026-10-16
+ใบตองคอหมูย่าง,food,ร้านอาหาร,13.6596707,100.5030568,overture,1344,CDLA-Permissive-2.0,cc1f0d72-eb92-4d0f-9ab3-b04cdd8ebc11,0.551,2026-10-16
+เรือนอบสมุนไพรบ้านแอน,food,ร้านอาหาร,13.66262,100.48976,overture,1345,CDLA-Permissive-2.0,e4727c86-c75a-4c44-8f71-4191f5606fe2,0.294,2026-10-16
+อร ก๋วยเตี๋ยวน้ำตก,food,ร้านอาหาร,13.660885,100.501663,overture,1345,CDLA-Permissive-2.0,e9288fb6-4c1b-42f5-a9bd-eb036ab0c200,0.51,2026-10-16
+ก๋วยเตี๋ยวลูกชิ้นปลาเย็นตาโฟรสเด็ด,food,ร้านอาหาร,13.6594313,100.5033054,overture,1346,CDLA-Permissive-2.0,9c59ddf8-070d-439a-9fdb-a1fde7f306ec,0.425,2026-10-16
+เหน่งตำนัว,food,ร้านอาหาร,13.6597655,100.5030515,overture,1351,CDLA-Permissive-2.0,48c2dd14-fe00-45e3-80ff-9f861f110052,0.784,2026-10-16
+ร้านโจ๊กโบราณ-กระเพาะปลา สูตรเด็ดม๊ะฟูรอ ทุ่งครุ,food,ร้านอาหาร,13.6410087,100.500742,overture,1352,CDLA-Permissive-2.0,15b43fca-08e5-4a94-b308-b5b605830ec0,0.895,2026-10-16
+ป๋าเชษฐ์ข้าวต้มปลาชลบุรี,food,ร้านอาหาร,13.65187,100.5066,overture,1354,CDLA-Permissive-2.0,85b20358-e046-44c2-8e44-bcc0a403ab12,0.672,2026-10-16
+มังกรคั่วไก่,food,ร้านอาหาร,13.6597388,100.5031472,overture,1357,CDLA-Permissive-2.0,d3dfc7a5-e2a5-45b8-ada6-5ce9e3299231,0.298,2026-10-16
+ข้าวต้มหมู สูตรโบราณ (ลิฟแอม) ประชาอุทิศ 27,food,ร้านอาหาร,13.6593971,100.5034777,overture,1357,CDLA-Permissive-2.0,dbca6c94-976b-46e1-b46b-d863459291f6,0.436,2026-10-16
+คลินิกหลินชาญธราไทย-จีน,food,ร้านอาหาร,13.6403956,100.4997297,overture,1358,CDLA-Permissive-2.0,d9c5af51-cd6e-4de7-96ac-054acda4e124,0.558,2026-10-16
+อารีย์ สตรีท ฟู้ด,food,ร้านอาหาร,13.6419597,100.5022322,overture,1362,CDLA-Permissive-2.0,bf12b74f-a9f7-46c5-b690-67626d1ead8e,0.37,2026-10-16
+ทะเลเผา,food,ร้านอาหาร,13.6608621,100.5019967,overture,1365,CDLA-Permissive-2.0,b306884b-d1ac-4b2d-a223-99fe825a2957,0.26,2026-10-16
+รวี อาหาร,food,ร้านอาหาร,13.6608852,100.502037,overture,1370,CDLA-Permissive-2.0,3e387592-aa42-442e-815f-0c006a9e635a,0.437,2026-10-16
+LovePlaza,food,ร้านอาหาร,13.6394,100.49736,overture,1371,CDLA-Permissive-2.0,b3822d43-6055-49b2-a481-b35ad800b1b4,0.132,2026-10-16
+พิกกี้ ชาบูชาบู สาขาประชาอุทิศ90,food,ร้านอาหาร,13.66125,100.50161,overture,1374,CDLA-Permissive-2.0,efd62a6d-68eb-4e52-a10d-d383a05fc1ac,0.789,2026-10-16
+ก๋วยเตี๋ยวไก่กะละมัง ร้านพี่กบ,food,ร้านอาหาร,13.66125,100.50161,overture,1374,CDLA-Permissive-2.0,d58292fe-5824-43ec-95fa-d0d890efe77f,0.489,2026-10-16
+เต้าหู้สวนธน,food,ร้านอาหาร,13.6438035,100.4839867,overture,1376,CDLA-Permissive-2.0,6d3a8efd-6c89-44bd-937f-9187dbc40dfd,0.366,2026-10-16
+ก๋วยเตี๋ยวไก่หน้าธนาคารกสิกรซอย27,food,ร้านอาหาร,13.660991,100.50201,overture,1377,CDLA-Permissive-2.0,763711e7-f92f-4efa-a042-6ffbf861a996,0.434,2026-10-16
+ผัดไทยโบราณ,food,ร้านอาหาร,13.6423344,100.5028803,overture,1378,CDLA-Permissive-2.0,02cabc1a-f4e1-4dfe-9d9f-4a495e7f4d35,0.377,2026-10-16
+ส้มตำพี่บัว,food,ร้านอาหาร,13.6393255,100.497335,overture,1378,CDLA-Permissive-2.0,775dcfaf-9054-437b-9467-9bcb0ef9d998,0.301,2026-10-16
+ข้าวบ้านแม่,food,ร้านอาหาร,13.657683,100.483129,overture,1383,CDLA-Permissive-2.0,525725fb-1f1d-4850-9060-19f531b5c601,0.825,2026-10-16
+สหชัยบะหมี่หมูแดง,food,ร้านอาหาร,13.6610892,100.5020515,overture,1388,CDLA-Permissive-2.0,d8397bdc-e3a0-4af9-8e7c-884fd7d18d95,0.448,2026-10-16
+ก๋วยเตี๋ยวเข้าแถวเจ อาหารเจเจ๊นก,food,ร้านอาหาร,13.65104,100.50695,overture,1390,CDLA-Permissive-2.0,f2166d5e-a7ad-40a8-826c-9bc54f7783b7,0.951,2026-10-16
+ต.โชคชัย ถนนประชาอุทิศ,food,ร้านอาหาร,13.6403617,100.500305,overture,1390,CDLA-Permissive-2.0,ca36d865-766f-4d49-b0ac-a47c6294fe6d,0.989,2026-10-16
+The Road Burger x Masha Cafe,food,ร้านอาหาร,13.64234,100.5031151,overture,1395,CDLA-Permissive-2.0,332ce370-9803-4295-821c-cf828f6b3079,0.494,2026-10-16
+มาลองแดก ยำแซ่บ ฮาลาล,food,ร้านอาหาร,13.6428513,100.5036217,overture,1395,CDLA-Permissive-2.0,bf190f35-d7ea-44a5-8a08-e5606598da35,0.854,2026-10-16
+สเต็กตี๋ใหญ่ สเต็ก&อีสานแซ่บ,food,ร้านอาหาร,13.65004,100.48126,overture,1396,CDLA-Permissive-2.0,74e6e840-2301-4b99-be76-eac383f6b859,0.854,2026-10-16
+I-MY SHABU,food,ร้านอาหาร,13.638836,100.49262,overture,1397,CDLA-Permissive-2.0,f21e299d-436c-47b6-9047-37091b50d54f,0.942,2026-10-16
+ร้านขนมครกโบราณพุทธบูชา39,food,ร้านอาหาร,13.6541303,100.4814553,overture,1404,CDLA-Permissive-2.0,9102d4d1-9c96-466c-891c-daf061911c97,0.819,2026-10-16
+บริษัทไทยเเมนอินดัสตรีส์ จำกัด,food,ร้านอาหาร,13.6616194,100.5015577,overture,1404,CDLA-Permissive-2.0,59d10e12-d55c-4c6b-93d8-0a8c983f92e3,0.705,2026-10-16
+Hachiban Ramen,food,ร้านอาหาร,13.64065,100.50111,overture,1407,CC0-1.0; CDLA-Permissive-2.0,1c6294a3-ee45-4753-9954-43ca69700a4b,0.8,2026-10-16
+เซี้ย เย็นตาโฟ (Sia Yentafo) ประชาอุทิศ58/1,food,ร้านอาหาร,13.6401409,100.5002207,overture,1408,CDLA-Permissive-2.0,028a5278-a069-4e06-9df5-249ed64b2278,0.938,2026-10-16
+บะหมี่​ชาย​สี่​,food,ร้านอาหาร,13.6496464,100.4811842,overture,1409,CDLA-Permissive-2.0,4afbebe3-1cc9-4129-a4c2-25493220aa7a,0.572,2026-10-16
+อามีนะห์ กาแฟนมสด,food,ร้านอาหาร,13.6386,100.49446,overture,1414,CDLA-Permissive-2.0,523ac55d-4035-49e2-b215-7a8fb3c8905c,0.572,2026-10-16
+ร้านสุดสงวน by ศรแก้ว&colour,food,ร้านอาหาร,13.6398291,100.4998661,overture,1421,CDLA-Permissive-2.0,c960d0a0-915d-4882-b6d3-988991393ca6,0.708,2026-10-16
+ครัว9หน้า,food,ร้านอาหาร,13.6613507,100.4859939,overture,1422,CDLA-Permissive-2.0,d15e21b2-3211-4e4f-b1b4-8b7724dfff60,0.498,2026-10-16
+ก๋วยเตี๋ยวนายข่วย,food,ร้านอาหาร,13.6546774,100.4813993,overture,1424,CDLA-Permissive-2.0,972e6a49-067a-4614-977d-3c273b721332,0.832,2026-10-16
+ร้านไลลาเป็ดย่างฮ่องกง,food,ร้านอาหาร,13.6422745,100.5034264,overture,1424,CDLA-Permissive-2.0,bb52b66f-a0e4-4d1a-a679-e864d545e5f7,0.4,2026-10-16
+The Classroom Bar and Restaurant,food,ร้านอาหาร,13.6497858,100.481022,overture,1425,CDLA-Permissive-2.0,6e9d727f-f507-4aa5-a938-e200acbd6a33,0.848,2026-10-16
+เจ๊เล้ง ครัวส้มตำไก่ย่าง,food,ร้านอาหาร,13.6492195,100.481046,overture,1431,CDLA-Permissive-2.0,4793ae04-ecea-4a12-a935-3e319cd6f754,0.972,2026-10-16
+ไดกง,food,ร้านอาหาร,13.639904,100.500235,overture,1432,CDLA-Permissive-2.0,ca333242-65ba-4679-92dc-b35a285c880e,0.389,2026-10-16
+Rickshaw Shabu Cafe,food,ร้านอาหาร,13.6397999,100.5000577,overture,1433,CDLA-Permissive-2.0,cf44fba3-41da-47e7-93bf-ac7da91b039a,0.975,2026-10-16
+Packtory Packaging,food,ร้านอาหาร,13.6611407,100.5026601,overture,1434,CDLA-Permissive-2.0,9a0f2b92-9fb6-48bb-a4bf-004edd2643a8,0.122,2026-10-16
+ฮุสนา Malong Halal Food,food,ร้านอาหาร,13.6433794,100.5045776,overture,1436,CDLA-Permissive-2.0,e12bf1d5-9d2f-4d8d-9536-b6fcf1fa66f4,0.68,2026-10-16
+ซาลาเปาเซี่ยงไฮ้ สาขา 1 ถนนประชาอุทิศ ซ.33แยก7บ้านเลขที่98/338,food,ร้านอาหาร,13.6549796,100.5068334,overture,1437,CDLA-Permissive-2.0,adf8f775-7835-49b6-8872-8bd1a1c773d9,0.924,2026-10-16
+ร้านเก๋าใหญ่ซีฟู้ด พุทธบูชา 40,food,ร้านอาหาร,13.6395408,100.4997729,overture,1446,CDLA-Permissive-2.0,18a98733-4f63-4335-8da0-2f7d876e3bfe,0.558,2026-10-16
+โดสเขียว เพิ่มเปอร์เซ็นยางแก้ราดำ เพจหลัก,food,ร้านอาหาร,13.63877,100.49763,overture,1446,CDLA-Permissive-2.0,ee675cc1-d57d-4832-b385-9d1ab2953ff8,0.229,2026-10-16
+MeatWell,food,ร้านอาหาร,13.65498,100.50696,overture,1450,CDLA-Permissive-2.0,40bebd05-5017-48a6-8919-cc9b75683f6f,0.6,2026-10-16
+OOOi ramen,food,ร้านอาหาร,13.6500159,100.4807541,overture,1451,CDLA-Permissive-2.0,9d439276-5ab9-40f9-9df5-fd543965e44e,0.997,2026-10-16
+ละม น เดอ คาเฟ,food,ร้านอาหาร,13.648751,100.480896,overture,1456,CDLA-Permissive-2.0,0291cf9d-cba6-4250-b9e3-19773cd47c56,0.568,2026-10-16
+นาย 'ตอก ยำแซ่บ,food,ร้านอาหาร,13.6493856,100.4807496,overture,1460,CDLA-Permissive-2.0,289e9343-6893-45d6-b425-2b3db6a491c2,0.523,2026-10-16
+Tempeh อาหารของคนรักสุขภาพ,food,ร้านอาหาร,13.6502469,100.4806381,overture,1461,CDLA-Permissive-2.0,fe153eec-35c5-4ae3-b263-2eabfeb33653,0.556,2026-10-16
+จิ้มจุ่ม รำแพน,food,ร้านอาหาร,13.6618445,100.5022343,overture,1467,CDLA-Permissive-2.0,d85a72e5-bcda-42a7-b6df-4b5dd2d2eac4,0.468,2026-10-16
+วันชัยติ่มซำ พุทธบูชา 36,food,ร้านอาหาร,13.648594,100.4808219,overture,1468,CDLA-Permissive-2.0,3c5d6b67-e82e-46d2-a8fc-bdbdf80b164d,0.936,2026-10-16
+หลักล้าน พุทธบูชา 36,food,ร้านอาหาร,13.6486255,100.4807983,overture,1469,CDLA-Permissive-2.0,f59b7ac4-acdb-4da9-85b9-6b15886ce95b,0.91,2026-10-16
+MaxValu (แม็กซ์แวลู),food,ร้านอาหาร,13.6398061,100.5007782,overture,1469,Apache-2.0; CDLA-Permissive-2.0,94a08b92-8ef7-488e-a82d-c9896597bc2b,0.77,2026-10-16
+ทวีโชคหมูกะทะ - เพจหลักบริษัท,food,ร้านอาหาร,13.6396,100.5004,overture,1470,CDLA-Permissive-2.0,7fab930f-8400-40bf-b763-dae7e670734c,0.331,2026-10-16
+เมนูคุณแม่,food,ร้านอาหาร,13.6394631,100.5001693,overture,1472,CDLA-Permissive-2.0,2a8f798e-30db-476e-9814-fc955a7f1082,0.555,2026-10-16
+โจ๊กโดนอุ้ม,food,ร้านอาหาร,13.63825,100.49638,overture,1474,CDLA-Permissive-2.0,7d0f8451-e287-4c91-87e9-006b7076f393,0.926,2026-10-16
+"Tafn Engineering Co.,Ltd",food,ร้านอาหาร,13.6558558,100.5069081,overture,1475,CDLA-Permissive-2.0,e50fe815-f359-4406-84d7-291a6cf5cee9,0.756,2026-10-16
+Cai Salad and Tea Cafe,food,ร้านอาหาร,13.6394109,100.5001284,overture,1475,CDLA-Permissive-2.0,d1060bb1-2237-448e-b911-cf5069927a3b,0.894,2026-10-16
+เล่าจึง ก๋วยเตี๋ยว ลูกชิ้นปลา,food,ร้านอาหาร,13.6500063,100.4805208,overture,1476,CDLA-Permissive-2.0,8383625c-a68c-4e4f-a3ed-31ae8179bac0,0.692,2026-10-16
+80's Bar and Bistro,food,ร้านอาหาร,13.6492212,100.4806083,overture,1478,CDLA-Permissive-2.0,6fe4c985-003f-4dbd-9220-aa92b50641ee,0.948,2026-10-16
+โหวเส็ก ราดหน้าเนื้อนุ่มสูตรกวางตุ้ง,food,ร้านอาหาร,13.65789,100.50596,overture,1478,CDLA-Permissive-2.0,99ee0ea3-9fd2-4693-8299-2e02d62a5b11,0.586,2026-10-16
+ประชาอุทิศ27,food,ร้านอาหาร,13.6581182,100.5058609,overture,1481,CDLA-Permissive-2.0,f298960f-42b3-4748-a0e1-4e88e3198860,0.747,2026-10-16
+PIG PORK by Mom2Ri.ch,food,ร้านอาหาร,13.65117,100.50779,overture,1481,CDLA-Permissive-2.0,8ab12066-c4dc-42bf-a4fb-241dbb920f7a,0.757,2026-10-16
+กะเพราข้าวบึ้ม,food,ร้านอาหาร,13.639144,100.4885145,overture,1482,CDLA-Permissive-2.0,9962f342-9a23-43b7-9f2d-c0e7dd98f083,0.78,2026-10-16
+ก๋วยเตี๋ยวหมู ป่ากล้วย,food,ร้านอาหาร,13.6498523,100.5077247,overture,1483,CDLA-Permissive-2.0,ef407788-0f21-40ab-b523-cd5597933cf3,0.85,2026-10-16
+ร้านลูกชิ้นย่างเนย น้ำจิ้มรสเด็ด ฮาลาล,food,ร้านอาหาร,13.66209,100.50223,overture,1489,CDLA-Permissive-2.0,484e4903-ebbc-41a0-b987-2c1d4fcd21e5,0.637,2026-10-16
+ครัวเพื่อคุณข้าวต้มโต้รุ่ง,food,ร้านอาหาร,13.6502069,100.4803429,overture,1493,CDLA-Permissive-2.0,077b0589-66e8-4bd4-91df-3239645eae13,0.647,2026-10-16
+Safe Zone เซฟโซน,food,ร้านอาหาร,13.66182,100.48554,overture,1493,CDLA-Permissive-2.0,864b0158-008b-4a44-a694-efcd899628bf,0.282,2026-10-16
+ขนมเปี๊ยะไข่ทะลัก อร่อยซอย8 - ศูนย์กระจายสินค้ารายใหญ่ประชาอุทิศ กทม.,food,ร้านอาหาร,13.6620573,100.5023629,overture,1494,CDLA-Permissive-2.0,c491fd27-9e5b-4c8c-a00e-523acef7a02c,0.682,2026-10-16
+ป้าศรี ก๋วยเตี๋ยวต้มยำมะนาวสด,food,ร้านอาหาร,13.6385108,100.4898787,overture,1495,CDLA-Permissive-2.0,c5b38a5f-3236-4f96-87ad-3222083f8ff2,0.473,2026-10-16
+Arsum บะหมี่เจ้าเก่า,food,ร้านอาหาร,13.6384893,100.4982349,overture,1495,CDLA-Permissive-2.0,06a185c5-7a09-4abd-aaab-0876ed263a54,0.803,2026-10-16
+วั่นหรงเกี๊ยวซ่าไต้หวัน,food,ร้านอาหาร,13.6539965,100.5076607,overture,1497,CDLA-Permissive-2.0,5252ecb1-dc82-4421-9416-b939f570f43c,0.564,2026-10-16
+McDonald's (แมคโดนัลด์),food,ร้านอาหาร,13.63953,100.500798,overture,1497,Apache-2.0; CDLA-Permissive-2.0,084b28d8-e1cf-4004-8632-9b10d2a18fcc,0.77,2026-10-16
+KFC,food,ร้านอาหาร,13.6392534,100.5002487,overture,1497,CC0-1.0; CDLA-Permissive-2.0,c6f1e81e-a7d0-4305-8c0f-ffa0962d198f,0.954,2026-10-16
+Glorys Wash & Dry ประชาอุทิศ 45,laundry,ร้านซักผ้า,13.6506621,100.4980848,overture,437,CDLA-Permissive-2.0,6b2251df-413e-4f39-8853-b935f669436c,0.28,2026-10-16
+Wash Express ประชาอุทิศ 45,laundry,ร้านซักผ้า,13.6493255,100.498717,overture,546,CDLA-Permissive-2.0,388612aa-b800-4f79-96fb-796f3dac3c71,0.746,2026-10-16
+ซัก อบ รีด Ms.Laundry,laundry,ร้านซักผ้า,13.64956,100.48838,overture,648,CDLA-Permissive-2.0,678f3b77-2601-4862-88b7-857724654883,0.528,2026-10-16
+Super DUCK ซักอบรีด,laundry,ร้านซักผ้า,13.6423794,100.5023718,overture,1337,CDLA-Permissive-2.0,716ac650-01d2-4967-b2a4-30ef5f2a0f3e,0.67,2026-10-16
+Whitehouse DryClean Basket,laundry,ร้านซักผ้า,13.6496087,100.4812445,overture,1403,CDLA-Permissive-2.0,0bcd5708-e30f-4d21-acf9-a04b505af33c,0.709,2026-10-16
+Dwash,laundry,ร้านซักผ้า,13.6500851,100.4805701,overture,1470,CDLA-Permissive-2.0,19c79529-6ff5-43ae-9f06-6a6175ae9736,0.592,2026-10-16
+ร้านลอนดรี้พลัส,laundry,ร้านซักผ้า,13.6392622,100.5000049,overture,1485,CDLA-Permissive-2.0,7ceba1e4-3e79-4fd8-ab20-e5c4643c86a4,0.529,2026-10-16
+PostShop ถ่ายแบบแปลน ปริ้นสี โปสเตอร์ ทำเล่มวิทยานิพนธ์ Portfolio,print_stationery,ร้านปริ้นต์และเครื่องเขียน,13.6502906,100.4966044,overture,293,CDLA-Permissive-2.0,134a0e05-34f1-4267-8ce4-38d7f3978bfe,0.526,2026-10-16
+Tigers Print & Stationary,print_stationery,ร้านปริ้นต์และเครื่องเขียน,13.6512346,100.4872487,overture,741,CDLA-Permissive-2.0,f15b7220-9978-40be-8df7-9660f2b4c0ef,0.892,2026-10-16
+Overprint.shop,print_stationery,ร้านปริ้นต์และเครื่องเขียน,13.651401,100.4865253,overture,819,CDLA-Permissive-2.0,a517400d-4174-47e1-a773-04bd7501c069,0.87,2026-10-16
+G&K Digital Printing Center,print_stationery,ร้านปริ้นต์และเครื่องเขียน,13.650882,100.4836667,overture,1130,CDLA-Permissive-2.0,dcc79e03-0023-4ff1-a7b0-e038765e78c5,0.667,2026-10-16
+ร้านเครื่องเขียนเอก / Ake Stationary and Office Supplies Shop,print_stationery,ร้านปริ้นต์และเครื่องเขียน,13.64573,100.50319,overture,1162,CDLA-Permissive-2.0,ee02e6d5-d86e-4f7b-aebc-1889aaa0e3c3,0.536,2026-10-16
